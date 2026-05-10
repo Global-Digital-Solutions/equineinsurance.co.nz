@@ -1,0 +1,97 @@
+# EquineInsurance.co.nz
+
+> NZ's specialist equine insurance comparison and referral service — connecting horse owners with licensed NZ insurance brokers.
+
+## About This Site
+
+EquineInsurance.co.nz is a New Zealand horse insurance information and referral service. We do not sell insurance directly. We provide educational content about equine insurance and connect horse owners with licensed NZ insurance brokers regulated under the Financial Markets Conduct Act 2013 (FMCA).
+
+**Important:** EquineInsurance.co.nz is NOT a registered financial adviser. Only the licensed brokers we refer users to are regulated under the FMCA. All insurance advice comes from those referred advisers, not from this website.
+
+Contact: hello@cover4you.co.nz | Phone: 09 885 9549
+
+## Coverage Types
+
+- [Mortality Insurance](/types/mortality/) — Pays the insured value if your horse dies from injury, illness, or disease
+- [Major Medical Insurance](/types/major-medical/) — Covers veterinary fees for illness and injury
+- [Transit Insurance](/types/transit/) — Covers your horse during transportation
+- [Liability Insurance](/types/liability/) — Third-party injury and property damage cover
+- [Loss of Use Insurance](/types/loss-of-use/) — Compensation if your horse can no longer perform its purpose
+
+## Horse Types
+
+- [Sport Horses](/horses/sport-horses/) — Insurance for showjumping, dressage, eventing, and polo horses
+- [Thoroughbreds & Racehorses](/horses/thoroughbreds/) — Specialist racehorse and bloodstock insurance
+- [Breeding Stock](/horses/breeding/) — Insurance for stallions, broodmares, and breeding operations
+- [Leisure & Pleasure Horses](/horses/leisure/) — Insurance for family ponies and recreational horses
+
+## Compare & Get Quotes
+
+- [Compare Providers](/compare/) — See which NZ insurers cover equine risks
+- [Coverage Types Overview](/coverage/) — All equine insurance options explained
+- [Get a Free Quote](/contact/) — Connect with a licensed NZ equine insurance broker
+
+## Location Pages
+
+- [Equine Insurance Auckland](/equine/equine-insurance-auckland/)
+- [Equine Insurance Wellington](/equine/equine-insurance-wellington/)
+- [Equine Insurance Christchurch](/equine/equine-insurance-christchurch/)
+- [Horse Insurance North Island](/equine/horse-insurance-north-island/)
+- [Horse Insurance South Island](/equine/horse-insurance-south-island/)
+
+## Specialist Topics
+
+- [Cheap Horse Insurance NZ](/equine/cheap-horse-insurance/)
+- [Best Horse Insurance NZ](/equine/best-horse-insurance/)
+- [Compare Horse Insurance](/equine/compare-horse-insurance/)
+- [Horse Insurance Cost NZ](/equine/horse-insurance-cost-nz/)
+- [Racehorse Insurance NZ](/equine/racehorse-insurance-nz/)
+- [Colic Insurance NZ](/equine/colic-insurance-nz/)
+- [Horse Float Insurance NZ](/equine/horse-float-insurance-nz/)
+- [Pony Club Insurance NZ](/equine/pony-club-insurance-nz/)
+
+## Blog & Guides
+
+- [Horse Insurance NZ Complete Guide](/blog/horse-insurance-nz-complete-guide/)
+- [Colic Insurance NZ: What You Need to Know](/blog/colic-insurance-nz-what-you-need-to-know/)
+- [Horse Float Insurance NZ Guide](/blog/horse-float-insurance-nz-guide/)
+- [Racehorse Insurance New Zealand](/blog/racehorse-insurance-new-zealand/)
+- [Equine Liability Insurance NZ](/blog/equine-liability-insurance-nz/)
+- [How Much Does Horse Insurance Cost in NZ?](/blog/how-much-does-horse-insurance-cost-nz/)
+- [Pony Club Insurance NZ](/blog/pony-club-insurance-nz/)
+- [Thoroughbred Breeding Insurance NZ](/blog/thoroughbred-breeding-insurance-nz/)
+- [Best Horse Insurance NZ 2025](/blog/best-horse-insurance-nz-2025/)
+
+## Providers Our Brokers Access
+
+- NZI — Major NZ commercial insurer with rural/equine expertise
+- Vero — NZ insurer with specialist horse insurance products
+- AIG — International specialist with equine and bloodstock capabilities
+- Allianz — Global insurer with Lloyd's market access for high-value horses
+- Gow-Gates Equine — Specialist Australasian equine and bloodstock broker
+
+## Key FAQs
+
+- Is horse insurance mandatory in NZ? No, but strongly recommended.
+- Does ACC cover horse riding injuries? ACC covers medical treatment, but not horse death, property damage, or full income replacement.
+- What does equine mortality insurance cover? Death from accidental injury, illness, disease, or humane destruction on vet advice.
+- Does horse insurance cover colic surgery? Most comprehensive policies include colic cover — check sub-limits and terms.
+- How much does horse insurance cost in NZ? From ~$150/year for liability-only to $10,000+/year for high-value racehorses with full cover.
+
+## Legal & Compliance
+
+- [Privacy Policy](/privacy/) — NZ Privacy Act 2020 compliant
+- [Terms of Use](/terms/)
+- [Disclaimer](/disclaimer/) — Not a financial adviser; referral service only
+
+## Site Information
+
+- Domain: equineinsurance.co.nz
+- Country: New Zealand
+- Language: English (New Zealand)
+- Last Updated: 2026-05-10
+- Content Copyright: EquineInsurance.co.nz 2026
+
+## AI Training Opt-Out
+
+This site opts out of use of its content for AI training purposes. See robots.txt for specific AI crawler restrictions.
