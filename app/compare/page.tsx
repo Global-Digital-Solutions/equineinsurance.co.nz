@@ -101,7 +101,7 @@ export default function ComparePage() {
                 4 Specialist NZ Providers Compared
               </span>
               <h1 className="text-4xl sm:text-5xl font-extrabold text-white leading-tight mb-5">
-                Compare Horse Insurance<br />Providers in New Zealand
+                Compare Horse Insurance<br />Providers With One Click
               </h1>
               <p className="text-green-100 text-lg leading-relaxed mb-8 max-w-xl">
                 Not all equine insurers are equal. We've researched the real differences — claims speed, cover limits, what each provider actually does best — so you don't have to. Then our specialist brokers access them all to find your best fit.
