@@ -87,7 +87,6 @@ export default function Header() {
             <Link href="/compare/" className="text-green-100 hover:text-white text-sm font-medium">Compare</Link>
             <Link href="/blog/" className="text-green-100 hover:text-white text-sm font-medium">Blog</Link>
             <Link href="/faqs/" className="text-green-100 hover:text-white text-sm font-medium">FAQs</Link>
-            <Link href="/about/" className="text-green-100 hover:text-white text-sm font-medium">About</Link>
           </nav>
 
           {/* CTA + Hamburger */}
@@ -158,7 +157,6 @@ export default function Header() {
               { href: '/compare/', label: 'Compare Providers' },
               { href: '/blog/', label: 'Blog' },
               { href: '/faqs/', label: 'FAQs' },
-              { href: '/about/', label: 'About' },
               { href: '/contact/', label: 'Contact' },
             ].map((l) => (
               <Link
