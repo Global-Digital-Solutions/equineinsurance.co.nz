@@ -2,6 +2,7 @@ export interface CoverageType {
   slug: string
   name: string
   icon: string
+  image: string
   description: string
   features: string[]
   whoNeeds: string[]
@@ -12,6 +13,7 @@ export const coverageTypes: CoverageType[] = [
     slug: 'mortality',
     name: 'Mortality Insurance',
     icon: '🐴',
+    image: '/images/equine-hero-1.png',
     description:
       'Equine mortality insurance is the most fundamental form of horse insurance in New Zealand. It pays the insured value of your horse if it dies from accidental injury, illness, or disease, or if it must be humanely destroyed on veterinary advice. Cover is available for horses of all breeds and disciplines, from leisure ponies to high-value sport horses and racehorses.',
     features: [
@@ -33,6 +35,7 @@ export const coverageTypes: CoverageType[] = [
     slug: 'major-medical',
     name: 'Major Medical Insurance',
     icon: '🏥',
+    image: '/images/equine-hero-2.png',
     description:
       'Major medical insurance covers veterinary treatment costs when your horse suffers a serious illness or injury requiring significant medical intervention. Veterinary fees in New Zealand can quickly reach tens of thousands of dollars for surgeries, diagnostics, and extended hospitalisation. Major medical cover ensures cost does not drive treatment decisions.',
     features: [
@@ -54,6 +57,7 @@ export const coverageTypes: CoverageType[] = [
     slug: 'transit',
     name: 'Transit Insurance',
     icon: '🚛',
+    image: '/images/equine-hero-3.png',
     description:
       'Transit insurance covers your horse against injury, illness, or death that occurs during transportation — whether by float, truck, or air freight. Horses can be injured during loading, travel, or unloading, and standard vehicle insurance does not cover the horse itself. Transit cover gives you protection every time your horse moves.',
     features: [
@@ -75,6 +79,7 @@ export const coverageTypes: CoverageType[] = [
     slug: 'liability',
     name: 'Liability Insurance',
     icon: '⚖️',
+    image: '/images/equine-hero-4.png',
     description:
       'Equine liability insurance protects you if your horse causes injury to a person or damage to property. Even well-handled horses can behave unpredictably — a kick, a bite, or an escape can result in significant injury or property damage claims. Liability cover is strongly recommended for all horse owners, particularly those who agist or who have horses in public areas.',
     features: [
@@ -96,6 +101,7 @@ export const coverageTypes: CoverageType[] = [
     slug: 'loss-of-use',
     name: 'Loss of Use Insurance',
     icon: '🎖️',
+    image: '/images/equine-hero-5.png',
     description:
       'Loss of use insurance provides compensation when your horse becomes permanently unfit for its primary purpose due to illness or injury — even if the horse is still alive. This is particularly relevant for competition horses, racehorses, and breeding stock where the animal\'s usefulness is tied to its ability to perform a specific function. Policies typically pay 50–60% of the insured value.',
     features: [

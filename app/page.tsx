@@ -86,12 +86,21 @@ export default function HomePage() {
               <Link
                 key={c.slug}
                 href={`/types/${c.slug}/`}
-                className="group bg-white border-2 border-gray-100 hover:border-green-200 rounded-2xl p-6 transition-all hover:shadow-lg"
+                className="group bg-white border-2 border-gray-100 hover:border-green-200 rounded-2xl overflow-hidden transition-all hover:shadow-lg"
               >
-                <div className="text-3xl mb-3">{c.icon}</div>
-                <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-green-700 transition-colors">{c.name}</h3>
-                <p className="text-gray-500 text-sm mb-3 leading-relaxed line-clamp-2">{c.description.split('.')[0]}.</p>
-                <span className="text-green-600 font-bold text-sm">Learn more →</span>
+                <div
+                  className="h-36 w-full bg-brand"
+                  style={{
+                    backgroundImage: `url(${c.image})`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                  }}
+                />
+                <div className="p-6">
+                  <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-green-700 transition-colors">{c.name}</h3>
+                  <p className="text-gray-500 text-sm mb-3 leading-relaxed line-clamp-2">{c.description.split('.')[0]}.</p>
+                  <span className="text-green-600 font-bold text-sm">Learn more →</span>
+                </div>
               </Link>
             ))}
           </div>
@@ -116,12 +125,21 @@ export default function HomePage() {
               <Link
                 key={h.slug}
                 href={`/horses/${h.slug}/`}
-                className="group bg-white border border-gray-200 hover:border-green-300 rounded-2xl p-6 flex items-start gap-4 transition-all hover:shadow-md"
+                className="group bg-white border border-gray-200 hover:border-green-300 rounded-2xl overflow-hidden transition-all hover:shadow-md"
               >
-                <span className="text-3xl flex-shrink-0">{h.icon}</span>
-                <div>
-                  <h3 className="text-lg font-bold text-gray-900 mb-1 group-hover:text-green-700 transition-colors">{h.name}</h3>
-                  <p className="text-gray-500 text-sm line-clamp-2">{h.description.split('.')[0]}.</p>
+                <div
+                  className="h-36 w-full bg-brand"
+                  style={{
+                    backgroundImage: `url(${h.image})`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                  }}
+                />
+                <div className="p-6 flex items-start gap-4">
+                  <div>
+                    <h3 className="text-lg font-bold text-gray-900 mb-1 group-hover:text-green-700 transition-colors">{h.name}</h3>
+                    <p className="text-gray-500 text-sm line-clamp-2">{h.description.split('.')[0]}.</p>
+                  </div>
                 </div>
               </Link>
             ))}

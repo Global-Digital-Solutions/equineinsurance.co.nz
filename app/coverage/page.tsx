@@ -33,20 +33,29 @@ export default function CoveragePage() {
               <Link
                 key={c.slug}
                 href={`/types/${c.slug}/`}
-                className="group bg-white border-2 border-gray-100 hover:border-green-200 rounded-2xl p-6 transition-all hover:shadow-lg"
+                className="group bg-white border-2 border-gray-100 hover:border-green-200 rounded-2xl overflow-hidden transition-all hover:shadow-lg"
               >
-                <div className="text-4xl mb-4">{c.icon}</div>
-                <h2 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-green-700 transition-colors">{c.name}</h2>
-                <p className="text-gray-500 text-sm leading-relaxed mb-4">{c.description.split('.')[0]}.</p>
-                <ul className="space-y-1 mb-4">
-                  {c.features.slice(0, 3).map((f, i) => (
-                    <li key={i} className="flex items-start gap-2 text-xs text-gray-600">
-                      <span className="text-green-600 font-bold mt-0.5">✓</span>
-                      {f}
-                    </li>
-                  ))}
-                </ul>
-                <span className="text-green-600 font-bold text-sm">Learn more →</span>
+                <div
+                  className="h-40 w-full bg-brand"
+                  style={{
+                    backgroundImage: `url(${c.image})`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                  }}
+                />
+                <div className="p-6">
+                  <h2 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-green-700 transition-colors">{c.name}</h2>
+                  <p className="text-gray-500 text-sm leading-relaxed mb-4">{c.description.split('.')[0]}.</p>
+                  <ul className="space-y-1 mb-4">
+                    {c.features.slice(0, 3).map((f, i) => (
+                      <li key={i} className="flex items-start gap-2 text-xs text-gray-600">
+                        <span className="text-green-600 font-bold mt-0.5">✓</span>
+                        {f}
+                      </li>
+                    ))}
+                  </ul>
+                  <span className="text-green-600 font-bold text-sm">Learn more →</span>
+                </div>
               </Link>
             ))}
           </div>

@@ -33,23 +33,32 @@ export default function HorsesPage() {
               <Link
                 key={h.slug}
                 href={`/horses/${h.slug}/`}
-                className="group bg-white border-2 border-gray-100 hover:border-green-200 rounded-2xl p-8 transition-all hover:shadow-lg"
+                className="group bg-white border-2 border-gray-100 hover:border-green-200 rounded-2xl overflow-hidden transition-all hover:shadow-lg"
               >
-                <div className="text-4xl mb-4">{h.icon}</div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-green-700 transition-colors">{h.name}</h2>
-                <p className="text-gray-500 text-sm leading-relaxed mb-4">{h.description.split('.')[0]}.</p>
-                <div className="mb-4">
-                  <p className="text-xs font-bold text-gray-500 uppercase tracking-widest mb-2">Recommended Cover</p>
-                  <ul className="space-y-1">
-                    {h.recommendedCover.slice(0, 3).map((r, i) => (
-                      <li key={i} className="flex items-center gap-2 text-xs text-gray-600">
-                        <span className="text-green-600">✓</span>
-                        {r}
-                      </li>
-                    ))}
-                  </ul>
+                <div
+                  className="h-48 w-full bg-brand"
+                  style={{
+                    backgroundImage: `url(${h.image})`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                  }}
+                />
+                <div className="p-8">
+                  <h2 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-green-700 transition-colors">{h.name}</h2>
+                  <p className="text-gray-500 text-sm leading-relaxed mb-4">{h.description.split('.')[0]}.</p>
+                  <div className="mb-4">
+                    <p className="text-xs font-bold text-gray-500 uppercase tracking-widest mb-2">Recommended Cover</p>
+                    <ul className="space-y-1">
+                      {h.recommendedCover.slice(0, 3).map((r, i) => (
+                        <li key={i} className="flex items-center gap-2 text-xs text-gray-600">
+                          <span className="text-green-600">✓</span>
+                          {r}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <span className="text-green-600 font-bold text-sm">Learn more →</span>
                 </div>
-                <span className="text-green-600 font-bold text-sm">Learn more →</span>
               </Link>
             ))}
           </div>

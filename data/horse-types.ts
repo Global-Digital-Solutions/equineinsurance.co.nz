@@ -2,6 +2,7 @@ export interface HorseType {
   slug: string
   name: string
   icon: string
+  image: string
   description: string
   commonRisks: string[]
   recommendedCover: string[]
@@ -12,6 +13,7 @@ export const horseTypes: HorseType[] = [
     slug: 'sport-horses',
     name: 'Sport Horses',
     icon: '🏆',
+    image: '/images/equine-hero-1.png',
     description:
       'Sport horses in New Zealand compete across showjumping, dressage, eventing, endurance, and polo. These horses often represent significant financial investments — both in purchase price and ongoing training costs. Their active competition schedules and demanding physical work increase the risk of injury, making comprehensive insurance essential for serious competitors.',
     commonRisks: [
@@ -33,6 +35,7 @@ export const horseTypes: HorseType[] = [
     slug: 'thoroughbreds',
     name: 'Thoroughbreds & Racehorses',
     icon: '🏇',
+    image: '/images/equine-hero-2.png',
     description:
       'Thoroughbred and standardbred racehorses in New Zealand face unique insurance challenges. Racing values fluctuate significantly based on track performance, and the physical demands of training and racing create elevated injury risks. Specialist racehorse insurance can cover mortality, vet fees, and loss of use — including reduced racing value following injury.',
     commonRisks: [
@@ -54,6 +57,7 @@ export const horseTypes: HorseType[] = [
     slug: 'breeding',
     name: 'Breeding Stock',
     icon: '🌿',
+    image: '/images/equine-hero-3.png',
     description:
       'Breeding stallions and broodmares represent some of the most valuable horses in New Zealand. A top thoroughbred stallion\'s value can be extraordinary, and even a quality warmblood broodmare represents a significant investment. Breeding stock insurance must account for fertility risks, pregnancy complications, and the value of unborn foals.',
     commonRisks: [
@@ -75,6 +79,7 @@ export const horseTypes: HorseType[] = [
     slug: 'leisure',
     name: 'Leisure & Pleasure Horses',
     icon: '🌄',
+    image: '/images/equine-hero-4.png',
     description:
       'Leisure horses and family ponies may not have the same financial value as elite competition horses, but they are often priceless to their owners. New Zealand has a strong recreational horse culture, with thousands of horses and ponies used for trail riding, pony club, Pony Club competitions, and casual hacking. Liability insurance is especially important for leisure horses used by multiple family members.',
     commonRisks: [
