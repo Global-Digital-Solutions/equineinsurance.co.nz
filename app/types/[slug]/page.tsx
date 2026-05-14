@@ -131,9 +131,6 @@ export default async function CoverageTypePage({ params }: Props) {
  <div className="bg-gray-50 rounded-2xl p-6 border border-gray-200">
  <h3 className="font-bold text-gray-900 mb-3">Need Help Deciding?</h3>
  <p className="text-gray-600 text-sm mb-4">Our specialist equine insurance brokers can assess your horse and recommend the right level of cover for your situation.</p>
- <a href={`tel:${siteConfig.phone.replace(/\s/g, '')}`} className="flex items-center gap-2 text-green-600 font-bold text-sm">
- 📞 {siteConfig.phone}
- </a>
  </div>
  </div>
  </div>

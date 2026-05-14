@@ -110,11 +110,8 @@ export default function AboutPage() {
  <p className="text-green-200 mb-6">Connect with a specialist equine insurance broker — it takes 2 minutes and costs nothing.</p>
  <div className="flex flex-wrap justify-center gap-4">
  <Link href="/contact/" className="inline-block bg-green-600 hover:bg-green-500 text-white font-bold px-8 py-3 rounded-xl transition-colors">
- Get Free Quote →
+ Get Quote →
  </Link>
- <a href={`tel:${siteConfig.phone.replace(/\s/g, '')}`} className="inline-block bg-brand-dark hover:bg-brand-light text-white font-bold px-8 py-3 rounded-xl transition-colors border border-brand-light">
- Call {siteConfig.phone}
- </a>
  </div>
  </section>
  </div>

@@ -11,7 +11,6 @@ export default function Footer() {
  {/* Brand + CTA */}
  <div className="lg:col-span-1">
  <Link href="/" className="flex items-center gap-2 mb-4">
- <span className="text-white font-extrabold text-xl">🐴</span>
  <span className="text-white font-extrabold text-lg">
  Equine<span className="text-green-300">Insurance</span>
  </span>
@@ -23,15 +22,9 @@ export default function Footer() {
  href="/contact/"
  className="inline-block bg-green-600 hover:bg-green-500 text-white font-bold text-sm px-4 py-2 rounded-lg transition-colors mb-4"
  >
- Get Free Quote
+ Get Quote
  </Link>
- <div className="text-sm text-green-200 space-y-1">
- <p>
- <a href={`tel:${siteConfig.phone.replace(/\s/g, '')}`} className="hover:text-white transition-colors">
- 📞 {siteConfig.phone}
- </a>
- </p>
- <p>
+ <div className="text-sm text-green-200 space-y-1"> <p>
  <a href={`mailto:${siteConfig.email}`} className="hover:text-white transition-colors">
  ✉️ {siteConfig.email}
  </a>

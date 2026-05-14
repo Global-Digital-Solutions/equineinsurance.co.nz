@@ -38,9 +38,6 @@ export default function ThankYouPage() {
         </div>
         <p className="text-gray-500 text-sm mb-8">
           If you need to speak with someone urgently, call us on{' '}
-          <a href={`tel:${siteConfig.phone.replace(/\s/g, '')}`} className="text-brand font-bold hover:text-brand-light">
-            {siteConfig.phone}
-          </a>
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <Link href="/" className="bg-brand hover:bg-brand-light text-white font-bold px-6 py-3 rounded-xl transition-colors">

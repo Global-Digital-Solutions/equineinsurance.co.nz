@@ -46,7 +46,7 @@ export default function DisclaimerPage() {
           <p>EquineInsurance.co.nz may receive a referral fee from licensed brokers when we introduce a user who subsequently purchases an insurance product. This fee is paid by the broker, not by you. You pay no additional cost as a result of using our referral service.</p>
 
           <h2>Contact</h2>
-          <p>If you have questions about this disclaimer or our service, please contact us at <a href="mailto:hello@cover4you.co.nz">hello@cover4you.co.nz</a> or call <a href="tel:0988859549">{siteConfig.phone}</a>.</p>
+          <p>If you have questions about this disclaimer or our service, please contact us at <a href="mailto:hello@cover4you.co.nz">hello@cover4you.co.nz</a>.</p>
         </div>
       </div>
     </>

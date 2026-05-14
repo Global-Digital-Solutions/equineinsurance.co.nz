@@ -38,15 +38,6 @@ export default function ContactPage() {
  <h2 className="text-2xl font-extrabold text-gray-900 mb-4">Contact Information</h2>
  <div className="space-y-4">
  <div className="flex items-center gap-3">
- <span className="text-2xl">📞</span>
- <div>
- <p className="text-sm text-gray-500">Phone</p>
- <a href={`tel:${siteConfig.phone.replace(/\s/g, '')}`} className="text-brand font-bold hover:text-brand-light">
- {siteConfig.phone}
- </a>
- </div>
- </div>
- <div className="flex items-center gap-3">
  <span className="text-2xl">✉️</span>
  <div>
  <p className="text-sm text-gray-500">Email</p>

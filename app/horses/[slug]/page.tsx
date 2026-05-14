@@ -128,9 +128,6 @@ export default async function HorseTypePage({ params }: Props) {
  <div className="bg-gray-50 rounded-2xl p-6 border border-gray-200">
  <h3 className="font-bold text-gray-900 mb-3">Specialist Equine Advice</h3>
  <p className="text-gray-600 text-sm mb-4">Our brokers specialise in equine insurance and understand the unique risks of {horse.name.toLowerCase()}.</p>
- <a href={`tel:${siteConfig.phone.replace(/\s/g, '')}`} className="flex items-center gap-2 text-green-600 font-bold text-sm">
- 📞 {siteConfig.phone}
- </a>
  </div>
  </div>
  </div>

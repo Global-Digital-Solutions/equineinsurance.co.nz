@@ -38,7 +38,7 @@ export default function HomePage() {
  >
  <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30" />
  <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
- <div className="grid lg:grid-cols-2 gap-12 items-center">
+ <div className="grid lg:grid-cols-[1fr_400px] gap-12 items-center">
  <div>
  <span className="inline-block bg-green-600/30 border border-green-500/40 text-green-300 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-6">
  NZ Specialist Equine Insurance
@@ -65,7 +65,7 @@ export default function HomePage() {
  </div>
  <div className="flex flex-wrap gap-4">
  <Link href="/contact/" className="bg-green-600 hover:bg-green-500 text-white font-bold px-6 py-3 rounded-xl transition-colors text-sm">
- Get Free Quote →
+ Get Quote →
  </Link>
  <Link href="/coverage/" className="bg-brand-dark hover:bg-brand-light text-white font-bold px-6 py-3 rounded-xl transition-colors text-sm border border-brand-light">
  Explore Coverage
@@ -269,11 +269,8 @@ export default function HomePage() {
  </p>
  <div className="flex flex-wrap justify-center gap-4">
  <Link href="/contact/" className="bg-green-600 hover:bg-green-500 text-white font-bold px-8 py-3 rounded-xl transition-colors">
- Get Free Quote →
+ Get Quote →
  </Link>
- <a href={`tel:${siteConfig.phone.replace(/\s/g, '')}`} className="bg-brand hover:bg-brand-light text-white font-bold px-8 py-3 rounded-xl transition-colors border border-brand-light">
- Call {siteConfig.phone}
- </a>
  </div>
  </div>
  </section>

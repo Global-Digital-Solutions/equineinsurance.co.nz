@@ -61,9 +61,6 @@ export default function FAQsPage() {
  <Link href="/contact/" className="bg-green-600 hover:bg-green-500 text-white font-bold px-6 py-3 rounded-xl transition-colors">
  Get in Touch →
  </Link>
- <a href={`tel:${siteConfig.phone.replace(/\s/g, '')}`} className="bg-brand-dark hover:bg-brand-light text-white font-bold px-6 py-3 rounded-xl transition-colors border border-brand-light">
- Call {siteConfig.phone}
- </a>
  </div>
  </div>
  </div>
