@@ -68,65 +68,82 @@ const faqs = [
 export default function ContactPage() {
   return (
     <>
-      {/* Hero with form */}
+      {/* Full-viewport hero with form overlaid */}
       <section
-        className="relative py-16 lg:py-24"
+        className="relative min-h-screen flex flex-col justify-center"
         style={{
           backgroundImage: 'url(/images/equine-hero-8.png)',
           backgroundSize: 'cover',
-          backgroundPosition: 'center',
+          backgroundPosition: 'center 30%',
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <nav className="text-sm text-white/70 mb-8">
+        {/* Layered gradient: strong left fade for text legibility, lighter right so photo shows through form area */}
+        <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/60 to-black/35" />
+        {/* Subtle top-to-bottom vignette */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/50" />
+
+        <div className="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
+          <nav className="text-sm text-white/60 mb-10">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <span className="mx-2 text-white/40">›</span>
-            <span className="text-white font-medium">Get a Quote</span>
+            <span className="mx-2 text-white/30">›</span>
+            <span className="text-white/90 font-medium">Get a Quote</span>
           </nav>
-          <div className="flex flex-col lg:flex-row gap-10 items-start justify-between">
+
+          <div className="flex flex-col lg:flex-row gap-12 items-center justify-between">
             {/* Left — value proposition */}
-            <div className="flex-1 lg:max-w-lg">
-              <span className="inline-block bg-green-600/30 border border-green-500/40 text-green-300 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-6">
+            <div className="flex-1 lg:max-w-[520px]">
+              <span className="inline-block bg-green-500/25 border border-green-400/40 text-green-300 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-6">
                 Free Broker Matching
               </span>
-              <h1 className="text-4xl lg:text-5xl font-extrabold text-white leading-tight mb-6">
-                Get the Right <span className="text-green-300">Horse Insurance</span> — Fast
+              <h1 className="text-4xl lg:text-[3.25rem] font-extrabold text-white leading-tight mb-5 drop-shadow-lg">
+                Get the Right{' '}
+                <span className="text-green-300">Horse Insurance</span>
+                {' '}— Fast
               </h1>
-              <p className="text-green-100 text-xl leading-relaxed mb-8">
-                Our free service connects you with a specialist equine insurance broker who knows your horse type and finds the right cover — no hours of research or confusing policies.
+              <p className="text-white/90 text-lg lg:text-xl leading-relaxed mb-8 drop-shadow">
+                One short form connects you with a specialist equine insurance broker who compares the market on your behalf — no obligation, no cost to you.
               </p>
 
-              {/* Key benefits list */}
-              <div className="space-y-3 mb-8">
+              {/* Benefit ticks */}
+              <div className="space-y-2.5 mb-8">
                 {[
                   'Quotes from multiple top equine insurers',
                   'Cover tailored to your horse\'s breed and use',
                   'Mortality, vet fees, transit, liability & loss of use',
-                  'Licensed advisers — zero obligation',
+                  'Licensed FMA-regulated advisers only',
                   'Most horses covered within 24–48 hours',
                 ].map((b) => (
-                  <div key={b} className="flex items-center gap-3 text-white font-medium text-sm">
-                    <span className="w-5 h-5 rounded-full bg-green-600 text-white text-xs flex items-center justify-center flex-shrink-0 font-bold shadow-md">✓</span>
+                  <div key={b} className="flex items-center gap-3 text-white text-sm font-medium drop-shadow">
+                    <span className="w-5 h-5 rounded-full bg-green-500 text-white text-xs flex items-center justify-center flex-shrink-0 font-bold shadow">✓</span>
                     {b}
                   </div>
                 ))}
               </div>
 
-              {/* Stats bar */}
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+              {/* Stat pills */}
+              <div className="flex flex-wrap gap-3">
                 {stats.map((s) => (
-                  <div key={s.label} className="bg-black/40 border border-white/20 rounded-xl px-4 py-3 text-center backdrop-blur-sm">
-                    <div className="text-green-300 font-extrabold text-xl leading-tight">{s.value}</div>
-                    <div className="text-green-100 text-xs mt-0.5 font-medium">{s.label}</div>
+                  <div key={s.label} className="bg-black/50 border border-white/20 rounded-xl px-4 py-2.5 backdrop-blur-sm text-center min-w-[90px]">
+                    <div className="text-green-300 font-extrabold text-lg leading-tight">{s.value}</div>
+                    <div className="text-white/70 text-xs mt-0.5">{s.label}</div>
                   </div>
                 ))}
               </div>
             </div>
 
-            {/* Right — form */}
+            {/* Right — form floated over photo */}
             <div className="w-full lg:w-[420px] lg:flex-shrink-0">
               <QuoteForm />
+            </div>
+          </div>
+
+          {/* Scroll nudge */}
+          <div className="hidden lg:flex justify-center mt-12">
+            <div className="flex flex-col items-center gap-2 text-white/40 text-xs">
+              <span>Scroll to learn more</span>
+              <svg className="w-4 h-4 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
             </div>
           </div>
         </div>
