@@ -120,10 +120,10 @@ export default function ContactPage() {
                 ))}
               </div>
 
-              {/* Stat pills */}
-              <div className="flex flex-wrap gap-3">
+              {/* Stat pills — single row */}
+              <div className="flex gap-3">
                 {stats.map((s) => (
-                  <div key={s.label} className="bg-black/50 border border-white/20 rounded-xl px-4 py-2.5 backdrop-blur-sm text-center min-w-[90px]">
+                  <div key={s.label} className="flex-1 bg-black/50 border border-white/20 rounded-xl px-3 py-2.5 backdrop-blur-sm text-center">
                     <div className="text-green-300 font-extrabold text-lg leading-tight">{s.value}</div>
                     <div className="text-white/70 text-xs mt-0.5">{s.label}</div>
                   </div>
