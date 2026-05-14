@@ -83,13 +83,25 @@ export default async function BlogPostPage({ params }: Props) {
     dateModified: post.date,
     author: {
       '@type': 'Organization',
-      name: post.author,
+      '@id': `${siteConfig.url}/#organization`,
+      name: 'EquineInsurance.co.nz',
       url: siteConfig.url,
     },
     publisher: {
       '@type': 'Organization',
+      '@id': `${siteConfig.url}/#organization`,
       name: 'EquineInsurance.co.nz',
       url: siteConfig.url,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${siteConfig.url}/android-chrome-192x192.png`,
+      },
+    },
+    inLanguage: 'en-NZ',
+    isPartOf: {
+      '@type': 'Blog',
+      '@id': `${siteConfig.url}/blog/`,
+      name: 'EquineInsurance.co.nz Blog',
     },
     mainEntityOfPage: {
       '@type': 'WebPage',

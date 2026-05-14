@@ -71,9 +71,37 @@ function Tick({ yes }: { yes: boolean }) {
   return <span className="text-gray-300 text-lg">—</span>
 }
 
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://equineinsurance.co.nz/' },
+    { '@type': 'ListItem', position: 2, name: 'Compare Providers', item: 'https://equineinsurance.co.nz/compare/' },
+  ],
+}
+
+const serviceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  '@id': 'https://equineinsurance.co.nz/compare/#service',
+  name: 'Compare Horse Insurance Providers',
+  description: 'Compare NZ equine insurance providers including Pet-n-Sur, Petcover NZ, NZB Insurance, and Gallagher. See claims speed, cover limits, and what each provider does best.',
+  provider: {
+    '@type': 'Organization',
+    '@id': 'https://equineinsurance.co.nz/#organization',
+    name: 'EquineInsurance.co.nz',
+  },
+  areaServed: { '@type': 'Country', name: 'New Zealand' },
+  serviceType: 'Equine Insurance Comparison and Referral',
+  url: 'https://equineinsurance.co.nz/compare/',
+}
+
 export default function ComparePage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
+
       {/* ── HERO ── */}
       <div
         className="relative min-h-[70vh] flex flex-col justify-center"

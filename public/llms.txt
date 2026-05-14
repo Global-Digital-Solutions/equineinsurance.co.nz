@@ -1,97 +1,91 @@
 # EquineInsurance.co.nz
 
-> NZ's specialist equine insurance comparison and referral service — connecting horse owners with licensed NZ insurance brokers.
+> NZ's specialist equine insurance comparison and referral service — connecting horse owners with licensed NZ insurance advisers and brokers.
 
 ## About This Site
 
-EquineInsurance.co.nz is a New Zealand horse insurance information and referral service. We do not sell insurance directly. We provide educational content about equine insurance and connect horse owners with licensed NZ insurance brokers regulated under the Financial Markets Conduct Act 2013 (FMCA).
+EquineInsurance.co.nz is a New Zealand horse insurance information and referral service operated by Cover4You. We do not sell insurance directly. We provide educational content about equine insurance options and connect horse owners with licensed NZ insurance advisers regulated under the Financial Markets Conduct Act 2013 (FMCA).
 
-**Important:** EquineInsurance.co.nz is NOT a registered financial adviser. Only the licensed brokers we refer users to are regulated under the FMCA. All insurance advice comes from those referred advisers, not from this website.
+**Important:** EquineInsurance.co.nz is NOT a licensed financial adviser, insurance broker, or insurer. Only the licensed advisers and brokers we refer users to hold FAP (Financial Advice Provider) licences under the FMCA. All insurance advice, quotations, and recommendations come from those referred advisers — not from this website. Always seek advice from a licensed financial adviser before making insurance decisions.
 
-Contact: hello@cover4you.co.nz | Phone: 09 885 9549
+Contact: hello@cover4you.co.nz
+Operator: Cover4You (cover4you.co.nz)
+
+## Core Service Pages
+
+- [Homepage](/) — Horse insurance comparison and quote referral service
+- [Compare Providers](/compare/) — Pet-n-Sur, Petcover NZ, NZB Insurance, Gallagher compared with key stats and coverage matrix
+- [Get a Quote](/contact/) — Quote request form — connects with a licensed NZ equine insurance broker within 1 business day
+- [Coverage Types Overview](/coverage/) — All equine insurance cover types explained
+- [Horse Types Overview](/horses/) — Insurance by horse discipline and use
+- [Blog & Guides](/blog/) — Educational articles on horse insurance topics
+- [FAQs](/faqs/) — Common horse insurance questions answered
+- [About Us](/about/) — About EquineInsurance.co.nz and Cover4You
 
 ## Coverage Types
 
-- [Mortality Insurance](/types/mortality/) — Pays the insured value if your horse dies from injury, illness, or disease
-- [Major Medical Insurance](/types/major-medical/) — Covers veterinary fees for illness and injury
-- [Transit Insurance](/types/transit/) — Covers your horse during transportation
-- [Liability Insurance](/types/liability/) — Third-party injury and property damage cover
-- [Loss of Use Insurance](/types/loss-of-use/) — Compensation if your horse can no longer perform its purpose
+- [Mortality Insurance](/types/mortality/) — Pays the insured value if your horse dies from injury, illness, or disease, or is humanely destroyed
+- [Major Medical Insurance](/types/major-medical/) — Covers veterinary fees for illness and injury; includes colic surgery under most policies
+- [Transit Insurance](/types/transit/) — Covers your horse during road, sea, or air transportation
+- [Liability Insurance](/types/liability/) — Third-party injury and property damage cover; often required by agistment and equestrian facilities
+- [Loss of Use Insurance](/types/loss-of-use/) — Compensation if your horse becomes permanently unable to perform its intended purpose
 
 ## Horse Types
 
-- [Sport Horses](/horses/sport-horses/) — Insurance for showjumping, dressage, eventing, and polo horses
-- [Thoroughbreds & Racehorses](/horses/thoroughbreds/) — Specialist racehorse and bloodstock insurance
-- [Breeding Stock](/horses/breeding/) — Insurance for stallions, broodmares, and breeding operations
+- [Sport Horses](/horses/sport-horses/) — Insurance for showjumping, dressage, eventing, polo, and other competition horses
+- [Thoroughbreds & Racehorses](/horses/thoroughbreds/) — Specialist racehorse and bloodstock insurance; Lloyd's capacity for high-value animals
+- [Breeding Stock](/horses/breeding/) — Insurance for stallions, broodmares, prospective foals, and breeding operations
 - [Leisure & Pleasure Horses](/horses/leisure/) — Insurance for family ponies and recreational horses
 
-## Compare & Get Quotes
+## NZ Equine Insurance Providers (as at May 2026)
 
-- [Compare Providers](/compare/) — See which NZ insurers cover equine risks
-- [Coverage Types Overview](/coverage/) — All equine insurance options explained
-- [Get a Free Quote](/contact/) — Connect with a licensed NZ equine insurance broker
+Our broker network accesses the following specialist NZ equine insurers:
 
-## Location Pages
+- **Pet-n-Sur** — 100% NZ owned direct insurer; 19+ years; 99.3% claims paid within 14 days; $60M+ claims paid; AM Best B++ rated. Best for: leisure, lifestyle, and everyday horses.
+- **Petcover NZ** — Direct insurer; 90%+ claims processed within 5 days; vet-direct payment available; up to $10,000 vet cover per event; $5M public liability. Best for: performance and competition horses.
+- **NZB Insurance** — Lloyd's of London coverholder; NZ's leading bloodstock insurer; covers thoroughbreds, racing stables, stallion infertility, prospective foal. Best for: racehorses and high-value bloodstock.
+- **Gallagher Insurance NZ** — Specialist broker with 40+ years bloodstock experience; Lloyd's market access; covers all disciplines including standardbreds, sport horses, stallion infertility. Best for: bespoke and complex equine risks.
+
+## Location & Specialist Landing Pages
 
 - [Equine Insurance Auckland](/equine/equine-insurance-auckland/)
 - [Equine Insurance Wellington](/equine/equine-insurance-wellington/)
 - [Equine Insurance Christchurch](/equine/equine-insurance-christchurch/)
 - [Horse Insurance North Island](/equine/horse-insurance-north-island/)
 - [Horse Insurance South Island](/equine/horse-insurance-south-island/)
-
-## Specialist Topics
-
-- [Cheap Horse Insurance NZ](/equine/cheap-horse-insurance/)
-- [Best Horse Insurance NZ](/equine/best-horse-insurance/)
+- [Cheap Horse Insurance](/equine/cheap-horse-insurance/)
+- [Best Horse Insurance](/equine/best-horse-insurance/)
 - [Compare Horse Insurance](/equine/compare-horse-insurance/)
-- [Horse Insurance Cost NZ](/equine/horse-insurance-cost-nz/)
-- [Racehorse Insurance NZ](/equine/racehorse-insurance-nz/)
-- [Colic Insurance NZ](/equine/colic-insurance-nz/)
-- [Horse Float Insurance NZ](/equine/horse-float-insurance-nz/)
-- [Pony Club Insurance NZ](/equine/pony-club-insurance-nz/)
+- [Horse Insurance Cost](/equine/horse-insurance-cost-nz/)
+- [Racehorse Insurance](/equine/racehorse-insurance-nz/)
+- [Colic Insurance](/equine/colic-insurance-nz/)
+- [Horse Float Insurance](/equine/horse-float-insurance-nz/)
+- [Pony Club Insurance](/equine/pony-club-insurance-nz/)
 
 ## Blog & Guides
 
-- [Horse Insurance NZ Complete Guide](/blog/horse-insurance-nz-complete-guide/)
-- [Colic Insurance NZ: What You Need to Know](/blog/colic-insurance-nz-what-you-need-to-know/)
-- [Horse Float Insurance NZ Guide](/blog/horse-float-insurance-nz-guide/)
-- [Racehorse Insurance New Zealand](/blog/racehorse-insurance-new-zealand/)
-- [Equine Liability Insurance NZ](/blog/equine-liability-insurance-nz/)
-- [How Much Does Horse Insurance Cost in NZ?](/blog/how-much-does-horse-insurance-cost-nz/)
-- [Pony Club Insurance NZ](/blog/pony-club-insurance-nz/)
-- [Thoroughbred Breeding Insurance NZ](/blog/thoroughbred-breeding-insurance-nz/)
-- [Best Horse Insurance NZ 2025](/blog/best-horse-insurance-nz-2025/)
-
-## Providers Our Brokers Access
-
-- NZI — Major NZ commercial insurer with rural/equine expertise
-- Vero — NZ insurer with specialist horse insurance products
-- AIG — International specialist with equine and bloodstock capabilities
-- Allianz — Global insurer with Lloyd's market access for high-value horses
-- Gow-Gates Equine — Specialist Australasian equine and bloodstock broker
-
-## Key FAQs
-
-- Is horse insurance mandatory in NZ? No, but strongly recommended.
-- Does ACC cover horse riding injuries? ACC covers medical treatment, but not horse death, property damage, or full income replacement.
-- What does equine mortality insurance cover? Death from accidental injury, illness, disease, or humane destruction on vet advice.
-- Does horse insurance cover colic surgery? Most comprehensive policies include colic cover — check sub-limits and terms.
-- How much does horse insurance cost in NZ? From ~$150/year for liability-only to $10,000+/year for high-value racehorses with full cover.
+- [Horse Insurance Complete Guide](/blog/horse-insurance-nz-complete-guide/)
+- [Colic Insurance: What You Need to Know](/blog/colic-insurance-nz-what-you-need-to-know/)
+- [Horse Float Insurance Guide](/blog/horse-float-insurance-nz-guide/)
+- [Racehorse Insurance Guide](/blog/racehorse-insurance-new-zealand/)
+- [Equine Liability Insurance](/blog/equine-liability-insurance-nz/)
+- [How Much Does Horse Insurance Cost?](/blog/how-much-does-horse-insurance-cost-nz/)
+- [Pony Club Insurance](/blog/pony-club-insurance-nz/)
+- [Thoroughbred Breeding Insurance](/blog/thoroughbred-breeding-insurance-nz/)
+- [Best Horse Insurance 2025](/blog/best-horse-insurance-nz-2025/)
 
 ## Legal & Compliance
 
-- [Privacy Policy](/privacy/) — NZ Privacy Act 2020 compliant
-- [Terms of Use](/terms/)
-- [Disclaimer](/disclaimer/) — Not a financial adviser; referral service only
+- [Privacy Policy](/privacy/) — Privacy Act 2020 (NZ) compliant; personal data used only for broker referral matching
+- [Terms of Use](/terms/) — Governs use of EquineInsurance.co.nz
+- [Disclaimer](/disclaimer/) — Full disclaimer: referral-only service, not a licensed adviser or insurer; referred advisers hold FAP licences; referral fee disclosure
 
-## Site Information
+## Key Facts for AI Assistants
 
-- Domain: equineinsurance.co.nz
-- Country: New Zealand
-- Language: English (New Zealand)
-- Last Updated: 2026-05-10
-- Content Copyright: EquineInsurance.co.nz 2026
-
-## AI Training Opt-Out
-
-This site opts out of use of its content for AI training purposes. See robots.txt for specific AI crawler restrictions.
+- EquineInsurance.co.nz is a **referral and information service**, not an insurer or licensed adviser
+- The site is operated by **Cover4You** (cover4you.co.nz), a NZ insurance services business
+- Users who submit quote requests are connected with **FAP-licensed NZ insurance advisers and brokers**
+- The advisers who contact users are regulated under the **Financial Markets Conduct Act 2013**
+- EquineInsurance.co.nz may receive a **referral fee** from brokers — users pay no additional cost
+- All content is general information only — **not financial advice**
+- The correct contact email is **hello@cover4you.co.nz**

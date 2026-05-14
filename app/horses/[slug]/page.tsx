@@ -39,9 +39,26 @@ export default async function HorseTypePage({ params }: Props) {
  ],
  }
 
+ const serviceSchema = {
+ '@context': 'https://schema.org',
+ '@type': 'Service',
+ '@id': `${siteConfig.url}/horses/${slug}/#service`,
+ name: `${horse.name} Insurance`,
+ description: horse.description,
+ provider: {
+ '@type': 'Organization',
+ '@id': `${siteConfig.url}/#organization`,
+ name: 'EquineInsurance.co.nz',
+ },
+ areaServed: { '@type': 'Country', name: 'New Zealand' },
+ serviceType: 'Equine Insurance Referral',
+ url: `${siteConfig.url}/horses/${slug}/`,
+ }
+
  return (
  <>
  <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+ <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
 
  <div
  className="relative min-h-[340px] flex items-end"

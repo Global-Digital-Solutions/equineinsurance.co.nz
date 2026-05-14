@@ -41,11 +41,17 @@ const orgSchema = {
   '@type': 'Organization',
   '@id': `${siteConfig.url}/#organization`,
   name: 'EquineInsurance.co.nz',
+  alternateName: 'Equine Insurance NZ',
   url: siteConfig.url,
-  logo: `${siteConfig.url}/android-chrome-192x192.png`,
+  logo: {
+    '@type': 'ImageObject',
+    url: `${siteConfig.url}/android-chrome-192x192.png`,
+    width: 192,
+    height: 192,
+  },
   contactPoint: {
     '@type': 'ContactPoint',
-    telephone: siteConfig.phone,
+    email: siteConfig.email,
     contactType: 'customer service',
     areaServed: 'NZ',
     availableLanguage: 'English',
@@ -54,7 +60,15 @@ const orgSchema = {
     '@type': 'Country',
     name: 'New Zealand',
   },
-  description: 'NZ equine insurance comparison and referral service — connecting horse owners with licensed insurance brokers.',
+  description: 'NZ specialist equine insurance referral service — connecting horse owners with FAP-licensed insurance advisers who provide quotes from Pet-n-Sur, Petcover NZ, NZB Insurance, Gallagher, and more.',
+  sameAs: [
+    'https://www.cover4you.co.nz',
+  ],
+  parentOrganization: {
+    '@type': 'Organization',
+    name: 'Cover4You',
+    url: 'https://www.cover4you.co.nz',
+  },
 }
 
 const websiteSchema = {

@@ -1,6 +1,10 @@
+# EquineInsurance.co.nz — robots.txt
+
+# Allow all legitimate search engine crawlers
 User-agent: *
 Allow: /
 
+# Block AI training crawlers
 User-agent: GPTBot
 Disallow: /
 
@@ -45,5 +49,27 @@ Disallow: /
 
 User-agent: cohere-ai
 Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: Meta-ExternalFetcher
+Disallow: /
+
+User-agent: AI2Bot
+Disallow: /
+
+User-agent: Kangaroo Bot
+Disallow: /
+
+# Disallow staging/system paths for all crawlers
+User-agent: *
+Disallow: /api/
+Disallow: /thank-you/
+Disallow: /_next/
+Disallow: /404
 
 Sitemap: https://equineinsurance.co.nz/sitemap.xml
