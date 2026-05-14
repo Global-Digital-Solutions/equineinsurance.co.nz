@@ -4,7 +4,7 @@ import { siteConfig } from '@/data/site-config'
 
 export const metadata: Metadata = {
   title: 'Privacy Policy | EquineInsurance.co.nz',
-  description: 'Privacy policy for EquineInsurance.co.nz — how we collect, use, and protect your personal information in accordance with the NZ Privacy Act 2020.',
+  description: 'Privacy Policy for EquineInsurance.co.nz — how we collect, use, and protect your personal information under the Privacy Act 2020.',
   alternates: { canonical: `${siteConfig.url}/privacy/` },
 }
 
@@ -18,47 +18,63 @@ export default function PrivacyPage() {
             <span className="mx-2">›</span>
             <span className="text-white">Privacy Policy</span>
           </nav>
-          <h1 className="text-4xl font-extrabold text-white mb-4">Privacy Policy</h1>
-          <p className="text-green-200 text-sm">Last updated: 10 May 2026</p>
+          <h1 className="text-4xl font-extrabold text-white mb-2">Privacy Policy</h1>
+          <p className="text-green-200 text-sm">Last updated: 14 May 2026</p>
         </div>
       </div>
 
       <div className="bg-white py-14">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 prose prose-gray max-w-none">
-          <h2>1. Introduction</h2>
-          <p>EquineInsurance.co.nz (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and protect your personal information in accordance with the New Zealand Privacy Act 2020.</p>
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="prose prose-gray max-w-none">
+            <h2>1. Who We Are</h2>
+            <p>EquineInsurance.co.nz is operated as a specialist equine insurance referral and information service for horse owners. Our website is located at {siteConfig.url} and our contact email is <a href={`mailto:${siteConfig.email}`} className="text-green-600 hover:text-green-700">{siteConfig.email}</a>.</p>
 
-          <h2>2. Information We Collect</h2>
-          <p>We collect information you provide when you submit an enquiry or quote request, including your name, email address, phone number, and details about your horse and insurance requirements.</p>
-          <p>We may also collect information automatically when you visit our website, including IP address, browser type, pages visited, and time spent on pages.</p>
+            <h2>2. Our Commitment to Your Privacy</h2>
+            <p>We are committed to protecting your personal information in accordance with the Privacy Act 2020 (NZ). This policy explains what information we collect, why we collect it, how we use it, and your rights in relation to it.</p>
 
-          <h2>3. How We Use Your Information</h2>
-          <p>We use the information you provide to:</p>
-          <ul>
-            <li>Connect you with suitable licensed NZ insurance brokers</li>
-            <li>Respond to your enquiries</li>
-            <li>Improve our website and services</li>
-            <li>Comply with legal obligations</li>
-          </ul>
+            <h2>3. Information We Collect</h2>
+            <p>When you use our website or submit a quote request, we may collect:</p>
+            <ul>
+              <li>Name and email address</li>
+              <li>Information about your horse type, value, and insurance requirements</li>
+              <li>Technical information about your device and browser (via analytics tools)</li>
+              <li>IP address and general location data</li>
+            </ul>
 
-          <h2>4. Sharing Your Information</h2>
-          <p>We will share your personal information with licensed NZ insurance brokers in our referral network for the purpose of providing you with insurance quotes and advice. By submitting an enquiry, you consent to this sharing.</p>
-          <p>We do not sell your personal information to third parties for marketing purposes.</p>
+            <h2>4. How We Use Your Information</h2>
+            <p>We use your personal information to:</p>
+            <ul>
+              <li>Match you with appropriate specialist equine insurance brokers in our referral network</li>
+              <li>Share your details with the selected broker so they can contact you with quotes and advice</li>
+              <li>Improve our website and services using aggregated, anonymised analytics data</li>
+              <li>Comply with legal obligations</li>
+            </ul>
 
-          <h2>5. Data Security</h2>
-          <p>We take reasonable steps to protect your personal information from unauthorised access, use, or disclosure. However, no internet transmission is completely secure, and we cannot guarantee absolute security.</p>
+            <h2>5. Sharing Your Information</h2>
+            <p>We will share your personal information with the licensed insurance broker we match you with. That broker will use your information to provide insurance quotes and services. They have their own privacy obligations under the Privacy Act 2020 and their Financial Advice Provider (FAP) licence conditions.</p>
+            <p>We do not sell your personal information to third parties for marketing purposes.</p>
 
-          <h2>6. Your Rights</h2>
-          <p>Under the NZ Privacy Act 2020, you have the right to access your personal information and request corrections. To exercise these rights, contact us at <a href="mailto:hello@cover4you.co.nz">hello@cover4you.co.nz</a>.</p>
+            <h2>6. Third-Party Services</h2>
+            <p>Our website uses third-party services including Google Analytics (for website analytics). These services may collect information about your visit in accordance with their own privacy policies. You can opt out of Google Analytics tracking using the Google Analytics Opt-out Browser Add-on.</p>
 
-          <h2>7. Cookies</h2>
-          <p>Our website uses cookies to improve your browsing experience. You can control cookies through your browser settings. Disabling cookies may affect some website functionality.</p>
+            <h2>7. Data Retention</h2>
+            <p>We retain your personal information for as long as necessary to provide our services and comply with our legal obligations. Enquiry data is typically retained for up to 7 years for record-keeping purposes.</p>
 
-          <h2>8. Changes to This Policy</h2>
-          <p>We may update this Privacy Policy from time to time. We will notify you of significant changes by posting an updated policy on this page with a revised date.</p>
+            <h2>8. Your Rights Under the Privacy Act 2020</h2>
+            <p>Under the Privacy Act 2020, you have the right to:</p>
+            <ul>
+              <li>Request access to personal information we hold about you</li>
+              <li>Request correction of inaccurate personal information</li>
+              <li>Complain to the Privacy Commissioner if you believe we have breached the Privacy Act</li>
+            </ul>
+            <p>To exercise these rights, contact us at <a href={`mailto:${siteConfig.email}`} className="text-green-600 hover:text-green-700">{siteConfig.email}</a>.</p>
 
-          <h2>9. Contact Us</h2>
-          <p>If you have questions about this Privacy Policy or how we handle your personal information, please contact us at <a href="mailto:hello@cover4you.co.nz">hello@cover4you.co.nz</a>.</p>
+            <h2>9. Cookies</h2>
+            <p>Our website uses cookies to improve your experience and enable analytics. By continuing to use our site, you consent to our use of cookies. You can disable cookies in your browser settings, though this may affect website functionality.</p>
+
+            <h2>10. Contact Us</h2>
+            <p>For privacy-related enquiries, contact us at: <a href={`mailto:${siteConfig.email}`} className="text-green-600 hover:text-green-700">{siteConfig.email}</a>.</p>
+          </div>
         </div>
       </div>
     </>

@@ -109,15 +109,37 @@ export default function Footer() {
 
  {/* Bottom bar */}
  <div className="border-t border-brand-dark">
- <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
- <p className="text-green-300 text-xs leading-relaxed mb-4">
- <strong className="text-green-200">Disclaimer:</strong> EquineInsurance.co.nz is an information and referral service only. We connect you with licensed insurance brokers and advisers who are regulated under the Financial Markets Conduct Act 2013 (FMCA). EquineInsurance.co.nz itself is not a registered financial adviser and does not provide financial advice. All insurance recommendations and quotations are provided by the referred licensed advisers, not by this website. See our{' '}
- <Link href="/disclaimer/" className="hover:text-white underline">full disclaimer</Link>.
+ <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+
+ {/* Full disclaimer block */}
+ <div className="border border-brand-light rounded-xl p-5 mb-6 bg-brand-dark/40">
+ <p className="text-green-200 text-xs font-bold uppercase tracking-widest mb-3">Important Disclaimer</p>
+ <p className="text-green-300 text-xs leading-relaxed mb-2">
+ <strong className="text-green-200">EquineInsurance.co.nz is an information and referral service only — not a licensed financial adviser, insurance broker, or insurer.</strong> We do not provide financial advice, assess your individual circumstances, or recommend specific insurance products. All information published on this website is general in nature and may not be applicable to your situation.
  </p>
+ <p className="text-green-300 text-xs leading-relaxed mb-2">
+ We connect users with licensed insurance brokers and advisers who are regulated under the Financial Markets Conduct Act 2013 (FMCA) and hold Financial Advice Provider (FAP) licences issued by the Financial Markets Authority. Any advice, quotations, or policy recommendations you receive will come from those licensed advisers, not from EquineInsurance.co.nz. Always seek advice from a licensed financial adviser before making insurance decisions.
+ </p>
+ <p className="text-green-300 text-xs leading-relaxed">
+ EquineInsurance.co.nz may receive a referral fee from brokers when a user proceeds with a policy. This fee is paid by the broker — you pay no additional cost. Premium estimates on this website are indicative only; actual premiums will vary. See our full{' '}
+ <Link href="/disclaimer/" className="text-green-400 hover:text-white underline">Disclaimer</Link>,{' '}
+ <Link href="/privacy/" className="text-green-400 hover:text-white underline">Privacy Policy</Link> and{' '}
+ <Link href="/terms/" className="text-green-400 hover:text-white underline">Terms of Use</Link>.
+ </p>
+ </div>
+
  <div className="flex flex-wrap items-center justify-between gap-4">
- <p className="text-green-300 text-xs">
+ <div>
+ <p className="text-green-300 text-xs mb-1">
  © {new Date().getFullYear()} EquineInsurance.co.nz — All rights reserved.
  </p>
+ <p className="text-green-400 text-xs">
+ A service by{' '}
+ <a href="https://www.cover4you.co.nz" target="_blank" rel="noopener noreferrer" className="text-green-300 hover:text-white underline transition-colors">
+ Cover4You
+ </a>
+ </p>
+ </div>
  <div className="flex flex-wrap gap-4 text-xs">
  <Link href="/privacy/" className="text-green-300 hover:text-white transition-colors">Privacy Policy</Link>
  <Link href="/terms/" className="text-green-300 hover:text-white transition-colors">Terms of Use</Link>
