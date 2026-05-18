@@ -1,9 +1,9 @@
 'use client'
 
-import { useState, FormEvent } from 'react'
+import { useRef, useState, FormEvent } from 'react'
 import { useRouter } from 'next/navigation'
-import Script from 'next/script'
 import { siteConfig } from '@/data/site-config'
+import TurnstileWidget, { type TurnstileHandle } from './TurnstileWidget';
 
 const REDIRECT_URL = '/thank-you/'
 const TURNSTILE_SITEKEY = '0x4AAAAAADMnsakZUoyx534R'
@@ -63,14 +63,15 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
     setError('')
 
     const fd = new FormData(e.currentTarget)
-    const cfToken = fd.get('cf-turnstile-response')
-    if (!cfToken) {
-      setError('Please complete the security check and try again.')
-      return
-    }
-
     setLoading(true)
     try {
+      const cfToken = await turnstileRef.current?.execute();
+      if (!cfToken) {
+        setLoading(false);
+        setError('Security check could not complete. Please try again.');
+        return;
+      }
+
       const res = await fetch('/api/submit-form/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -187,10 +188,7 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
           />
         </div>
 
-        <Script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer strategy="afterInteractive" />
-        <div className="flex justify-center">
-          <div className="cf-turnstile" data-sitekey={TURNSTILE_SITEKEY} data-size="invisible" />
-        </div>
+        <TurnstileWidget ref={turnstileRef} />
 
         {error && (
           <p className="text-red-400 text-sm bg-red-900/20 border border-red-500/30 rounded-lg px-3 py-2">{error}</p>
