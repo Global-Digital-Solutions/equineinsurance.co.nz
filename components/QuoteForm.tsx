@@ -6,8 +6,6 @@ import { siteConfig } from '@/data/site-config'
 import TurnstileWidget, { type TurnstileHandle } from './TurnstileWidget';
 
 const REDIRECT_URL = '/thank-you/'
-const TURNSTILE_SITEKEY = '0x4AAAAAADMnsakZUoyx534R'
-
 const horseTypeOptions = [
   'Sport Horse / Competition Horse',
   'Thoroughbred / Racehorse',
