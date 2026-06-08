@@ -31,7 +31,7 @@ export default function HomePage() {
  <section
  className="relative py-16 lg:py-24"
  style={{
- backgroundImage: 'url(/images/equine-hero-8.png)',
+ backgroundImage: 'url(/images/equine-hero-8.jpg)',
  backgroundSize: 'cover',
  backgroundPosition: 'center',
  }}

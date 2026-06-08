@@ -72,7 +72,7 @@ export default function ContactPage() {
       <section
         className="relative min-h-screen flex flex-col justify-center"
         style={{
-          backgroundImage: 'url(/images/equine-hero-8.png)',
+          backgroundImage: 'url(/images/equine-hero-8.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center 30%',
         }}

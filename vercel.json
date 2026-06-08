@@ -1,4 +1,12 @@
 {
   "buildCommand": "npm run build",
-  "installCommand": "npm install"
+  "installCommand": "npm install",
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "equineinsurance.co.nz" }],
+      "destination": "https://www.equineinsurance.co.nz/$1",
+      "permanent": true
+    }
+  ]
 }

@@ -106,7 +106,7 @@ export default function ComparePage() {
       <div
         className="relative min-h-[70vh] flex flex-col justify-center"
         style={{
-          backgroundImage: 'url(/images/equine-hero-3.png)',
+          backgroundImage: 'url(/images/equine-hero-3.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center 25%',
         }}
