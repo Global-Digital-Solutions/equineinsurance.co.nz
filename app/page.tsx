@@ -181,7 +181,7 @@ export default function HomePage() {
  </div>
  <div className="text-center mt-10">
  <Link href="/contact/" className="inline-block bg-green-600 hover:bg-green-500 text-white font-bold px-8 py-3 rounded-xl transition-colors">
- Start Now — It&apos;s Free
+ Get a Quote →
  </Link>
  </div>
  </div>

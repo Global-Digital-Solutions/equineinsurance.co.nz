@@ -20,7 +20,7 @@ export const landingPages: LandingPage[] = [
  metaTitle: 'Equine Insurance Auckland | Horse Insurance Quotes | EquineInsurance.co.nz',
  metaDesc: 'Equine insurance in Auckland — compare horse insurance quotes from specialist our brokers. Mortality, vet fees, liability and transit cover for Auckland horse owners.',
  h1: 'Equine Insurance Auckland',
- intro: 'Auckland horse owners can access specialist equine insurance through our free broker referral service. From Kumeu to Clevedon, Helensville to Pukekohe, we connect Auckland equestrians with licensed insurance brokers.',
+ intro: 'Auckland horse owners can access specialist equine insurance through our broker referral service. From Kumeu to Clevedon, Helensville to Pukekohe, we connect Auckland equestrians with licensed insurance brokers.',
  sections: [
  {
  heading: 'Equine Insurance for Auckland Horse Owners',
@@ -32,7 +32,7 @@ export const landingPages: LandingPage[] = [
  },
  {
  heading: 'Getting Auckland Equine Insurance Quotes',
- body: 'EquineInsurance.co.nz connects Auckland horse owners with specialist equine insurance brokers. Tell us about your horse and we will match you with a broker who can provide comparative quotes from multiple insurers. Our service is free, and there is no obligation to proceed.',
+ body: 'EquineInsurance.co.nz connects Auckland horse owners with specialist equine insurance brokers. Tell us about your horse and we will match you with a broker who can provide comparative quotes from multiple insurers. There is no obligation to proceed.',
  },
  ],
  },
@@ -42,7 +42,7 @@ export const landingPages: LandingPage[] = [
  metaTitle: 'Equine Insurance Wellington | Horse Insurance NZ | EquineInsurance.co.nz',
  metaDesc: 'Horse insurance in Wellington — specialist equine insurance quotes for Wellington horse owners. Compare mortality, vet fees, and liability cover from our brokers.',
  h1: 'Equine Insurance Wellington',
- intro: 'Wellington horse owners can access specialist equine insurance through our free broker referral service. We connect Wairarapa, Kapiti Coast, and greater Wellington equestrians with licensed NZ insurance professionals.',
+ intro: 'Wellington horse owners can access specialist equine insurance through our broker referral service. We connect Wairarapa, Kapiti Coast, and greater Wellington equestrians with licensed NZ insurance professionals.',
  sections: [
  {
  heading: 'Horse Insurance for the Wellington Region',
@@ -54,7 +54,7 @@ export const landingPages: LandingPage[] = [
  },
  {
  heading: 'Get Wellington Horse Insurance Quotes',
- body: 'Submit your enquiry through EquineInsurance.co.nz and we will connect you with a specialist equine insurance broker who can provide quotes appropriate for your Wellington-based horses. The service is free and no-obligation.',
+ body: 'Submit your enquiry through EquineInsurance.co.nz and we will connect you with a specialist equine insurance broker who can provide quotes appropriate for your Wellington-based horses. The service is no-obligation.',
  },
  ],
  },
@@ -64,7 +64,7 @@ export const landingPages: LandingPage[] = [
  metaTitle: 'Equine Insurance Christchurch | Horse Insurance South Island | EquineInsurance.co.nz',
  metaDesc: 'Equine insurance Christchurch — compare specialist horse insurance from our brokers. Mortality, vet fees, transit and liability for Canterbury horse owners.',
  h1: 'Equine Insurance Christchurch',
- intro: 'Christchurch and Canterbury horse owners have access to specialist equine insurance through our free broker referral service. From the Canterbury Plains to the Port Hills and beyond, we connect South Island equestrians with licensed insurance brokers.',
+ intro: 'Christchurch and Canterbury horse owners have access to specialist equine insurance through our broker referral service. From the Canterbury Plains to the Port Hills and beyond, we connect South Island equestrians with licensed insurance brokers.',
  sections: [
  {
  heading: 'Canterbury Equestrian Country',
@@ -76,7 +76,7 @@ export const landingPages: LandingPage[] = [
  },
  {
  heading: 'Christchurch Horse Insurance Quotes',
- body: 'EquineInsurance.co.nz connects Canterbury horse owners with specialist equine insurance brokers. Submit a free enquiry and receive comparative quotes tailored to your situation.',
+ body: 'EquineInsurance.co.nz connects Canterbury horse owners with specialist equine insurance brokers. Submit an enquiry and receive comparative quotes tailored to your situation.',
  },
  ],
  },
@@ -86,7 +86,7 @@ export const landingPages: LandingPage[] = [
  metaTitle: 'Horse Insurance North Island NZ | Equine Insurance Quotes | EquineInsurance.co.nz',
  metaDesc: 'Horse insurance for North Island horse owners. Compare specialist equine insurance quotes for Auckland, Waikato, Bay of Plenty, Manawatu, and Wellington.',
  h1: 'Horse Insurance North Island',
- intro: 'North Island horse owners from Northland to Wellington can access specialist equine insurance through our free broker referral service. We connect horse owners across the North Island with licensed NZ insurance professionals.',
+ intro: 'North Island horse owners from Northland to Wellington can access specialist equine insurance through our broker referral service. We connect horse owners across the North Island with licensed NZ insurance professionals.',
  sections: [
  {
  heading: 'Equine Insurance Across the North Island',
@@ -98,7 +98,7 @@ export const landingPages: LandingPage[] = [
  },
  {
  heading: 'Get North Island Horse Insurance Quotes',
- body: 'Submit your enquiry through EquineInsurance.co.nz and we will connect you with a specialist equine insurance broker, wherever you are in the North Island. The service is free and there is no obligation.',
+ body: 'Submit your enquiry through EquineInsurance.co.nz and we will connect you with a specialist equine insurance broker, wherever you are in the North Island. There is no obligation.',
  },
  ],
  },
@@ -106,9 +106,9 @@ export const landingPages: LandingPage[] = [
  slug: 'horse-insurance-south-island',
  title: 'Horse Insurance South Island',
  metaTitle: 'Horse Insurance South Island NZ | Equine Insurance | EquineInsurance.co.nz',
- metaDesc: 'Horse insurance for South Island — specialist equine insurance for Canterbury, Otago, Southland, Nelson, and Marlborough horse owners. Free quotes from our brokers.',
+ metaDesc: 'Horse insurance for South Island — specialist equine insurance for Canterbury, Otago, Southland, Nelson, and Marlborough horse owners. Get a quote from specialist brokers.',
  h1: 'Horse Insurance South Island',
- intro: 'South Island horse owners from Marlborough to Southland can access specialist equine insurance through our free broker referral service. We work with licensed our brokers who cover all South Island regions.',
+ intro: 'South Island horse owners from Marlborough to Southland can access specialist equine insurance through our broker referral service. We work with licensed our brokers who cover all South Island regions.',
  sections: [
  {
  heading: 'Horse Ownership on the South Island',
@@ -120,7 +120,7 @@ export const landingPages: LandingPage[] = [
  },
  {
  heading: 'Get South Island Horse Insurance Quotes',
- body: 'EquineInsurance.co.nz connects South Island horse owners with specialist equine insurance brokers. Submit a free enquiry and receive no-obligation quotes from licensed NZ insurance professionals.',
+ body: 'EquineInsurance.co.nz connects South Island horse owners with specialist equine insurance brokers. Submit an enquiry and receive no-obligation quotes from licensed NZ insurance professionals.',
  },
  ],
  },
@@ -186,7 +186,7 @@ export const landingPages: LandingPage[] = [
  },
  {
  heading: 'How Our Comparison Service Works',
- body: 'EquineInsurance.co.nz connects horse owners with specialist equine insurance brokers who have access to multiple insurers. Rather than comparing products yourself through multiple insurer websites, a specialist broker presents genuine comparative options tailored to your horse\'s profile. Submit your enquiry today for a free, no-obligation comparison.',
+ body: 'EquineInsurance.co.nz connects horse owners with specialist equine insurance brokers who have access to multiple insurers. Rather than comparing products yourself through multiple insurer websites, a specialist broker presents genuine comparative options tailored to your horse\'s profile. Submit your enquiry today for a no-obligation comparison.',
  },
  ],
  },
@@ -238,7 +238,7 @@ export const landingPages: LandingPage[] = [
  slug: 'colic-insurance-nz',
  title: 'Colic Insurance',
  metaTitle: 'Colic Insurance NZ | Horse Colic Surgery Cover | EquineInsurance.co.nz',
- metaDesc: 'Colic is the leading killer of horses. Find horse insurance that covers colic surgery costs — from $10,000 to $25,000+. Get free quotes from specialist our brokers.',
+ metaDesc: 'Colic is the leading killer of horses. Find horse insurance that covers colic surgery costs — from $10,000 to $25,000+. Get a quote from specialist equine insurance brokers.',
  h1: 'Colic Insurance — Cover When You Need It Most',
  intro: 'Colic is the most common cause of death in horses and the most frequent reason for emergency veterinary treatment. Horse insurance with comprehensive colic cover gives you the financial ability to give your horse the best chance of survival.',
  sections: [
@@ -252,7 +252,7 @@ export const landingPages: LandingPage[] = [
  },
  {
  heading: 'Get Horse Insurance with Colic Cover',
- body: 'EquineInsurance.co.nz connects horse owners with specialist equine insurance brokers who can explain exactly how different policies handle colic. Get free, no-obligation quotes and make an informed decision about the right level of cover for your horse.',
+ body: 'EquineInsurance.co.nz connects horse owners with specialist equine insurance brokers who can explain exactly how different policies handle colic. Get no-obligation quotes and make an informed decision about the right level of cover for your horse.',
  },
  ],
  },
@@ -274,7 +274,7 @@ export const landingPages: LandingPage[] = [
  },
  {
  heading: 'Getting Combined Float and Transit Cover',
- body: 'EquineInsurance.co.nz connects horse owners with specialist brokers who can arrange comprehensive travel protection — covering both your float and your horse. Submit your enquiry for a free, no-obligation quote.',
+ body: 'EquineInsurance.co.nz connects horse owners with specialist brokers who can arrange comprehensive travel protection — covering both your float and your horse. Submit your enquiry for a no-obligation quote.',
  },
  ],
  },
@@ -296,7 +296,7 @@ export const landingPages: LandingPage[] = [
  },
  {
  heading: 'Get Pony Club Horse Insurance Quotes',
- body: 'EquineInsurance.co.nz can connect your family with a specialist equine insurance broker who understands pony club horse risks and can arrange appropriate supplementary cover at a reasonable cost. Submit a free enquiry today.',
+ body: 'EquineInsurance.co.nz can connect your family with a specialist equine insurance broker who understands pony club horse risks and can arrange appropriate supplementary cover at a reasonable cost. Submit an enquiry today.',
  },
  ],
  },

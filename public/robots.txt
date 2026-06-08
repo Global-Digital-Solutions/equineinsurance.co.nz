@@ -72,4 +72,4 @@ Disallow: /thank-you/
 Disallow: /_next/
 Disallow: /404
 
-Sitemap: https://equineinsurance.co.nz/sitemap.xml
+Sitemap: https://www.equineinsurance.co.nz/sitemap.xml

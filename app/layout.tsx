@@ -21,11 +21,20 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     title: 'Horse Insurance NZ | Compare & Save | EquineInsurance.co.nz',
     description: 'Compare NZ horse insurance. Get a quote from licensed equine insurance brokers.',
+    images: [
+      {
+        url: `${siteConfig.url}/og-image.png`,
+        width: 1200,
+        height: 630,
+        alt: 'EquineInsurance.co.nz — Horse Insurance NZ',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Horse Insurance NZ | EquineInsurance.co.nz',
     description: 'Compare NZ horse insurance. Get a quote from licensed brokers.',
+    images: [`${siteConfig.url}/og-image.png`],
   },
   robots: {
     index: true,
