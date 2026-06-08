@@ -7,6 +7,11 @@
       "has": [{ "type": "host", "value": "equineinsurance.co.nz" }],
       "destination": "https://www.equineinsurance.co.nz/$1",
       "permanent": true
+    },
+    {
+      "source": "/blog/best-horse-insurance-nz-2025/",
+      "destination": "/blog/best-horse-insurance-nz-2026/",
+      "permanent": true
     }
   ]
 }

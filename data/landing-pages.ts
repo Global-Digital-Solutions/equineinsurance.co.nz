@@ -149,7 +149,7 @@ export const landingPages: LandingPage[] = [
  {
  slug: 'best-horse-insurance',
  title: 'Best Horse Insurance',
- metaTitle: 'Best Horse Insurance NZ 2025 | Top Equine Cover | EquineInsurance.co.nz',
+ metaTitle: 'Best Horse Insurance NZ 2026 | Top Equine Cover | EquineInsurance.co.nz',
  metaDesc: 'Find the best horse insurance. Compare top equine insurance policies for mortality, vet fees, liability and more from specialist our brokers.',
  h1: 'Best Horse Insurance — How to Find the Right Policy',
  intro: 'Finding the best horse insurance means matching the right policy to your horse\'s specific risks, value, and use. Our specialist brokers help you navigate the options and find genuine best-fit cover.',
@@ -193,7 +193,7 @@ export const landingPages: LandingPage[] = [
  {
  slug: 'horse-insurance-cost-nz',
  title: 'Horse Insurance Cost',
- metaTitle: 'Horse Insurance Cost NZ 2025 | Equine Premium Guide | EquineInsurance.co.nz',
+ metaTitle: 'Horse Insurance Cost NZ 2026 | Equine Premium Guide | EquineInsurance.co.nz',
  metaDesc: 'What does horse insurance cost? Understand equine insurance premium ranges for mortality, vet fees, and liability cover — and how to reduce your costs.',
  h1: 'Horse Insurance Cost — What Will You Pay?',
  intro: 'Understanding what horse insurance costs helps you budget accurately and avoid surprises. Premiums vary widely based on your horse\'s value, breed, age, and the level of cover you choose.',

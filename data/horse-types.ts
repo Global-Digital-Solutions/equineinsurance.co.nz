@@ -384,7 +384,7 @@ Before your next racing season, confirm: current market value of every horse has
       },
       {
         heading: 'Breeding values change quickly',
-        body: 'A stallion\'s commercial value fluctuates with his book size, race results of his progeny, and the overall thoroughbred market. A stallion worth $2M in 2022 might be worth $800,000 in 2025 if his progeny underperform — or $5M if a Group 1 winner emerges. Annual insurance valuations are essential to keep coverage aligned with the current market.',
+        body: 'A stallion\'s commercial value fluctuates with his book size, race results of his progeny, and the overall thoroughbred market. A stallion worth $2M in 2022 might be worth $800,000 in 2026 if his progeny underperform — or $5M if a Group 1 winner emerges. Annual insurance valuations are essential to keep coverage aligned with the current market.',
       },
     ],
     coverageBreakdown: [
