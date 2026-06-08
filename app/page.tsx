@@ -11,7 +11,7 @@ import { siteConfig } from '@/data/site-config'
 
 export const metadata: Metadata = {
  title: 'Horse Insurance NZ | Compare & Save | EquineInsurance.co.nz',
- description: 'Compare horse insurance. Mortality cover, vet fees, transit, liability and loss of use. Free quotes from licensed equine insurance brokers.',
+ description: 'Compare horse insurance. Mortality cover, vet fees, transit, liability and loss of use. Get a quote from licensed equine insurance brokers.',
  alternates: { canonical: siteConfig.url + '/' },
 }
 
@@ -47,11 +47,11 @@ export default function HomePage() {
  Horse Insurance — <span className="text-green-300">Compare & Save</span>
  </h1>
  <p className="text-green-100 text-xl leading-relaxed mb-8">
- Mortality cover, vet fees, transit, liability and loss of use. Get free quotes from licensed equine insurance brokers — no obligation.
+ Mortality cover, vet fees, transit, liability and loss of use. Get a quote from licensed equine insurance brokers — no obligation.
  </p>
  <div className="flex flex-wrap gap-4 mb-8">
  <div className="flex items-center gap-2 text-green-100 text-sm">
- <span className="text-green-300">✓</span> Free broker matching
+ <span className="text-green-300">✓</span> Expert broker matching
  </div>
  <div className="flex items-center gap-2 text-green-100 text-sm">
  <span className="text-green-300">✓</span> All horse types covered
@@ -166,7 +166,7 @@ export default function HomePage() {
  <div className="text-center mb-12">
  <span className="inline-block bg-green-600/30 border border-green-500/40 text-green-300 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-4">How It Works</span>
  <h2 className="text-3xl font-extrabold text-white mb-4">Get Your Horse Covered in 3 Simple Steps</h2>
- <p className="text-green-200 text-lg max-w-2xl mx-auto">Our free service connects you with the right equine insurance broker quickly — so you can focus on your horses, not the paperwork.</p>
+ <p className="text-green-200 text-lg max-w-2xl mx-auto">Our service connects you with the right equine insurance broker quickly — so you can focus on your horses, not the paperwork.</p>
  </div>
  <div className="grid md:grid-cols-3 gap-8">
  {steps.map((s) => (

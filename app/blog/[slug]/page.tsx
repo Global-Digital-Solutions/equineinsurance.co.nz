@@ -157,7 +157,7 @@ export default async function BlogPostPage({ params }: Props) {
 
               <div className="mt-10 bg-green-50 rounded-2xl p-8 border border-green-100">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Need Horse Insurance?</h3>
-                <p className="text-gray-600 mb-4">Connect with a licensed NZ equine insurance broker for free — no obligation, no cost.</p>
+                <p className="text-gray-600 mb-4">Connect with a licensed NZ equine insurance broker — no obligation.</p>
                 <Link href="/contact/" className="inline-block bg-brand hover:bg-brand-light text-white font-bold px-6 py-3 rounded-xl transition-colors">
                   Get Quote →
                 </Link>

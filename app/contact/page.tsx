@@ -5,7 +5,7 @@ import { siteConfig } from '@/data/site-config'
 
 export const metadata: Metadata = {
   title: 'Get a Horse Insurance Quote | Contact EquineInsurance.co.nz',
-  description: 'Get a free horse insurance quote from a specialist equine broker. Mortality cover, vet fees, transit, liability and loss of use. No obligation, 24hr response.',
+  description: 'Get a horse insurance quote from a specialist equine broker. Mortality cover, vet fees, transit, liability and loss of use. No obligation, 24hr response.',
   alternates: { canonical: `${siteConfig.url}/contact/` },
 }
 
@@ -43,13 +43,13 @@ const stats = [
   { value: '5+', label: 'Insurers compared' },
   { value: 'All breeds', label: 'Covered' },
   { value: '24hrs', label: 'Broker response' },
-  { value: '100%', label: 'Free service' },
+  { value: 'FMA', label: 'Licensed brokers' },
 ]
 
 const faqs = [
   {
-    q: 'Is this service really free?',
-    a: 'Yes. Our referral service costs you nothing. We receive a fee from the broker if you proceed with a policy — you pay only the policy premium, and the broker\'s commission is included in that, just as it would be buying direct.',
+    q: 'Will using this service cost me anything?',
+    a: 'No. Our referral service costs you nothing. We receive a fee from the broker if you proceed with a policy — you pay only the policy premium, and the broker\'s commission is included in that, just as it would be buying direct.',
   },
   {
     q: 'How quickly will a broker contact me?',
@@ -93,7 +93,7 @@ export default function ContactPage() {
             {/* Left — value proposition */}
             <div className="flex-1 lg:max-w-[520px]">
               <span className="inline-block bg-green-500/25 border border-green-400/40 text-green-300 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-6">
-                Free Broker Matching
+                Expert Broker Matching
               </span>
               <h1 className="text-4xl lg:text-[3.25rem] font-extrabold text-white leading-tight mb-5 drop-shadow-lg">
                 Get the Right{' '}
@@ -101,7 +101,7 @@ export default function ContactPage() {
                 {' '}— Fast
               </h1>
               <p className="text-white/90 text-lg lg:text-xl leading-relaxed mb-8 drop-shadow">
-                One short form connects you with a specialist equine insurance broker who compares the market on your behalf — no obligation, no cost to you.
+                One short form connects you with a specialist equine insurance broker who compares the market on your behalf — no obligation.
               </p>
 
               {/* Benefit ticks */}
@@ -155,7 +155,7 @@ export default function ContactPage() {
           <div className="flex flex-wrap justify-center items-center gap-x-8 gap-y-2">
             {[
               '✓ Licensed & FMA-Regulated Brokers',
-              '✓ 100% Free Service',
+              '✓ No Pressure, No Obligation',
               '✓ No Obligation',
               '✓ All Horse Types Covered',
               '✓ Locally Based',
@@ -173,7 +173,7 @@ export default function ContactPage() {
           <div className="text-center mb-14">
             <span className="inline-block bg-green-100 text-green-700 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-4">Why Horse Owners Choose Us</span>
             <h2 className="text-3xl font-extrabold text-gray-900 mb-4">The Smarter Way to Insure Your Horse</h2>
-            <p className="text-gray-500 text-lg max-w-2xl mx-auto">Going direct to an insurer means one quote. Going through us means a specialist equine broker comparing the whole market — on your behalf, at no cost to you.</p>
+            <p className="text-gray-500 text-lg max-w-2xl mx-auto">Going direct to an insurer means one quote. Going through us means a specialist equine broker comparing the whole market on your behalf — tailored advice, no obligation.</p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {benefits.map((b) => (

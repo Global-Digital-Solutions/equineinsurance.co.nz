@@ -20,9 +20,9 @@ const differences = [
  desc: 'Every broker in our network is licensed under the FMCA and specialises in equine insurance. You get genuine expertise, not a call centre script.',
  },
  {
- icon: '🆓',
- title: 'Truly Free Service',
- desc: 'There is no catch. We are paid a referral fee by brokers — you pay nothing extra and the competition between brokers keeps pricing competitive.',
+ icon: '🤝',
+ title: 'No Obligation',
+ desc: 'There is no catch. We are paid a referral fee by brokers — you pay only the policy premium, and the broker\'s commission is included in that, just as it would be buying direct.',
  },
  {
  icon: '⚡',

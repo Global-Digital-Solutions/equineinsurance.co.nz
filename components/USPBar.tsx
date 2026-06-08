@@ -1,6 +1,6 @@
 const usps = [
   { icon: '🏆', title: 'Licensed Brokers', desc: 'All brokers are NZ FMCA-regulated' },
-  { icon: '🆓', title: 'Free Quotes', desc: 'No cost, no obligation service' },
+  { icon: '🤝', title: 'No Obligation', desc: 'Compare options at your own pace' },
   { icon: '🇳🇿', title: 'NZ Based', desc: 'Local equine expertise' },
   { icon: '⚡', title: '24hr Response', desc: 'Quick turnaround on all enquiries' },
 ]

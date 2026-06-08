@@ -203,7 +203,7 @@ export default function FAQsPage() {
           <div className="bg-brand rounded-2xl p-8 text-center">
             <h2 className="text-2xl font-extrabold text-white mb-3">Still Have Questions?</h2>
             <p className="text-green-200 mb-6 max-w-lg mx-auto">
-              Our specialist equine insurance advisers can answer any question about cover, costs, and providers — and provide a genuine comparative quote at no cost.
+              Our specialist equine insurance advisers can answer any question about cover, costs, and providers — and provide a genuine comparative quote.
             </p>
             <Link
               href="/contact/"

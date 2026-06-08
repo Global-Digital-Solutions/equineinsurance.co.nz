@@ -162,7 +162,7 @@ export default async function HorseTypePage({ params }: Props) {
       <div className="bg-green-800 border-y border-green-700">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
           <div className="flex flex-wrap justify-center gap-6 text-green-200 text-sm font-medium">
-            {['✓ Free broker referral', '✓ Licensed NZ advisers', '✓ FAP-licence holders', '✓ Multiple provider quotes', '✓ No obligation'].map((item) => (
+            {['✓ Expert broker matching', '✓ Licensed NZ advisers', '✓ FAP-licence holders', '✓ Multiple provider quotes', '✓ No obligation'].map((item) => (
               <span key={item}>{item}</span>
             ))}
           </div>

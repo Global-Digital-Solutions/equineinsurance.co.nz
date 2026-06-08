@@ -89,7 +89,7 @@ export default async function LandingPage({ params }: Props) {
 
  <div className="mt-10 bg-green-50 rounded-2xl p-8 border border-green-100">
  <h2 className="text-2xl font-extrabold text-gray-900 mb-3">Ready to Get Covered?</h2>
- <p className="text-gray-600 mb-6">Use our free service to connect with a specialist equine insurance broker — no cost, no obligation.</p>
+ <p className="text-gray-600 mb-6">Connect with a specialist equine insurance broker — no obligation.</p>
  <Link href="/contact/" className="inline-block bg-brand hover:bg-brand-light text-white font-bold px-6 py-3 rounded-xl transition-colors">
  Get Quote →
  </Link>

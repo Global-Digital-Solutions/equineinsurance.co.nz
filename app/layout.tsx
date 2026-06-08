@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     default: 'Horse Insurance NZ | Compare & Save | EquineInsurance.co.nz',
     template: '%s | EquineInsurance.co.nz',
   },
-  description: 'Compare NZ horse insurance. Mortality cover, vet fees, transit, liability and loss of use. Free quotes from licensed NZ equine insurance brokers.',
+  description: 'Compare NZ horse insurance. Mortality cover, vet fees, transit, liability and loss of use. Get a quote from licensed NZ equine insurance brokers.',
   keywords: ['horse insurance NZ', 'equine insurance NZ', 'horse insurance quote NZ', 'horse mortality insurance NZ', 'equine vet fee insurance'],
   authors: [{ name: 'EquineInsurance.co.nz' }],
   creator: 'EquineInsurance.co.nz',
@@ -20,12 +20,12 @@ export const metadata: Metadata = {
     url: siteConfig.url,
     siteName: siteConfig.name,
     title: 'Horse Insurance NZ | Compare & Save | EquineInsurance.co.nz',
-    description: 'Compare NZ horse insurance. Free quotes from licensed equine insurance brokers.',
+    description: 'Compare NZ horse insurance. Get a quote from licensed equine insurance brokers.',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Horse Insurance NZ | EquineInsurance.co.nz',
-    description: 'Compare NZ horse insurance. Free quotes from licensed brokers.',
+    description: 'Compare NZ horse insurance. Get a quote from licensed brokers.',
   },
   robots: {
     index: true,

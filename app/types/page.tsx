@@ -5,7 +5,7 @@ import { siteConfig } from '@/data/site-config'
 
 export const metadata: Metadata = {
   title: 'Horse Insurance Cover Types NZ | EquineInsurance.co.nz',
-  description: 'All equine insurance coverage types in New Zealand — mortality, major medical, transit, liability, and loss of use. Compare options and get free quotes.',
+  description: 'All equine insurance coverage types in New Zealand — mortality, major medical, transit, liability, and loss of use. Compare options and get a quote.',
   alternates: { canonical: `${siteConfig.url}/types/` },
 }
 
