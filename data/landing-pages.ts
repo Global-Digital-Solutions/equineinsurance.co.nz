@@ -18,7 +18,7 @@ export const landingPages: LandingPage[] = [
  slug: 'equine-insurance-auckland',
  title: 'Equine Insurance Auckland',
  metaTitle: 'Equine Insurance Auckland | Horse Insurance Quotes | EquineInsurance.co.nz',
- metaDesc: 'Equine insurance in Auckland — compare horse insurance quotes from specialist our brokers. Mortality, vet fees, liability and transit cover for Auckland horse owners.',
+ metaDesc: 'Equine insurance in Auckland. Compare horse insurance quotes from specialist brokers — mortality, vet fees, liability and transit cover.',
  h1: 'Equine Insurance Auckland',
  intro: 'Auckland horse owners can access specialist equine insurance through our broker referral service. From Kumeu to Clevedon, Helensville to Pukekohe, we connect Auckland equestrians with licensed insurance brokers.',
  sections: [
@@ -40,7 +40,7 @@ export const landingPages: LandingPage[] = [
  slug: 'equine-insurance-wellington',
  title: 'Equine Insurance Wellington',
  metaTitle: 'Equine Insurance Wellington | Horse Insurance NZ | EquineInsurance.co.nz',
- metaDesc: 'Horse insurance in Wellington — specialist equine insurance quotes for Wellington horse owners. Compare mortality, vet fees, and liability cover from our brokers.',
+ metaDesc: 'Horse insurance in Wellington — specialist equine insurance for Wellington horse owners. Compare mortality, vet fees, and liability cover from specialist brokers.',
  h1: 'Equine Insurance Wellington',
  intro: 'Wellington horse owners can access specialist equine insurance through our broker referral service. We connect Wairarapa, Kapiti Coast, and greater Wellington equestrians with licensed NZ insurance professionals.',
  sections: [
@@ -106,7 +106,7 @@ export const landingPages: LandingPage[] = [
  slug: 'horse-insurance-south-island',
  title: 'Horse Insurance South Island',
  metaTitle: 'Horse Insurance South Island NZ | Equine Insurance | EquineInsurance.co.nz',
- metaDesc: 'Horse insurance for South Island — specialist equine insurance for Canterbury, Otago, Southland, Nelson, and Marlborough horse owners. Get a quote from specialist brokers.',
+ metaDesc: 'Horse insurance for South Island — specialist equine insurance for Canterbury, Otago, Southland, Nelson, and Marlborough horse owners.',
  h1: 'Horse Insurance South Island',
  intro: 'South Island horse owners from Marlborough to Southland can access specialist equine insurance through our broker referral service. We work with licensed our brokers who cover all South Island regions.',
  sections: [
@@ -128,7 +128,7 @@ export const landingPages: LandingPage[] = [
  slug: 'cheap-horse-insurance',
  title: 'Cheap Horse Insurance',
  metaTitle: 'Cheap Horse Insurance NZ | Affordable Equine Cover | EquineInsurance.co.nz',
- metaDesc: 'Looking for cheap horse insurance? Compare affordable equine insurance options from specialist our brokers. Find value without sacrificing essential cover.',
+ metaDesc: 'Looking for cheap horse insurance? Compare affordable equine insurance options from specialist brokers. Find value without sacrificing essential cover.',
  h1: 'Cheap Horse Insurance — Get the Best Value Cover',
  intro: 'Finding affordable horse insurance does not mean sacrificing essential cover. Our specialist brokers help you find the right balance of price and protection for your horse and budget.',
  sections: [
@@ -150,7 +150,7 @@ export const landingPages: LandingPage[] = [
  slug: 'best-horse-insurance',
  title: 'Best Horse Insurance',
  metaTitle: 'Best Horse Insurance NZ 2026 | Top Equine Cover | EquineInsurance.co.nz',
- metaDesc: 'Find the best horse insurance. Compare top equine insurance policies for mortality, vet fees, liability and more from specialist our brokers.',
+ metaDesc: 'Find the best horse insurance. Compare top equine insurance policies for mortality, vet fees, liability and more from specialist brokers.',
  h1: 'Best Horse Insurance — How to Find the Right Policy',
  intro: 'Finding the best horse insurance means matching the right policy to your horse\'s specific risks, value, and use. Our specialist brokers help you navigate the options and find genuine best-fit cover.',
  sections: [
@@ -172,7 +172,7 @@ export const landingPages: LandingPage[] = [
  slug: 'compare-horse-insurance',
  title: 'Compare Horse Insurance',
  metaTitle: 'Compare Horse Insurance NZ | Equine Insurance Comparison | EquineInsurance.co.nz',
- metaDesc: 'Compare horse insurance policies. Find the right equine cover by comparing mortality, vet fees, liability and transit options from specialist our brokers.',
+ metaDesc: 'Compare horse insurance policies. Find the right equine cover by comparing mortality, vet fees, liability and transit options from specialist brokers.',
  h1: 'Compare Horse Insurance — Find the Best Policy for Your Horse',
  intro: 'Comparing horse insurance can be complex — policies vary significantly in what they cover, how claims are paid, and what is excluded. Our broker network helps you compare genuine options side by side.',
  sections: [
@@ -238,7 +238,7 @@ export const landingPages: LandingPage[] = [
  slug: 'colic-insurance-nz',
  title: 'Colic Insurance',
  metaTitle: 'Colic Insurance NZ | Horse Colic Surgery Cover | EquineInsurance.co.nz',
- metaDesc: 'Colic is the leading killer of horses. Find horse insurance that covers colic surgery costs — from $10,000 to $25,000+. Get a quote from specialist equine insurance brokers.',
+ metaDesc: 'Colic is the leading killer of horses. Find horse insurance covering colic surgery costs — from $10,000 to $25,000+. Get a quote from specialist brokers.',
  h1: 'Colic Insurance — Cover When You Need It Most',
  intro: 'Colic is the most common cause of death in horses and the most frequent reason for emergency veterinary treatment. Horse insurance with comprehensive colic cover gives you the financial ability to give your horse the best chance of survival.',
  sections: [
@@ -260,7 +260,7 @@ export const landingPages: LandingPage[] = [
  slug: 'horse-float-insurance-nz',
  title: 'Horse Float Insurance',
  metaTitle: 'Horse Float Insurance NZ | Float & Transit Cover | EquineInsurance.co.nz',
- metaDesc: 'Horse float insurance — protect your float and your horse during transit. Compare float insurance and equine transit cover from specialist our brokers.',
+ metaDesc: 'Horse float insurance — protect your float and your horse during transit. Compare float insurance and equine transit cover from specialist brokers.',
  h1: 'Horse Float Insurance — Cover Your Float and Your Horse',
  intro: 'Horse float insurance and equine transit insurance are two distinct but complementary products. Most horse owners who travel regularly need both — and our specialist brokers can arrange combined cover that protects both your float and your horse.',
  sections: [

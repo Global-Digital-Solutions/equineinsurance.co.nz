@@ -44,7 +44,7 @@ export const horseTypes: HorseType[] = [
     icon: '🏆',
     image: '/images/equine-hero-1.jpg',
     metaTitle: 'Sport Horse Insurance NZ | Showjumping, Dressage & Eventing | EquineInsurance.co.nz',
-    metaDescription: 'Specialist sport horse insurance for showjumping, dressage, eventing, polo and endurance horses. Compare cover options and get a free quote from licensed NZ equine insurance brokers.',
+    metaDescription: 'Specialist sport horse insurance for showjumping, dressage, eventing, and polo. Compare cover options and get a quote from licensed NZ equine insurance brokers.',
     description: 'Sport horses competing in showjumping, dressage, eventing, polo, and endurance represent substantial financial investments — both in purchase price and the years of training required to reach competition level. Their demanding schedules, travel commitments, and physical workloads create elevated insurance risks that standard policies may not adequately cover.',
     keyStats: [
       { label: 'Avg sport horse value', value: '$15k–$150k' },
@@ -193,7 +193,7 @@ Policies typically pay 50–60% of the mortality sum insured on proof of permane
     icon: '🏇',
     image: '/images/equine-hero-2.jpg',
     metaTitle: 'Racehorse Insurance NZ | Thoroughbred & Standardbred | EquineInsurance.co.nz',
-    metaDescription: 'Specialist racehorse and thoroughbred insurance in New Zealand. Mortality, vet fees, loss of use, and bloodstock cover. Get a free quote from licensed NZ equine insurance brokers.',
+    metaDescription: 'Specialist racehorse and thoroughbred insurance. Mortality, vet fees, loss of use, and bloodstock cover. Get a quote from licensed NZ equine insurance brokers.',
     description: 'Thoroughbred and standardbred racehorses present unique insurance challenges. Racing values fluctuate with track performance, injury risk is inherently elevated, and the industry requires specialist policies that standard equine insurers are not always equipped to provide. From a two-year-old in training to a proven stakes winner, every racehorse has a different risk profile and insurance requirement.',
     keyStats: [
       { label: 'Average NZ stakes winner value', value: '$150k–$2M+' },
@@ -344,7 +344,7 @@ Before your next racing season, confirm: current market value of every horse has
     icon: '🌿',
     image: '/images/equine-hero-3.jpg',
     metaTitle: 'Breeding Horse Insurance NZ | Stallion, Broodmare & Foal Cover | EquineInsurance.co.nz',
-    metaDescription: 'Specialist breeding stock insurance for stallions, broodmares, and foals. Stallion infertility, prospective foal, and mortality cover. Free quotes from licensed NZ equine insurance brokers.',
+    metaDescription: 'Breeding stock insurance for stallions, broodmares, and foals. Stallion infertility, prospective foal, and mortality cover. Get a quote from equine brokers.',
     description: 'Breeding stallions, broodmares, and valuable foals represent some of the highest-value and most complex insurance exposures in the equine world. The risks extend beyond the horse itself to include reproductive function, unborn foals, and the significant veterinary costs associated with breeding, foaling, and early foal care.',
     keyStats: [
       { label: 'Top NZ stallion stud fee', value: '$50,000+/service' },
@@ -503,7 +503,7 @@ For warmblood, sport horse, and non-thoroughbred breeding operations, both broke
     icon: '🌄',
     image: '/images/equine-hero-4.jpg',
     metaTitle: 'Leisure Horse Insurance NZ | Family Ponies, Hacking & Pony Club | EquineInsurance.co.nz',
-    metaDescription: 'Horse insurance for leisure horses, family ponies, trail riding, and pony club in New Zealand. Get a free quote from licensed NZ equine insurance advisers. From $150/year.',
+    metaDescription: 'Horse insurance for leisure horses, family ponies, trail riding, and pony club. Get a quote from licensed NZ equine insurance advisers. From $150/year.',
     description: 'New Zealand has one of the highest rates of horse ownership per capita in the world, and the majority of those horses are leisure horses — paddock companions, family ponies, trail riding horses, and pony club mounts. While these horses may not carry the financial value of elite competition horses, they are often irreplaceable to their owners, and the liability risks they create are identical to those of high-value horses.',
     keyStats: [
       { label: 'NZ horse owners (est)', value: '100,000+' },

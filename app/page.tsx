@@ -10,7 +10,7 @@ import { blogPosts } from '@/data/blog-posts'
 import { siteConfig } from '@/data/site-config'
 
 export const metadata: Metadata = {
- title: 'Horse Insurance NZ | Compare & Save | EquineInsurance.co.nz',
+ title: { absolute: 'Horse Insurance NZ | Compare & Save | EquineInsurance.co.nz' },
  description: 'Compare horse insurance. Mortality cover, vet fees, transit, liability and loss of use. Get a quote from licensed equine insurance brokers.',
  alternates: { canonical: siteConfig.url + '/' },
 }

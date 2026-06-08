@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { siteConfig } from '@/data/site-config'
 
 export const metadata: Metadata = {
-  title: 'Terms of Use | EquineInsurance.co.nz',
+  title: { absolute: 'Terms of Use | EquineInsurance.co.nz' },
   description: 'Terms of Use for EquineInsurance.co.nz — the terms governing your use of our equine insurance referral and information service.',
   alternates: { canonical: `${siteConfig.url}/terms/` },
 }

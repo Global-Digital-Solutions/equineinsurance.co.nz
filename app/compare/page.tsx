@@ -6,8 +6,8 @@ import { siteConfig } from '@/data/site-config'
 import QuoteForm from '@/components/QuoteForm'
 
 export const metadata: Metadata = {
-  title: 'Compare Horse Insurance Providers NZ 2026 | EquineInsurance.co.nz',
-  description: 'Compare NZ equine insurance providers — Pet-n-Sur, Petcover NZ, NZB Insurance, and Gallagher. See real stats, claims speeds, cover limits, and what each provider does best.',
+  title: { absolute: 'Compare Horse Insurance NZ | EquineInsurance.co.nz' },
+  description: 'Compare NZ equine insurance providers — Pet-n-Sur, Petcover NZ, NZB Insurance, and Gallagher. See claims speed, cover limits, and what each does best.',
   alternates: { canonical: `${siteConfig.url}/compare/` },
 }
 

@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { siteConfig } from '@/data/site-config'
 
 export const metadata: Metadata = {
-  title: 'Disclaimer | EquineInsurance.co.nz',
+  title: { absolute: 'Disclaimer | EquineInsurance.co.nz' },
   description: 'Disclaimer for EquineInsurance.co.nz — important information about our referral service, our relationship with brokers, and what we are and are not.',
   alternates: { canonical: `${siteConfig.url}/disclaimer/` },
 }

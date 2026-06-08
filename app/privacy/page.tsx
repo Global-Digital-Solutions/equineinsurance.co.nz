@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { siteConfig } from '@/data/site-config'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | EquineInsurance.co.nz',
+  title: { absolute: 'Privacy Policy | EquineInsurance.co.nz' },
   description: 'Privacy Policy for EquineInsurance.co.nz — how we collect, use, and protect your personal information under the Privacy Act 2020.',
   alternates: { canonical: `${siteConfig.url}/privacy/` },
 }

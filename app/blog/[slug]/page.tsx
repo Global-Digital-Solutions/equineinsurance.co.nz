@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = getBlogBySlug(slug)
   if (!post) return {}
   return {
-    title: post.title,
+    title: { absolute: `${post.title} | EquineInsurance.co.nz` },
     description: post.excerpt,
     alternates: { canonical: `${siteConfig.url}/blog/${slug}/` },
     openGraph: {

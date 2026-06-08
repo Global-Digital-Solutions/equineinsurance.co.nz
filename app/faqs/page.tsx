@@ -4,7 +4,7 @@ import { faqs, categoryConfig } from '@/data/faqs'
 import { siteConfig } from '@/data/site-config'
 
 export const metadata: Metadata = {
-  title: 'Horse Insurance FAQs | Equine Insurance Questions Answered | EquineInsurance.co.nz',
+  title: { absolute: 'Horse Insurance FAQs | EquineInsurance.co.nz' },
   description: 'Answers to common horse insurance questions — colic cover, premiums, pre-existing conditions, ACC, transit, loss of use, and more.',
   alternates: { canonical: `${siteConfig.url}/faqs/` },
 }

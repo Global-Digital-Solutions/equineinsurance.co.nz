@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { siteConfig } from '@/data/site-config'
 
 export const metadata: Metadata = {
- title: 'About EquineInsurance.co.nz | NZ Horse Insurance Referral Service',
+ title: { absolute: 'About EquineInsurance.co.nz | Horse Insurance NZ' },
  description: 'About EquineInsurance.co.nz — NZ\'s specialist equine insurance comparison and referral service. We connect horse owners with licensed insurance brokers.',
  alternates: { canonical: `${siteConfig.url}/about/` },
 }

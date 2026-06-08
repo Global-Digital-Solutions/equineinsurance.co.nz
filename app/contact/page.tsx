@@ -4,7 +4,7 @@ import QuoteForm from '@/components/QuoteForm'
 import { siteConfig } from '@/data/site-config'
 
 export const metadata: Metadata = {
-  title: 'Get a Horse Insurance Quote | Contact EquineInsurance.co.nz',
+  title: { absolute: 'Get a Horse Insurance Quote | Contact EquineInsurance.co.nz' },
   description: 'Get a horse insurance quote from a specialist equine broker. Mortality cover, vet fees, transit, liability and loss of use. No obligation, 24hr response.',
   alternates: { canonical: `${siteConfig.url}/contact/` },
 }

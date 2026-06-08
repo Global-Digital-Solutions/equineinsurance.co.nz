@@ -7,7 +7,7 @@ export default function Footer() {
  return (
  <footer className="bg-brand border-t border-brand-dark">
  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
- <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10">
+ <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-10">
  {/* Brand + CTA */}
  <div className="lg:col-span-1">
  <Link href="/" className="flex items-center gap-2 mb-4">
@@ -48,7 +48,7 @@ export default function Footer() {
  </li>
  ))}
  <li>
- <Link href="/coverage/" className="text-green-300 hover:text-white text-sm font-medium">
+ <Link href="/types/" className="text-green-300 hover:text-white text-sm font-medium">
  All Cover Types →
  </Link>
  </li>
@@ -78,6 +78,18 @@ export default function Footer() {
  </ul>
  </div>
 
+ {/* Locations */}
+ <div>
+  <h3 className="text-white font-bold text-sm uppercase tracking-widest mb-4">Locations</h3>
+  <ul className="space-y-2">
+  <li><Link href="/equine/equine-insurance-auckland/" className="text-green-200 hover:text-green-300 text-sm transition-colors">Auckland</Link></li>
+  <li><Link href="/equine/equine-insurance-wellington/" className="text-green-200 hover:text-green-300 text-sm transition-colors">Wellington</Link></li>
+  <li><Link href="/equine/equine-insurance-christchurch/" className="text-green-200 hover:text-green-300 text-sm transition-colors">Christchurch</Link></li>
+  <li><Link href="/equine/horse-insurance-north-island/" className="text-green-200 hover:text-green-300 text-sm transition-colors">North Island</Link></li>
+  <li><Link href="/equine/horse-insurance-south-island/" className="text-green-200 hover:text-green-300 text-sm transition-colors">South Island</Link></li>
+  </ul>
+ </div>
+
  {/* Blog / Resources */}
  <div>
  <h3 className="text-white font-bold text-sm uppercase tracking-widest mb-4">Resources</h3>
@@ -99,6 +111,11 @@ export default function Footer() {
  <li><Link href="/equine/cheap-horse-insurance/" className="text-green-200 hover:text-green-300 text-sm transition-colors">Cheap Horse Insurance</Link></li>
  <li><Link href="/equine/horse-insurance-cost-nz/" className="text-green-200 hover:text-green-300 text-sm transition-colors">Insurance Costs NZ</Link></li>
  <li><Link href="/equine/racehorse-insurance-nz/" className="text-green-200 hover:text-green-300 text-sm transition-colors">Racehorse Insurance</Link></li>
+ <li><Link href="/equine/best-horse-insurance/" className="text-green-200 hover:text-green-300 text-sm transition-colors">Best Horse Insurance</Link></li>
+ <li><Link href="/equine/compare-horse-insurance/" className="text-green-200 hover:text-green-300 text-sm transition-colors">Compare Horse Insurance</Link></li>
+ <li><Link href="/equine/colic-insurance-nz/" className="text-green-200 hover:text-green-300 text-sm transition-colors">Colic Insurance</Link></li>
+ <li><Link href="/equine/horse-float-insurance-nz/" className="text-green-200 hover:text-green-300 text-sm transition-colors">Horse Float Insurance</Link></li>
+ <li><Link href="/equine/pony-club-insurance-nz/" className="text-green-200 hover:text-green-300 text-sm transition-colors">Pony Club Insurance</Link></li>
  <li><Link href="/faqs/" className="text-green-200 hover:text-green-300 text-sm transition-colors">FAQs</Link></li>
  <li><Link href="/about/" className="text-green-200 hover:text-green-300 text-sm transition-colors">About Us</Link></li>
  <li><Link href="/contact/" className="text-green-200 hover:text-green-300 text-sm transition-colors">Contact</Link></li>

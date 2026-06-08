@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
  const coverage = getCoverageBySlug(slug)
  if (!coverage) return {}
  return {
- title: `${coverage.name} | NZ Horse Insurance | EquineInsurance.co.nz`,
+ title: { absolute: `${coverage.name} | NZ Horse Insurance | EquineInsurance.co.nz` },
  description: `${coverage.name} for horses. ${coverage.description.split('.')[0]}. Get a quote from licensed equine insurance brokers.`,
  alternates: { canonical: `${siteConfig.url}/types/${slug}/` },
  }

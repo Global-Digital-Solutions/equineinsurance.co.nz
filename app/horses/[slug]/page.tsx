@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const horse = getHorseTypeBySlug(slug)
   if (!horse) return {}
   return {
-    title: horse.metaTitle,
+    title: { absolute: horse.metaTitle },
     description: horse.metaDescription,
     alternates: { canonical: `${siteConfig.url}/horses/${slug}/` },
     openGraph: {
