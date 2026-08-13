@@ -59,10 +59,7 @@ export default function OfficialProviders() {
                 href={p.url}
                 target="_blank"
                 rel="noopener noreferrer external"
-                className="mt-auto inline-block text-center text-sm font-semibold text-white px-4 py-2 rounded-xl transition-colors"
-                style={{ backgroundColor: '#2c4a2e' }}
-                onMouseOver={(e) => { (e.currentTarget as HTMLAnchorElement).style.backgroundColor = '#4a7c59'; }}
-                onMouseOut={(e) => { (e.currentTarget as HTMLAnchorElement).style.backgroundColor = '#2c4a2e'; }}
+                className="mt-auto inline-block text-center text-sm font-semibold text-white px-4 py-2 rounded-xl transition-colors bg-[#2c4a2e] hover:bg-[#4a7c59]"
               >
                 Visit website ↗
               </a>
