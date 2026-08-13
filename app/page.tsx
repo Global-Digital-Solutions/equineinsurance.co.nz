@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 }
 
 const steps = [
- { num: '1', title: 'Find a Specialist Broker', desc: 'Search IBANZ to find a licensed NZ broker who specialises in equine and rural insurance. They can access multiple insurers on your behalf.' },
+ { num: '1', title: 'Find a Specialist Broker', desc: 'Search IBANZ to find a licensed NZ broker who specialises in equine and rural insurance. They can access multiple insurers and arrange the right cover for you.' },
  { num: '2', title: 'Understand Your Cover Options', desc: 'Horse insurance can cover mortality, vet fees, transit, liability and loss of use. A specialist broker or insurer can explain which cover suits your situation.' },
  { num: '3', title: 'Place Your Cover', desc: 'Once you have chosen the right policy, your broker or insurer arranges cover and handles the documentation.' },
 ]

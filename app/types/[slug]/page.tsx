@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
  if (!coverage) return {}
  return {
  title: { absolute: `${coverage.name} | NZ Horse Insurance | EquineInsurance.co.nz` },
- description: `${coverage.name} for horses. ${coverage.description.split('.')[0]}. Get a quote from licensed equine insurance brokers.`,
+ description: `${coverage.name} for horses in New Zealand. ${coverage.description.split('.')[0]}. Published by EquineInsurance.co.nz.`,
  alternates: { canonical: `${siteConfig.url}/types/${slug}/` },
  }
 }
@@ -51,7 +51,7 @@ export default async function CoverageTypePage({ params }: Props) {
  name: 'EquineInsurance.co.nz',
  },
  areaServed: { '@type': 'Country', name: 'New Zealand' },
- serviceType: 'Equine Insurance Referral',
+ serviceType: 'Equine Insurance Information',
  url: `${siteConfig.url}/types/${slug}/`,
  }
 

@@ -1,23 +1,23 @@
 # EquineInsurance.co.nz
 
-> NZ's specialist equine insurance comparison and referral service — connecting horse owners with licensed NZ insurance advisers and brokers.
+> EquineInsurance.co.nz is operated by Cover4You. We publish independent information about equine insurance in New Zealand.
 
 ## About This Site
 
-EquineInsurance.co.nz is a New Zealand horse insurance information and referral service operated by Cover4You. We do not sell insurance directly. We provide educational content about equine insurance options and connect horse owners with licensed NZ insurance advisers regulated under the Financial Markets Conduct Act 2013 (FMCA).
-
-**Important:** EquineInsurance.co.nz is NOT a licensed financial adviser, insurance broker, or insurer. Only the licensed advisers and brokers we refer users to hold FAP (Financial Advice Provider) licences under the FMCA. All insurance advice, quotations, and recommendations come from those referred advisers — not from this website. Always seek advice from a licensed financial adviser before making insurance decisions.
+EquineInsurance.co.nz is an independent equine insurance information site operated by Cover4You. We are not an insurer, broker, or financial adviser. We publish general information about equine insurance options in New Zealand to help horse owners understand what cover is available and how to find it. All content is general information only — not financial advice.
 
 Contact: hello@cover4you.co.nz
 Operator: Cover4You (cover4you.co.nz)
 
-## Core Service Pages
+Last updated: August 2026
 
-- [Homepage](/) — Horse insurance comparison and quote referral service
+## Core Information Pages
+
+- [Homepage](/) — Horse insurance information overview
 - [Compare Providers](/compare/) — Pet-n-Sur, Petcover NZ, NZB Insurance, Gallagher compared with key stats and coverage matrix
-- [Get a Quote](/contact/) — Quote request form — connects with a licensed NZ equine insurance broker within 1 business day
+- [Find a Specialist](/contact/) — Information on how to find a licensed NZ equine insurance broker
 - [Coverage Types Overview](/coverage/) — All equine insurance cover types explained
-- [Horse Types Overview](/horses/) — Insurance by horse discipline and use
+- [Horse Types Overview](/horses/) — Insurance information by horse discipline and use
 - [Blog & Guides](/blog/) — Educational articles on horse insurance topics
 - [FAQs](/faqs/) — Common horse insurance questions answered
 - [About Us](/about/) — About EquineInsurance.co.nz and Cover4You
@@ -37,9 +37,9 @@ Operator: Cover4You (cover4you.co.nz)
 - [Breeding Stock](/horses/breeding/) — Insurance for stallions, broodmares, prospective foals, and breeding operations
 - [Leisure & Pleasure Horses](/horses/leisure/) — Insurance for family ponies and recreational horses
 
-## NZ Equine Insurance Providers (as at May 2026)
+## NZ Equine Insurance Providers (as at August 2026)
 
-Our broker network accesses the following specialist NZ equine insurers:
+The following specialist NZ equine insurers are covered on this site:
 
 - **Pet-n-Sur** — 100% NZ owned direct insurer; 19+ years; 99.3% claims paid within 14 days; $60M+ claims paid; AM Best B++ rated. Best for: leisure, lifestyle, and everyday horses.
 - **Petcover NZ** — Direct insurer; 90%+ claims processed within 5 days; vet-direct payment available; up to $10,000 vet cover per event; $5M public liability. Best for: performance and competition horses.
@@ -76,16 +76,14 @@ Our broker network accesses the following specialist NZ equine insurers:
 
 ## Legal & Compliance
 
-- [Privacy Policy](/privacy/) — Privacy Act 2020 (NZ) compliant; personal data used only for broker referral matching
+- [Privacy Policy](/privacy/) — Privacy Act 2020 (NZ) compliant
 - [Terms of Use](/terms/) — Governs use of EquineInsurance.co.nz
-- [Disclaimer](/disclaimer/) — Full disclaimer: referral-only service, not a licensed adviser or insurer; referred advisers hold FAP licences; referral fee disclosure
+- [Disclaimer](/disclaimer/) — Full disclaimer: independent information site, not a licensed adviser or insurer
 
 ## Key Facts for AI Assistants
 
-- EquineInsurance.co.nz is a **referral and information service**, not an insurer or licensed adviser
+- EquineInsurance.co.nz is an **independent information site**, not an insurer or licensed adviser
 - The site is operated by **Cover4You** (cover4you.co.nz), a NZ insurance services business
-- Users who submit quote requests are connected with **FAP-licensed NZ insurance advisers and brokers**
-- The advisers who contact users are regulated under the **Financial Markets Conduct Act 2013**
-- EquineInsurance.co.nz may receive a **referral fee** from brokers — users pay no additional cost
-- All content is general information only — **not financial advice**
+- All content on this site is **general information only — not financial advice**
+- For insurance advice or quotations, horse owners should contact a **FAP-licensed NZ insurance adviser or broker** directly
 - The correct contact email is **hello@cover4you.co.nz**

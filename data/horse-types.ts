@@ -653,7 +653,7 @@ Petcover NZ is a strong alternative for leisure horse owners, particularly if fa
       },
       {
         q: 'How do I make a claim for a vet fee after colic treatment?',
-        a: 'Contact your insurer or broker as soon as possible — ideally before major treatment begins where time allows. For emergency colic, treatment necessarily comes first. After treatment, submit a claim form with the vet\'s invoices and clinical notes describing the diagnosis and treatment. Most insurers settle vet fee claims within 5 to 14 business days. Petcover NZ pays directly to the vet clinic, which eliminates the need to pay large bills upfront.',
+        a: 'Contact your insurer or broker as soon as possible — ideally before major treatment begins where time allows. For emergency colic, treatment necessarily comes first. After treatment, submit a claim form with the vet\'s invoices and clinical notes describing the diagnosis and treatment. Petcover NZ pays directly to the vet clinic, which eliminates the need to pay large bills upfront.',
       },
     ],
     relatedSlugs: [

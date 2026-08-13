@@ -4,7 +4,7 @@ import { siteConfig } from '@/data/site-config'
 
 export const metadata: Metadata = {
   title: { absolute: 'Disclaimer | EquineInsurance.co.nz' },
-  description: 'Disclaimer for EquineInsurance.co.nz — important information about our referral service, our relationship with brokers, and what we are and are not.',
+  description: 'Disclaimer for EquineInsurance.co.nz — important information about our independent equine insurance information site, what we are, and what we are not.',
   alternates: { canonical: `${siteConfig.url}/disclaimer/` },
 }
 
@@ -26,7 +26,7 @@ export default function DisclaimerPage() {
             <span className="text-white">Disclaimer</span>
           </nav>
           <h1 className="text-3xl font-extrabold text-white mb-1">Disclaimer</h1>
-          <p className="text-gray-400 text-sm">Last updated: 14 May 2026</p>
+          <p className="text-gray-400 text-sm">Last updated: August 2026</p>
         </div>
       </div>
 
@@ -40,13 +40,13 @@ export default function DisclaimerPage() {
 
               {/* Important notice callout */}
               <div className="bg-amber-50 border-l-4 border-amber-500 p-5 rounded-r-xl">
-                <p className="font-semibold text-amber-800 text-sm">Important: EquineInsurance.co.nz is an information and referral service. We are NOT a licensed financial adviser, insurance broker, or insurer. We do not provide financial advice. All information on this website is general in nature only. Speak with a licensed broker before making any insurance decisions.</p>
+                <p className="font-semibold text-amber-800 text-sm">Important: EquineInsurance.co.nz is an independent equine insurance information site. We are NOT a licensed financial adviser, insurance broker, or insurer. We do not provide financial advice. All information on this website is general in nature only. Speak with a licensed broker before making any insurance decisions.</p>
               </div>
 
               <div>
-                <h2 className="text-xl font-bold text-gray-900 mb-2">1. We Are a Referral Service, Not a Regulated Financial Adviser</h2>
-                <p className="text-sm mb-2">EquineInsurance.co.nz operates as a referral and information service connecting horse owners with licensed insurance brokers. This website does not provide financial advice and is not a financial advice provider.</p>
-                <p className="text-sm">The licensed insurance brokers and financial advisers we refer you to hold Financial Advice Provider (FAP) licences issued by the Financial Markets Authority (FMA). They are required to comply with the obligations of that licensing regime, including providing personalised financial advice and disclosing any conflicts of interest.</p>
+                <h2 className="text-xl font-bold text-gray-900 mb-2">1. Information Only — Not a Regulated Financial Adviser</h2>
+                <p className="text-sm mb-2">EquineInsurance.co.nz is an independent information site operated by Cover4You Group. We publish general information about equine insurance in New Zealand. We are not an insurer, a broker, or a licensed financial adviser, and we do not arrange cover or provide advice.</p>
+                <p className="text-sm">Any insurance broker or financial adviser you contact independently will hold their own Financial Advice Provider (FAP) licence issued by the Financial Markets Authority (FMA). They are required to comply with the obligations of that licensing regime, including providing personalised financial advice and disclosing any conflicts of interest. You should verify a broker&apos;s licence on the Financial Service Providers Register before proceeding.</p>
               </div>
 
               <div>
@@ -71,8 +71,8 @@ export default function DisclaimerPage() {
               </div>
 
               <div>
-                <h2 className="text-xl font-bold text-gray-900 mb-2">6. Remuneration Disclosure</h2>
-                <p className="text-sm">EquineInsurance.co.nz may receive a referral fee from licensed insurance brokers when we introduce a user who subsequently purchases an insurance policy. This fee is paid by the broker, not by you — you pay no additional cost as a result of using our referral service. The brokers we refer you to will provide their own remuneration disclosure as required under the FMCA.</p>
+                <h2 className="text-xl font-bold text-gray-900 mb-2">6. Commercial Relationships</h2>
+                <p className="text-sm">We do not currently operate an active referral network. We may in future receive a referral fee if we introduce you to a broker partner. Any such arrangement will be disclosed when applicable. Any broker or adviser you engage independently will provide their own remuneration disclosure as required under the FMCA.</p>
               </div>
 
               <div>
@@ -112,20 +112,22 @@ export default function DisclaimerPage() {
               {/* Highlight card */}
               <div className="bg-green-50 border border-green-200 rounded-2xl p-5">
                 <h3 className="font-bold text-gray-900 mb-2 text-sm">Not Financial Advice</h3>
-                <p className="text-gray-600 text-sm leading-relaxed">We provide general information only. The licensed brokers we connect you with are qualified to give you personalised advice specific to your horse and situation.</p>
+                <p className="text-gray-600 text-sm leading-relaxed">We provide general information only. Always seek personalised advice from a licensed financial adviser or specialist equine insurance broker before making any insurance decision.</p>
               </div>
 
               {/* Questions card */}
               <div className="bg-white border border-gray-200 rounded-2xl p-5">
-                <h3 className="font-bold text-gray-900 mb-2 text-sm">Need Advice?</h3>
-                <p className="text-gray-600 text-sm mb-3">Connect with a licensed equine insurance specialist for personalised guidance.</p>
-                <Link
-                  href="/contact/"
+                <h3 className="font-bold text-gray-900 mb-2 text-sm">About This Site</h3>
+                <p className="text-gray-600 text-sm mb-3">EquineInsurance.co.nz is an independent information site. We are not an insurer, broker, or financial adviser. Find a licensed broker through IBANZ.</p>
+                <a
+                  href="https://www.ibanz.co.nz/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-block text-sm font-bold text-white px-4 py-2 rounded-xl transition-colors"
                   style={{ backgroundColor: '#2c4a2e' }}
                 >
-                  Find a Specialist →
-                </Link>
+                  Find a Broker (IBANZ)
+                </a>
               </div>
 
             </div>

@@ -4,7 +4,7 @@ import { siteConfig } from '@/data/site-config'
 
 export const metadata: Metadata = {
   title: 'Thank You | Enquiry Received | EquineInsurance.co.nz',
-  description: 'Thank you for your horse insurance enquiry. A specialist NZ equine insurance broker will contact you shortly.',
+  description: 'Thank you for your horse insurance enquiry. We have received your message and will be in touch.',
   robots: { index: false, follow: false },
 }
 
@@ -17,27 +17,27 @@ export default function ThankYouPage() {
         </div>
         <h1 className="text-4xl font-extrabold text-gray-900 mb-4">Enquiry Received!</h1>
         <p className="text-gray-600 text-xl leading-relaxed mb-8">
-          Thank you for your horse insurance enquiry. A specialist NZ equine insurance broker will contact you within 24 hours to discuss your needs and provide comparative quotes.
+          Thank you for your horse insurance enquiry. We have received your message and will be in touch.
         </p>
         <div className="bg-green-50 rounded-2xl p-6 border border-green-100 mb-8 text-left">
-          <h2 className="font-bold text-gray-900 mb-3">What Happens Next</h2>
-          <ol className="space-y-2">
+          <h2 className="font-bold text-gray-900 mb-3">While You Wait</h2>
+          <ul className="space-y-2">
             <li className="flex gap-3 text-gray-600 text-sm">
-              <span className="w-5 h-5 rounded-full bg-brand text-white font-bold text-xs flex items-center justify-center flex-shrink-0 mt-0.5">1</span>
-              We review your horse type and cover requirements.
+              <span className="w-5 h-5 rounded-full bg-brand text-white font-bold text-xs flex items-center justify-center flex-shrink-0 mt-0.5">•</span>
+              Browse our <Link href="/blog/" className="underline text-brand">guides and articles</Link> on equine insurance in New Zealand.
             </li>
             <li className="flex gap-3 text-gray-600 text-sm">
-              <span className="w-5 h-5 rounded-full bg-brand text-white font-bold text-xs flex items-center justify-center flex-shrink-0 mt-0.5">2</span>
-              We match you with the most appropriate specialist equine insurance broker.
+              <span className="w-5 h-5 rounded-full bg-brand text-white font-bold text-xs flex items-center justify-center flex-shrink-0 mt-0.5">•</span>
+              Search the <a href="https://www.ibanz.co.nz/" target="_blank" rel="noopener noreferrer" className="underline text-brand">IBANZ directory</a> to find a licensed specialist equine insurance broker.
             </li>
             <li className="flex gap-3 text-gray-600 text-sm">
-              <span className="w-5 h-5 rounded-full bg-brand text-white font-bold text-xs flex items-center justify-center flex-shrink-0 mt-0.5">3</span>
-              Your broker contacts you to discuss your needs and provide comparative quotes — no obligation.
+              <span className="w-5 h-5 rounded-full bg-brand text-white font-bold text-xs flex items-center justify-center flex-shrink-0 mt-0.5">•</span>
+              Compare providers on our <Link href="/compare/" className="underline text-brand">Compare page</Link>.
             </li>
-          </ol>
+          </ul>
         </div>
         <p className="text-gray-500 text-sm mb-8">
-          If you need to speak with someone urgently, call us on{' '}
+          EquineInsurance.co.nz is an independent information site. We are not an insurer, broker, or financial adviser.
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <Link href="/" className="bg-brand hover:bg-brand-light text-white font-bold px-6 py-3 rounded-xl transition-colors">

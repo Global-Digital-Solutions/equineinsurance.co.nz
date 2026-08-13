@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     default: 'Horse Insurance NZ | Compare & Save | EquineInsurance.co.nz',
     template: '%s | EquineInsurance.co.nz',
   },
-  description: 'Compare NZ horse insurance. Mortality cover, vet fees, transit, liability and loss of use. Get a quote from licensed NZ equine insurance brokers.',
+  description: 'EquineInsurance.co.nz is operated by Cover4You. We publish independent information about equine insurance in New Zealand.',
   keywords: ['horse insurance NZ', 'equine insurance NZ', 'horse insurance quote NZ', 'horse mortality insurance NZ', 'equine vet fee insurance'],
   authors: [{ name: 'EquineInsurance.co.nz' }],
   creator: 'EquineInsurance.co.nz',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     url: siteConfig.url,
     siteName: siteConfig.name,
     title: 'Horse Insurance NZ | Compare & Save | EquineInsurance.co.nz',
-    description: 'Compare NZ horse insurance. Get a quote from licensed equine insurance brokers.',
+    description: 'EquineInsurance.co.nz is operated by Cover4You. We publish independent information about equine insurance in New Zealand.',
     images: [
       {
         url: `${siteConfig.url}/og-image.png`,
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Horse Insurance NZ | EquineInsurance.co.nz',
-    description: 'Compare NZ horse insurance. Get a quote from licensed brokers.',
+    description: 'EquineInsurance.co.nz is operated by Cover4You. We publish independent information about equine insurance in New Zealand.',
     images: [`${siteConfig.url}/og-image.png`],
   },
   robots: {
@@ -69,7 +69,7 @@ const orgSchema = {
     '@type': 'Country',
     name: 'New Zealand',
   },
-  description: 'NZ specialist equine insurance referral service — connecting horse owners with FAP-licensed insurance advisers who access the specialist equine insurance market including Pet-n-Sur, Petcover NZ, NZB Insurance, and more.',
+  description: 'EquineInsurance.co.nz is an independent equine insurance information site operated by Cover4You. We publish general information about equine insurance in New Zealand including Pet-n-Sur, Petcover NZ, NZB Insurance, and more.',
   sameAs: [
     'https://www.cover4you.co.nz',
   ],

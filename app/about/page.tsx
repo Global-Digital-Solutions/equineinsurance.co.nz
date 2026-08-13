@@ -4,7 +4,7 @@ import { siteConfig } from '@/data/site-config'
 
 export const metadata: Metadata = {
  title: { absolute: 'About EquineInsurance.co.nz | Horse Insurance NZ' },
- description: 'About EquineInsurance.co.nz — NZ\'s specialist equine insurance comparison and referral service. We connect horse owners with licensed insurance brokers.',
+ description: 'About EquineInsurance.co.nz — an independent equine insurance information site operated by Cover4You. General information about horse insurance in New Zealand.',
  alternates: { canonical: `${siteConfig.url}/about/` },
 }
 
@@ -55,7 +55,7 @@ export default function AboutPage() {
  <span className="inline-block bg-green-600/30 border border-green-500/40 text-green-300 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-4">Who We Are</span>
  <h1 className="text-4xl font-extrabold text-white mb-4">About EquineInsurance.co.nz</h1>
  <p className="text-green-100 text-xl leading-relaxed max-w-2xl">
- NZ&apos;s specialist equine insurance comparison service — connecting horse owners with licensed insurance brokers to find the best cover at competitive prices.
+ Independent equine insurance information for horse owners in New Zealand — general guidance, provider overviews, and resources to help you make informed decisions.
  </p>
  </div>
  </div>
@@ -68,10 +68,10 @@ export default function AboutPage() {
  horse owners invest significant time, money, and emotional energy in their horses — but many lack adequate insurance because they do not know what they need, or have not had time to compare specialist options.
  </p>
  <p className="text-gray-600 text-lg leading-relaxed mb-4">
- EquineInsurance.co.nz was built to fix that. We provide clear, unbiased information about equine insurance options for every horse type, and connect you with specialist brokers who can arrange the right cover quickly and efficiently.
+ EquineInsurance.co.nz was built to fix that. We provide clear, unbiased information about equine insurance options for every horse type, so you can research your options before speaking with a specialist equine insurance broker.
  </p>
  <p className="text-gray-600 text-lg leading-relaxed">
- Our goal is simple: get horse owners speaking with the right broker, so they end up with cover that actually protects their investment — not just the cheapest policy that leaves critical gaps.
+ Our goal is simple: give horse owners the information they need to have a productive conversation with a broker, so they end up with cover that actually protects their investment — not just the cheapest policy that leaves critical gaps.
  </p>
  </section>
 
@@ -93,15 +93,15 @@ export default function AboutPage() {
  </section>
 
  <section className="mb-14">
- <h2 className="text-2xl font-extrabold text-gray-900 mb-4">How Our Service Works</h2>
+ <h2 className="text-2xl font-extrabold text-gray-900 mb-4">How This Site Works</h2>
  <p className="text-gray-600 leading-relaxed mb-4">
- EquineInsurance.co.nz is a referral service. We do not sell insurance directly or act as a financial adviser. Instead, we connect you with licensed insurance brokers who are regulated under the Financial Markets Conduct Act 2013.
+ EquineInsurance.co.nz is an independent information site operated by Cover4You. We publish general information about equine insurance in New Zealand. We are not an insurer, a broker, or a licensed financial adviser, and we do not arrange cover or provide advice.
  </p>
  <p className="text-gray-600 leading-relaxed mb-4">
- When you submit a quote request, we assess your horse type and cover needs, then match you with the most appropriate specialist equine insurance broker in our network. That broker contacts you to discuss your requirements and provides comparative quotes from multiple insurers.
+ Use the information on this site as a starting point for your research. To arrange cover, search the IBANZ directory for a specialist equine insurance broker, or contact an insurer directly. Any broker you engage will be regulated under the Financial Markets Conduct Act 2013.
  </p>
  <p className="text-gray-600 leading-relaxed">
- We receive a referral fee from the broker if you proceed — you pay nothing additional. The broker is remunerated by commission from the insurer.
+ Anyone giving you insurance advice should hold a licence under the Financial Markets Conduct Act 2013. You can verify this on the Financial Service Providers Register at fsp-register.companiesoffice.govt.nz.
  </p>
  </section>
 

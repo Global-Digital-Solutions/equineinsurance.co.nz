@@ -62,7 +62,7 @@ export const landingPages: LandingPage[] = [
  slug: 'equine-insurance-christchurch',
  title: 'Equine Insurance Christchurch',
  metaTitle: 'Equine Insurance Christchurch | Horse Insurance South Island | EquineInsurance.co.nz',
- metaDesc: 'Equine insurance Christchurch — compare specialist horse insurance from our brokers. Mortality, vet fees, transit and liability for Canterbury horse owners.',
+ metaDesc: 'Equine insurance Christchurch — compare specialist horse insurance options. Mortality, vet fees, transit and liability for Canterbury horse owners.',
  h1: 'Equine Insurance Christchurch',
  intro: 'Canterbury is one of New Zealand\'s premier equestrian regions, with horse owners across the Canterbury Plains, the Port Hills, and beyond. Specialist equine insurance is available from brokers and insurers with experience in South Island conditions.',
  sections: [

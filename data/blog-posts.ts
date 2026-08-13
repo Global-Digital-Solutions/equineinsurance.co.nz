@@ -89,7 +89,7 @@ This is why major medical insurance with adequate limits — typically a minimum
 
 ## Getting the Right Cover
 
-If you own a horse and are concerned about colic risk, speak with a specialist equine insurance broker. They can help you find a policy with appropriate colic cover limits and clear policy terms. EquineInsurance.co.nz connects horse owners with licensed our brokers who understand equine insurance inside out.`,
+If you own a horse and are concerned about colic risk, speak with a specialist equine insurance broker. They can help you find a policy with appropriate colic cover limits and clear policy terms. EquineInsurance.co.nz is an independent information site — use the IBANZ directory to find a specialist equine insurance broker who understands equine insurance inside out.`,
  },
  {
  slug: 'horse-float-insurance-nz-guide',

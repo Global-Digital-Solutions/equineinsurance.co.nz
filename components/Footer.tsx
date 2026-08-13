@@ -16,7 +16,10 @@ export default function Footer() {
  </span>
  </Link>
  <p className="text-green-200 text-sm leading-relaxed mb-4">
- NZ&apos;s specialist equine insurance information and referral service. Connecting horse owners with licensed brokers.
+ EquineInsurance.co.nz is operated by Cover4You. We publish independent information about equine insurance in New Zealand. We are not an insurer, a broker, or a licensed financial adviser, and we do not arrange cover or provide advice.
+ </p>
+ <p className="text-green-200 text-xs leading-relaxed mb-4">
+ Anyone giving you insurance advice should hold a licence under the Financial Markets Conduct Act 2013. You can verify this on the Financial Service Providers Register at fsp-register.companiesoffice.govt.nz.
  </p>
  <Link
  href="/contact/"
@@ -132,7 +135,7 @@ export default function Footer() {
  <div className="border border-brand-light rounded-xl p-5 mb-6 bg-brand-dark/40">
  <p className="text-green-200 text-xs font-bold uppercase tracking-widest mb-3">Important Disclaimer</p>
  <p className="text-green-300 text-xs leading-relaxed mb-2">
- <strong className="text-green-200">EquineInsurance.co.nz is an information and referral service only — not a licensed financial adviser, insurance broker, or insurer.</strong> We do not provide financial advice, assess your individual circumstances, or recommend specific insurance products. All information published on this website is general in nature and may not be applicable to your situation.
+ <strong className="text-green-200">EquineInsurance.co.nz is an independent equine insurance information site operated by Cover4You — not a licensed financial adviser, insurance broker, or insurer.</strong> We do not provide financial advice, assess your individual circumstances, or recommend specific insurance products. All information published on this website is general in nature and may not be applicable to your situation.
  </p>
  <p className="text-green-300 text-xs leading-relaxed mb-2">
  If you choose to use a broker or adviser found through the IBANZ directory or FSP register, those advisers are regulated under the Financial Markets Conduct Act 2013 (FMCA) and hold Financial Advice Provider (FAP) licences. Any advice, quotations, or policy recommendations you receive will come from those licensed advisers, not from EquineInsurance.co.nz. Always seek advice from a licensed financial adviser before making insurance decisions.

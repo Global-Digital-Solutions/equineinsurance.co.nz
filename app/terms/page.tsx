@@ -4,7 +4,7 @@ import { siteConfig } from '@/data/site-config'
 
 export const metadata: Metadata = {
   title: { absolute: 'Terms of Use | EquineInsurance.co.nz' },
-  description: 'Terms of Use for EquineInsurance.co.nz — the terms governing your use of our equine insurance referral and information service.',
+  description: 'Terms of Use for EquineInsurance.co.nz — the terms governing your use of our independent equine insurance information site.',
   alternates: { canonical: `${siteConfig.url}/terms/` },
 }
 
@@ -26,7 +26,7 @@ export default function TermsPage() {
             <span className="text-white">Terms of Use</span>
           </nav>
           <h1 className="text-3xl font-extrabold text-white mb-1">Terms of Use</h1>
-          <p className="text-gray-400 text-sm">Last updated: 14 May 2026</p>
+          <p className="text-gray-400 text-sm">Last updated: August 2026</p>
         </div>
       </div>
 
@@ -45,7 +45,7 @@ export default function TermsPage() {
 
               <div>
                 <h2 className="text-xl font-bold text-gray-900 mb-2">2. Nature of Service</h2>
-                <p className="text-sm mb-2">EquineInsurance.co.nz is an information and referral service only. We do not provide financial advice, act as an insurance broker, or sell insurance products directly. We connect users with licensed insurance brokers and advisers who hold Financial Advice Provider (FAP) licences under the Financial Markets Conduct Act 2013.</p>
+                <p className="text-sm mb-2">EquineInsurance.co.nz is an independent information site operated by Cover4You Group. We publish general information about equine insurance in New Zealand. We are not an insurer, underwriter, or Financial Advice Provider (FAP). We do not provide regulated financial advice.</p>
                 <p className="text-sm">The information on this website is general in nature and does not constitute financial advice. You should seek advice from a licensed financial adviser before making any insurance decisions.</p>
               </div>
 
@@ -55,8 +55,8 @@ export default function TermsPage() {
               </div>
 
               <div>
-                <h2 className="text-xl font-bold text-gray-900 mb-2">4. Referral Process</h2>
-                <p className="text-sm">When you submit a quote request, you consent to us sharing your contact details and insurance requirements with a licensed insurance broker in our referral network. That broker may contact you by phone or email to discuss your requirements. We may receive a referral fee if you proceed with a policy arranged through the broker.</p>
+                <h2 className="text-xl font-bold text-gray-900 mb-2">4. Commercial Relationships</h2>
+                <p className="text-sm">We do not currently operate an active referral network. We may in future receive a referral fee if we introduce you to a broker partner. Any such arrangement will be disclosed when applicable.</p>
               </div>
 
               <div>
@@ -110,8 +110,17 @@ export default function TermsPage() {
 
               {/* Highlight card */}
               <div className="bg-green-50 border border-green-200 rounded-2xl p-5">
-                <h3 className="font-bold text-gray-900 mb-2 text-sm">Referral Service</h3>
-                <p className="text-gray-600 text-sm leading-relaxed">We are an information and referral service — not an insurer or broker. You pay nothing to use our service. The brokers we refer you to hold FAP licences under the FMCA.</p>
+                <h3 className="font-bold text-gray-900 mb-2 text-sm">About This Site</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">EquineInsurance.co.nz is an independent information site. We publish general information about equine insurance. We are not an insurer, broker, or financial adviser.</p>
+                <a
+                  href="https://www.ibanz.co.nz/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block mt-3 text-sm font-bold text-white px-4 py-2 rounded-xl transition-colors"
+                  style={{ backgroundColor: '#2c4a2e' }}
+                >
+                  Find a Broker (IBANZ)
+                </a>
               </div>
 
               {/* Questions card */}
