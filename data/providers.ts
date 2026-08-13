@@ -23,6 +23,9 @@ export interface Provider {
   rating: number | null
   reviewCount: number | null
   ratingSource: string | null
+  placeId: string | null
+  googleMapsUri: string | null
+  ratingAsAt: string | null
   lastVerified: string
 }
 
@@ -59,6 +62,9 @@ export const providers: Provider[] = [
     rating: 4.4,
     reviewCount: 1045,
     ratingSource: 'Google',
+    placeId: 'ChIJB-mhW-pHDW0RgmNT_EoE-BU',
+    googleMapsUri: 'https://maps.google.com/?cid=1583019989128143746',
+    ratingAsAt: '13 Aug 2026',
     lastVerified: 'August 2026',
   },
   {
@@ -91,6 +97,9 @@ export const providers: Provider[] = [
     rating: 3.5,
     reviewCount: 141,
     ratingSource: 'Google',
+    placeId: 'ChIJUaNzldhIDW0RE3xCK-G6VU8',
+    googleMapsUri: 'https://maps.google.com/?cid=5716680778272898067',
+    ratingAsAt: '13 Aug 2026',
     lastVerified: 'August 2026',
   },
   {
@@ -122,6 +131,9 @@ export const providers: Provider[] = [
     rating: null,
     reviewCount: null,
     ratingSource: null,
+    placeId: null,
+    googleMapsUri: null,
+    ratingAsAt: null,
     lastVerified: 'August 2026',
   },
   {
@@ -150,9 +162,12 @@ export const providers: Provider[] = [
     pricingIndicator: 'Premium / high-value',
     accentColor: 'orange',
     badgeColor: 'bg-orange-600',
-    rating: 4.5,
-    reviewCount: 8105,
-    ratingSource: 'Trustpilot (Gallagher global group)',
+    rating: 4.1,
+    reviewCount: 27,
+    ratingSource: 'Google',
+    placeId: 'ChIJkX5U5_pHDW0RKm5TlpiW53g',
+    googleMapsUri: 'https://maps.google.com/?cid=8712097586272759338',
+    ratingAsAt: '13 Aug 2026',
     lastVerified: 'August 2026',
   },
 ]
