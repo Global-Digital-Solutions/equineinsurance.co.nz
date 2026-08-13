@@ -95,10 +95,10 @@ export const horseTypes: HorseType[] = [
       { type: 'Liability', slug: 'liability', description: 'Third-party cover for injury or property damage caused by your horse at events, agistment, or on the road.', typicalLimit: '$1M–$5M', isEssential: true },
     ],
     costGuide: [
-      { scenario: 'A-grade showjumper, $40,000 value, mortality + major medical', coverLevel: 'Mortality + vet fees to $15k', estimatedPremium: '$1,200–$2,200/yr' },
-      { scenario: 'FEI dressage horse, $80,000, full cover including loss of use', coverLevel: 'Comprehensive + loss of use', estimatedPremium: '$3,500–$6,000/yr' },
-      { scenario: 'Eventing horse, $25,000, mortality + medical + transit', coverLevel: 'Mortality + $12k vet + transit', estimatedPremium: '$900–$1,500/yr' },
-      { scenario: 'Polo pony, $30,000, mortality only', coverLevel: 'Mortality only', estimatedPremium: '$600–$1,100/yr' },
+      { scenario: 'A-grade showjumper, $40,000 value, mortality + major medical', coverLevel: 'Mortality + vet fees to $15k', estimatedPremium: 'Contact a broker for indicative pricing' },
+      { scenario: 'FEI dressage horse, $80,000, full cover including loss of use', coverLevel: 'Comprehensive + loss of use', estimatedPremium: 'Contact a broker for indicative pricing' },
+      { scenario: 'Eventing horse, $25,000, mortality + medical + transit', coverLevel: 'Mortality + $12k vet + transit', estimatedPremium: 'Contact a broker for indicative pricing' },
+      { scenario: 'Polo pony, $30,000, mortality only', coverLevel: 'Mortality only', estimatedPremium: 'Contact a broker for indicative pricing' },
     ],
     longFormBody: `## Sport Horse Insurance: Everything You Need to Know
 
@@ -244,10 +244,10 @@ Policies typically pay 50–60% of the mortality sum insured on proof of permane
       { type: 'Liability', slug: 'liability', description: 'Third-party cover for injury or damage caused by the horse during training, racing, agistment, or transit.', typicalLimit: '$1M–$5M', isEssential: true },
     ],
     costGuide: [
-      { scenario: 'Horse in training, $25,000 value, mortality + vet fees', coverLevel: 'Mortality + $15k vet cover', estimatedPremium: '$900–$1,600/yr' },
-      { scenario: 'Stakes winner, $200,000 value, comprehensive cover', coverLevel: 'Mortality + vet + loss of use', estimatedPremium: '$7,000–$14,000/yr' },
-      { scenario: 'Breeding stallion, $500,000 value, mortality + infertility', coverLevel: 'Mortality + stallion infertility', estimatedPremium: '$18,000–$35,000/yr' },
-      { scenario: 'Standardbred in training, $15,000, mortality only', coverLevel: 'Mortality only', estimatedPremium: '$500–$900/yr' },
+      { scenario: 'Horse in training, $25,000 value, mortality + vet fees', coverLevel: 'Mortality + $15k vet cover', estimatedPremium: 'Contact a broker for indicative pricing' },
+      { scenario: 'Stakes winner, $200,000 value, comprehensive cover', coverLevel: 'Mortality + vet + loss of use', estimatedPremium: 'Contact a broker for indicative pricing' },
+      { scenario: 'Breeding stallion, $500,000 value, mortality + infertility', coverLevel: 'Mortality + stallion infertility', estimatedPremium: 'Contact a broker for indicative pricing' },
+      { scenario: 'Standardbred in training, $15,000, mortality only', coverLevel: 'Mortality only', estimatedPremium: 'Contact a broker for indicative pricing' },
     ],
     longFormBody: `## Racehorse & Thoroughbred Insurance: A Complete Guide
 
@@ -395,10 +395,10 @@ Before your next racing season, confirm: current market value of every horse has
       { type: 'Transit', slug: 'transit', description: 'Covers mares during transport to and from stud farms and vet clinics, and foals during transport.', typicalLimit: 'Full insured value in transit', isEssential: true },
     ],
     costGuide: [
-      { scenario: 'Broodmare, $30,000, mortality + vet fees', coverLevel: 'Mortality + $15k vet cover', estimatedPremium: '$1,100–$2,000/yr' },
-      { scenario: 'Commercial stallion, $500,000, mortality + infertility', coverLevel: 'Mortality + stallion infertility', estimatedPremium: '$18,000–$35,000/yr' },
-      { scenario: 'Warmblood broodmare, $80,000, comprehensive cover', coverLevel: 'Mortality + vet + foaling cover', estimatedPremium: '$3,000–$5,500/yr' },
-      { scenario: 'Prospective foal, expected value $25,000', coverLevel: 'Prospective foal only', estimatedPremium: '$500–$1,200/yr' },
+      { scenario: 'Broodmare, $30,000, mortality + vet fees', coverLevel: 'Mortality + $15k vet cover', estimatedPremium: 'Contact a broker for indicative pricing' },
+      { scenario: 'Commercial stallion, $500,000, mortality + infertility', coverLevel: 'Mortality + stallion infertility', estimatedPremium: 'Contact a broker for indicative pricing' },
+      { scenario: 'Warmblood broodmare, $80,000, comprehensive cover', coverLevel: 'Mortality + vet + foaling cover', estimatedPremium: 'Contact a broker for indicative pricing' },
+      { scenario: 'Prospective foal, expected value $25,000', coverLevel: 'Prospective foal only', estimatedPremium: 'Contact a broker for indicative pricing' },
     ],
     longFormBody: `## Breeding Stock Insurance: Protecting Your Stud Operation
 
@@ -554,10 +554,10 @@ For warmblood, sport horse, and non-thoroughbred breeding operations, both broke
       { type: 'Personal Accident', slug: 'major-medical', description: 'Covers the rider for accidents while riding — supplements ACC for income loss, disability, and some medical costs not covered by ACC.', typicalLimit: 'Varies — typically $100k–$500k', isEssential: false },
     ],
     costGuide: [
-      { scenario: 'Family pony, $5,000 value, liability + mortality', coverLevel: 'Liability $2M + mortality', estimatedPremium: '$180–$350/yr' },
-      { scenario: 'Trail horse, $12,000, liability + major medical + mortality', coverLevel: 'Comprehensive leisure cover', estimatedPremium: '$450–$750/yr' },
-      { scenario: 'Two horses, $8,000 each, liability + colic cover', coverLevel: 'Liability + vet fees to $8k', estimatedPremium: '$600–$1,000/yr' },
-      { scenario: 'Liability only (no mortality)', coverLevel: '$2M public liability', estimatedPremium: '$150–$280/yr' },
+      { scenario: 'Family pony, $5,000 value, liability + mortality', coverLevel: 'Liability $2M + mortality', estimatedPremium: 'Contact a broker for indicative pricing' },
+      { scenario: 'Trail horse, $12,000, liability + major medical + mortality', coverLevel: 'Comprehensive leisure cover', estimatedPremium: 'Contact a broker for indicative pricing' },
+      { scenario: 'Two horses, $8,000 each, liability + colic cover', coverLevel: 'Liability + vet fees to $8k', estimatedPremium: 'Contact a broker for indicative pricing' },
+      { scenario: 'Liability only (no mortality)', coverLevel: '$2M public liability', estimatedPremium: 'Contact a broker for indicative pricing' },
     ],
     longFormBody: `## Leisure Horse Insurance: The Complete Guide for NZ Horse Owners
 
@@ -581,7 +581,7 @@ Public liability insurance for horse owners covers you when your horse causes in
 
 New Zealand's ACC system covers injury treatment costs for people injured in accidents, but it does not cover property damage, lost income for the injured party, or compensation for pain and suffering. A serious liability claim that results in permanent disability for the injured party can generate a damages award of $300,000 to $1,000,000 or more — figures that would be ruinous without insurance.
 
-Public liability premiums for a single horse typically start at around $150 to $250 per year. This is one of the best-value insurance purchases available to any horse owner.
+Public liability insurance is one of the most cost-effective purchases available to any horse owner. Contact a licensed broker for current premium pricing.
 
 ### Colic Insurance: Why It Matters More Than Mortality
 
@@ -633,7 +633,7 @@ Petcover NZ is a strong alternative for leisure horse owners, particularly if fa
     faqs: [
       {
         q: 'What is the minimum insurance I should have for a horse?',
-        a: 'At minimum, every horse owner should carry public liability insurance. This covers you for claims made by third parties who are injured or suffer property damage because of your horse. Liability premiums start from around $150 per year and provide $1 million to $5 million in coverage. Major medical cover (vet fees) is the next most important addition, particularly for cover against colic surgery.',
+        a: 'At minimum, every horse owner should carry public liability insurance. This covers you for claims made by third parties who are injured or suffer property damage because of your horse. Liability insurance typically provides $1 million to $5 million in coverage — contact a licensed broker for current pricing. Major medical cover (vet fees) is the next most important addition, particularly for cover against colic surgery.',
       },
       {
         q: 'My horse is only worth $3,000 — is it worth insuring?',

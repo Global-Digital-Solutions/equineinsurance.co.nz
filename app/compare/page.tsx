@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { providers } from '@/data/providers'
 import { coverageTypes } from '@/data/coverage-types'
 import { siteConfig } from '@/data/site-config'
-import QuoteForm from '@/components/QuoteForm'
+import HoldingPanel from '@/components/HoldingPanel'
 
 export const metadata: Metadata = {
   title: { absolute: 'Compare Horse Insurance NZ | EquineInsurance.co.nz' },
@@ -132,7 +132,7 @@ export default function ComparePage() {
                 Compare Horse Insurance<br />Providers With One Click
               </h1>
               <p className="text-green-100 text-lg leading-relaxed mb-8 max-w-xl">
-                Not all equine insurers are equal. We've researched the real differences — claims speed, cover limits, what each provider actually does best — so you don't have to. Then our specialist brokers access them all to find your best fit.
+                Not all equine insurers are equal. We've researched the real differences — claims speed, cover limits, and what each provider specialises in — so you can make an informed decision before speaking with a licensed adviser.
               </p>
 
               {/* Key insight cards */}
@@ -154,7 +154,7 @@ export default function ComparePage() {
 
             {/* Right: form */}
             <div className="lg:sticky lg:top-8">
-              <QuoteForm compact />
+              <HoldingPanel />
             </div>
           </div>
         </div>
@@ -165,12 +165,11 @@ export default function ComparePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
           <div className="flex flex-wrap justify-center gap-6 text-green-200 text-sm font-medium">
             {[
-              '✓ All providers broker-accessed',
-              '✓ No cost to compare',
+              '✓ Specialist NZ equine insurers',
               '✓ Licensed NZ advisers',
               '✓ Genuine comparative quotes',
               '✓ FAP-licensed brokers',
-              '✓ Response within 1 business day',
+              '✓ NZ owned & operated',
             ].map((item) => (
               <span key={item}>{item}</span>
             ))}
@@ -184,7 +183,7 @@ export default function ComparePage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-extrabold text-gray-900 mb-3">The Providers. What You Need to Know.</h2>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-              These are the specialist equine insurers our brokers access. Here's what makes each one different — the stuff you won't find on their own websites.
+              These are specialist NZ equine insurers and brokers. Here's what makes each one different — the stuff you won't find easily on their own websites.
             </p>
           </div>
 
@@ -236,18 +235,6 @@ export default function ComparePage() {
                   {/* Description */}
                   <div className="px-6 py-4 border-b border-gray-100">
                     <p className="text-gray-600 text-sm leading-relaxed">{p.description}</p>
-                  </div>
-
-                  {/* Best for */}
-                  <div className="px-6 py-4 border-b border-gray-100">
-                    <p className="text-xs font-bold text-gray-500 uppercase tracking-widest mb-2">Best For</p>
-                    <div className="flex flex-wrap gap-1.5">
-                      {p.bestFor.map((b) => (
-                        <span key={b} className={`text-xs border px-2 py-0.5 rounded-full font-medium ${ac.tag}`}>
-                          {b}
-                        </span>
-                      ))}
-                    </div>
                   </div>
 
                   {/* Coverage highlights */}
@@ -335,7 +322,7 @@ export default function ComparePage() {
                 The Right Provider Depends on Your Horse.<br />A Broker Knows Which One.
               </h2>
               <p className="text-gray-600 text-base leading-relaxed mb-6">
-                A leisure pony owner and a thoroughbred racing syndicate have completely different needs. Going direct to a single insurer means you only see one set of options. Our specialist brokers access Pet-n-Sur, Petcover NZ, NZB Insurance, Gallagher, and more — then present the policy that actually fits your horse.
+                A leisure pony owner and a thoroughbred racing syndicate have completely different needs. Going direct to a single insurer means you only see one set of options. A specialist equine broker can compare multiple providers and present a policy that actually fits your horse.
               </p>
               <div className="space-y-4">
                 {[
@@ -370,13 +357,13 @@ export default function ComparePage() {
             <div className="bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden">
               <div className="bg-brand px-6 py-5">
                 <h3 className="text-white font-extrabold text-xl">What Happens When You Submit</h3>
-                <p className="text-green-200 text-sm mt-1">Typically within 1 business day:</p>
+                <p className="text-green-200 text-sm mt-1">Here is what to expect:</p>
               </div>
               <div className="divide-y divide-gray-100">
                 {[
                   { step: '1', heading: 'We receive your enquiry', body: 'Your details go directly to a specialist equine insurance adviser — not a call centre.' },
                   { step: '2', heading: 'Broker contacts you', body: 'A licensed NZ adviser calls or emails to discuss your horse, budget, and requirements.' },
-                  { step: '3', heading: 'Quotes presented', body: 'You receive genuine quotes from multiple providers — Pet-n-Sur, Petcover, NZB, or others depending on your horse.' },
+                  { step: '3', heading: 'Quotes presented', body: 'You receive genuine quotes from specialist equine insurance providers, matched to your horse type and needs.' },
                   { step: '4', heading: 'You decide', body: 'No pressure. Review the options at your own pace and choose only if you\'re satisfied.' },
                 ].map((item) => (
                   <div key={item.step} className="flex gap-4 px-6 py-4">
@@ -397,7 +384,7 @@ export default function ComparePage() {
                 >
                   Start Your Quote Request →
                 </Link>
-                <p className="text-center text-green-700 text-xs mt-2 font-medium">Free · No obligation · Licensed NZ advisers</p>
+                <p className="text-center text-green-700 text-xs mt-2 font-medium">No obligation · Licensed NZ advisers</p>
               </div>
             </div>
           </div>
@@ -457,7 +444,7 @@ export default function ComparePage() {
               </p>
               <div className="space-y-3">
                 {[
-                  '✓ Quotes from Pet-n-Sur, Petcover NZ, NZB & more',
+                  '✓ Quotes from specialist NZ equine insurers',
                   '✓ Licensed Financial Advice Providers (FAP)',
                   '✓ No obligation — review and decide in your own time',
                   '✓ Expert advice on cover types for your specific horse',
@@ -470,7 +457,7 @@ export default function ComparePage() {
               </div>
             </div>
             <div>
-              <QuoteForm />
+              <HoldingPanel />
             </div>
           </div>
         </div>

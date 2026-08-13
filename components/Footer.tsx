@@ -16,7 +16,7 @@ export default function Footer() {
  </span>
  </Link>
  <p className="text-green-200 text-sm leading-relaxed mb-4">
- NZ&apos;s specialist equine insurance comparison and referral service. Connecting horse owners with licensed brokers since 2020.
+ NZ&apos;s specialist equine insurance information and referral service. Connecting horse owners with licensed brokers.
  </p>
  <Link
  href="/contact/"

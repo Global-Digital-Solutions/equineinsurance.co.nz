@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import QuoteForm from '@/components/QuoteForm'
+import HoldingPanel from '@/components/HoldingPanel'
 import { horseTypes, getHorseTypeBySlug } from '@/data/horse-types'
 import { siteConfig } from '@/data/site-config'
 
@@ -337,7 +337,7 @@ export default async function HorseTypePage({ params }: Props) {
             {/* Right sidebar */}
             <div className="space-y-6">
               <div className="lg:sticky lg:top-8 space-y-6">
-                <QuoteForm compact />
+                <HoldingPanel />
 
                 {/* Recommended cover */}
                 <div className="bg-brand rounded-2xl p-6 text-white">
@@ -381,7 +381,7 @@ export default async function HorseTypePage({ params }: Props) {
                 {/* Compare providers */}
                 <div className="bg-green-50 border border-green-200 rounded-2xl p-5">
                   <h3 className="font-bold text-gray-900 mb-2 text-sm">Not Sure Which Provider?</h3>
-                  <p className="text-gray-600 text-xs mb-3">See Pet-n-Sur, Petcover NZ, NZB Insurance, and Gallagher compared side by side.</p>
+                  <p className="text-gray-600 text-xs mb-3">Review specialist NZ equine insurance providers side by side.</p>
                   <Link href="/compare/" className="block text-center bg-brand text-white font-bold text-sm px-4 py-2 rounded-xl hover:bg-brand-light transition-colors">
                     Compare Providers →
                   </Link>

@@ -1,10 +1,9 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import QuoteForm from '@/components/QuoteForm'
+import HoldingPanel from '@/components/HoldingPanel'
 import USPBar from '@/components/USPBar'
 import { coverageTypes } from '@/data/coverage-types'
 import { horseTypes } from '@/data/horse-types'
-import { providers } from '@/data/providers'
 import { faqs } from '@/data/faqs'
 import { blogPosts } from '@/data/blog-posts'
 import { siteConfig } from '@/data/site-config'
@@ -59,9 +58,6 @@ export default function HomePage() {
  <div className="flex items-center gap-2 text-green-100 text-sm">
  <span className="text-green-300">✓</span> Licensed advisers only
  </div>
- <div className="flex items-center gap-2 text-green-100 text-sm">
- <span className="text-green-300">✓</span> 24hr response
- </div>
  </div>
  <div className="flex flex-wrap gap-4">
  <Link href="/contact/" className="bg-green-600 hover:bg-green-500 text-white font-bold px-6 py-3 rounded-xl transition-colors text-sm">
@@ -73,7 +69,7 @@ export default function HomePage() {
  </div>
  </div>
  <div>
- <QuoteForm />
+ <HoldingPanel />
  </div>
  </div>
  </div>
@@ -187,20 +183,6 @@ export default function HomePage() {
  </div>
  </section>
 
- {/* Provider Strip */}
- <section className="py-12 bg-white border-b border-gray-100">
- <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
- <p className="text-center text-gray-500 text-sm font-medium uppercase tracking-widest mb-8">Providers Our Brokers Access</p>
- <div className="flex flex-wrap justify-center items-center gap-8">
- {providers.map((p) => (
- <div key={p.slug} className="flex items-center gap-2 text-gray-600 font-bold text-sm bg-gray-50 border border-gray-200 rounded-xl px-4 py-2">
- <span>{p.name}</span>
- </div>
- ))}
- </div>
- </div>
- </section>
-
  {/* FAQ */}
  <section className="py-16 bg-gray-50">
  <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -265,7 +247,7 @@ export default function HomePage() {
  <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
  <h2 className="text-3xl font-extrabold text-white mb-4">Ready to Get Your Horse Covered?</h2>
  <p className="text-green-200 text-lg mb-8">
- Connect with a specialist equine insurance broker — it&apos;s free, fast, and no obligation.
+ Connect with a specialist equine insurance broker — fast, with no obligation.
  </p>
  <div className="flex flex-wrap justify-center gap-4">
  <Link href="/contact/" className="bg-green-600 hover:bg-green-500 text-white font-bold px-8 py-3 rounded-xl transition-colors">

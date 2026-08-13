@@ -236,15 +236,9 @@ The main factors that affect horse insurance costs include:
 - **Location** — some regional risks (flood-prone areas, tick risk) may affect pricing
 - **Deductible/excess** — choosing a higher excess reduces your premium
 
-## Indicative Premium Ranges
+## Getting Indicative Pricing
 
-These are approximate ranges only and actual premiums will vary:
-
-- **Mortality only (leisure horse, $5,000 value)**: $150–$300/year
-- **Mortality + medical ($10,000 value)**: $400–$800/year
-- **Mortality + medical ($30,000 sport horse)**: $1,200–$2,500/year
-- **Racehorse full cover ($100,000 value)**: $3,000–$8,000+/year
-- **Equine liability only**: $150–$400/year
+Premium costs vary significantly depending on your horse's value, age, health history, intended use, and the level of cover selected. Published premium ranges quickly become outdated and are not reliable guides for budgeting. The most accurate way to understand what you will pay is to get a quote directly from a licensed equine insurance adviser.
 
 ## How to Reduce Your Premium
 

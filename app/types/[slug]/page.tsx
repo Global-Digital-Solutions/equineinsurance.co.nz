@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import QuoteForm from '@/components/QuoteForm'
+import HoldingPanel from '@/components/HoldingPanel'
 import { coverageTypes, getCoverageBySlug } from '@/data/coverage-types'
 import { siteConfig } from '@/data/site-config'
 
@@ -144,7 +144,7 @@ export default async function CoverageTypePage({ params }: Props) {
 
  {/* Sidebar */}
  <div className="space-y-6">
- <QuoteForm compact />
+ <HoldingPanel />
  <div className="bg-gray-50 rounded-2xl p-6 border border-gray-200">
  <h3 className="font-bold text-gray-900 mb-3">Need Help Deciding?</h3>
  <p className="text-gray-600 text-sm mb-4">Our specialist equine insurance brokers can assess your horse and recommend the right level of cover for your situation.</p>

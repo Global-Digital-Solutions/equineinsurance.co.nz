@@ -211,7 +211,7 @@ export default function FAQsPage() {
             >
               Get a Quote →
             </Link>
-            <p className="text-green-400 text-xs mt-3">No obligation · Licensed NZ advisers · Response within 1 business day</p>
+            <p className="text-green-400 text-xs mt-3">No obligation · Licensed NZ advisers</p>
           </div>
         </div>
       </div>

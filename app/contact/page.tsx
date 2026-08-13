@@ -1,11 +1,11 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import QuoteForm from '@/components/QuoteForm'
+import HoldingPanel from '@/components/HoldingPanel'
 import { siteConfig } from '@/data/site-config'
 
 export const metadata: Metadata = {
   title: { absolute: 'Get a Horse Insurance Quote | Contact EquineInsurance.co.nz' },
-  description: 'Get a horse insurance quote from a specialist equine broker. Mortality cover, vet fees, transit, liability and loss of use. No obligation, 24hr response.',
+  description: 'Get a horse insurance quote from a specialist equine broker. Mortality cover, vet fees, transit, liability and loss of use. No obligation.',
   alternates: { canonical: `${siteConfig.url}/contact/` },
 }
 
@@ -42,7 +42,6 @@ const steps = [
 const stats = [
   { value: '5+', label: 'Insurers compared' },
   { value: 'All breeds', label: 'Covered' },
-  { value: '24hrs', label: 'Broker response' },
   { value: 'FMA', label: 'Licensed brokers' },
 ]
 
@@ -133,7 +132,7 @@ export default function ContactPage() {
 
             {/* Right — form floated over photo */}
             <div className="w-full lg:w-[420px] lg:flex-shrink-0">
-              <QuoteForm />
+              <HoldingPanel />
             </div>
           </div>
 
@@ -156,10 +155,9 @@ export default function ContactPage() {
             {[
               '✓ Licensed & FMA-Regulated Brokers',
               '✓ No Pressure, No Obligation',
-              '✓ No Obligation',
               '✓ All Horse Types Covered',
               '✓ Locally Based',
-              '✓ 24hr Broker Response',
+              '✓ NZ Owned & Operated',
             ].map((t) => (
               <span key={t} className="text-white text-xs font-bold tracking-wide">{t}</span>
             ))}
@@ -213,7 +211,7 @@ export default function ContactPage() {
           </div>
           <div className="text-center mt-12">
             <a href="#second-form" className="inline-block bg-green-600 hover:bg-green-500 text-white font-bold px-8 py-3 rounded-xl transition-colors shadow-lg">
-              Get Your Quote — It&apos;s Free →
+              Get a Quote →
             </a>
           </div>
         </div>
@@ -234,10 +232,9 @@ export default function ContactPage() {
               </p>
               <div className="grid grid-cols-2 gap-4">
                 {[
-                  { label: 'Insurers compared', value: '5+ major providers' },
+                  { label: 'Insurers compared', value: '5+ providers' },
                   { label: 'Horse types covered', value: 'All breeds & uses' },
-                  { label: 'Average response', value: 'Within 24 hours' },
-                  { label: 'Cost to you', value: '$0 — completely free' },
+                  { label: 'Broker fee to you', value: '$0 direct cost' },
                 ].map((item) => (
                   <div key={item.label} className="bg-white rounded-xl p-4 border border-gray-200">
                     <div className="text-xs text-gray-400 uppercase tracking-wide mb-1">{item.label}</div>
@@ -284,7 +281,7 @@ export default function ContactPage() {
                 <div className="space-y-3">
                   {[
                     { icon: '🏆', text: 'All brokers licensed under the FMA' },
-                    { icon: '💸', text: 'Completely free — no hidden fees' },
+                    { icon: '🇳🇿', text: 'NZ owned & operated' },
                     { icon: '🔒', text: 'Your data is never sold or shared' },
                     { icon: '🎯', text: 'Matched to specialists in equine insurance' },
                   ].map((item) => (
@@ -334,7 +331,7 @@ export default function ContactPage() {
             </div>
             {/* Right — form */}
             <div className="w-full lg:w-[420px] lg:flex-shrink-0">
-              <QuoteForm />
+              <HoldingPanel />
             </div>
           </div>
         </div>
