@@ -20,6 +20,10 @@ export interface Provider {
   pricingIndicator: 'Competitive' | 'Mid-range' | 'Premium / high-value'
   accentColor: string
   badgeColor: string
+  rating: number | null
+  reviewCount: number | null
+  ratingSource: string | null
+  lastVerified: string
 }
 
 export const providers: Provider[] = [
@@ -28,14 +32,14 @@ export const providers: Provider[] = [
     name: 'Pet-n-Sur',
     tagline: 'New Zealand\'s Longest-Running Specialist Equine Insurer',
     type: 'Direct insurer',
-    description: 'Pet-n-Sur is a 100% New Zealand owned and operated specialist equine insurer with over 19 years in the market. They insure horses, ponies, and livestock directly — no broker middleman required. With an AM Best B++ rating and over $60 million in claims paid, they are the default choice for everyday horse owners across NZ.',
+    description: 'Pet-n-Sur is a 100% New Zealand owned and operated specialist equine insurer with over 19 years in the market. They insure horses, ponies, and livestock directly — no broker middleman required. FMA registered and IFSO scheme member, with over $37 million in claims paid to clients over the past three years.',
     highlight: '99.3% of claims paid within 14 days',
     specialties: ['Mortality', 'Major medical / vet fees', 'Colic', 'Theft & straying', 'Personal accident (rider)', 'Liability'],
     keyStats: [
       { label: 'Claims paid within 14 days', value: '99.3%' },
-      { label: 'Total claims paid', value: '$60M+' },
+      { label: 'Claims paid (last 3 years)', value: '$37M+' },
       { label: 'Years in NZ equine market', value: '19+' },
-      { label: 'AM Best financial rating', value: 'B++' },
+      { label: 'Ownership', value: '100% NZ owned' },
     ],
     bestFor: ['Leisure horses', 'Ponies', 'Lifestyle block horses', 'First-time insurance buyers', 'Budget-conscious owners'],
     coverageHighlights: [
@@ -52,19 +56,23 @@ export const providers: Provider[] = [
     pricingIndicator: 'Competitive',
     accentColor: 'blue',
     badgeColor: 'bg-blue-600',
+    rating: 4.4,
+    reviewCount: 1045,
+    ratingSource: 'Google',
+    lastVerified: 'August 2026',
   },
   {
     slug: 'petcover-nz',
     name: 'Petcover NZ',
     tagline: 'Fast Claims — Direct Vet Payment, No Out-of-Pocket Stress',
     type: 'Direct insurer',
-    description: 'Petcover NZ specialises in horse and pet insurance with a strong focus on claims speed and vet-direct payment — meaning your vet bills are settled directly with the clinic in most cases, removing the stress of out-of-pocket costs during a crisis. Their $10,000 vet cover limit and $5 million public liability option make them a compelling choice for performance horse owners.',
-    highlight: 'Vet bills paid directly to clinic — no out-of-pocket costs',
+    description: 'Petcover NZ specialises in horse and pet insurance with a strong focus on claims speed and vet-direct payment — meaning your vet bills are settled directly with the clinic in most cases. Winner of Canstar\'s Most Satisfied Customers Award 2025 and the Feefo Trusted Service Award 2024. Over 40 years of pet insurance experience.',
+    highlight: 'Canstar Most Satisfied Customers Award 2025',
     specialties: ['Vet fees / major medical', 'Colic cover', 'Public liability', 'Personal accident', 'Theft', 'Loss of use'],
     keyStats: [
-      { label: 'Claims processed in 5 days', value: '90%+' },
-      { label: 'Max vet cover per event', value: '$10,000' },
-      { label: 'Public liability available', value: '$5M' },
+      { label: 'Claims paid out', value: '93%' },
+      { label: 'Claims paid within 3 days', value: '9 in 10' },
+      { label: 'Canstar award', value: '2025 ★★★★★' },
       { label: 'Vet direct-pay available', value: 'Yes' },
     ],
     bestFor: ['Performance horses', 'Show & competition horses', 'Owners who want fast vet reimbursement', 'Horses with regular vet visits'],
@@ -76,24 +84,28 @@ export const providers: Provider[] = [
       'Personal accident for rider',
       'Loss of use cover for competition horses',
     ],
-    claimsSpeed: '90%+ within 5 days',
+    claimsSpeed: '9 in 10 claims within 3 days',
     pricingIndicator: 'Mid-range',
     accentColor: 'emerald',
     badgeColor: 'bg-emerald-600',
+    rating: 3.5,
+    reviewCount: 141,
+    ratingSource: 'Google',
+    lastVerified: 'August 2026',
   },
   {
     slug: 'nzb-insurance',
     name: 'NZB Insurance',
     tagline: 'NZ\'s Leading Bloodstock & Thoroughbred Specialist',
     type: 'Lloyd\'s coverholder',
-    description: 'NZB Insurance is New Zealand\'s leading specialist bloodstock insurer and an official Lloyd\'s of London coverholder — giving them the capacity to insure horses of almost any value. Long-time partner of New Zealand Bloodstock, they are the go-to insurer for thoroughbred studs, racing stables, and high-value breeding stock. Pearl Series race sponsorship reflects deep industry roots.',
+    description: 'NZB Insurance is New Zealand\'s leading specialist bloodstock insurer with over 30 years of experience. A New Zealand-owned company backed by AXA XL and Lloyd\'s of London underwriters, giving capacity to insure horses of almost any value. Long-time partner of New Zealand Bloodstock and sponsor of the Pearl Series.',
     highlight: 'Lloyd\'s of London coverholder — unlimited capacity for high-value horses',
     specialties: ['Thoroughbred mortality', 'Bloodstock & breeding stock', 'Stallion infertility', 'Prospective foal cover', 'Transit worldwide', 'Racing stables'],
     keyStats: [
       { label: 'Market position', value: '#1 NZ bloodstock' },
-      { label: 'Lloyd\'s coverholder', value: 'Yes' },
+      { label: 'Underwriting backing', value: 'AXA XL + Lloyd\'s' },
       { label: 'Industry presence', value: 'Pearl Series sponsor' },
-      { label: 'Cover capacity', value: 'Unlimited' },
+      { label: 'Years experience', value: '30+' },
     ],
     bestFor: ['Thoroughbred owners', 'Racing stables', 'Thoroughbred studs', 'High-value breeding mares', 'Bloodstock investors'],
     coverageHighlights: [
@@ -104,24 +116,27 @@ export const providers: Provider[] = [
       'Bloodstock portfolio policies',
       'Tailored stud farm packages',
     ],
-    founded: 'Established NZ partner',
     pricingIndicator: 'Premium / high-value',
     accentColor: 'purple',
     badgeColor: 'bg-purple-700',
+    rating: null,
+    reviewCount: null,
+    ratingSource: null,
+    lastVerified: 'August 2026',
   },
   {
     slug: 'gallagher',
     name: 'Gallagher Insurance NZ',
     tagline: '40+ Years of Specialist Equine & Bloodstock Brokering',
     type: 'Specialist broker',
-    description: 'Gallagher (formerly Gow-Gates and other specialists) is a global insurance brokerage with a dedicated NZ equine and bloodstock team carrying over 40 years of specialist experience. Their Lloyd\'s of London relationships give access to bespoke policies for thoroughbreds, standardbreds, sport horses, and equestrian operations — including rare covers like stallion infertility and prospective foal insurance that few others offer in NZ.',
+    description: 'Gallagher is a top-three global insurance brokerage with a dedicated NZ equine and bloodstock team carrying over 40 years of specialist experience. Their Lloyd\'s of London relationships give access to bespoke policies for thoroughbreds, standardbreds, sport horses, and equestrian operations. ICNZ Fair Insurance Code compliant.',
     highlight: 'Bespoke Lloyd\'s policies — covers every horse type including standardbreds & sport horses',
     specialties: ['Thoroughbred & standardbred', 'Sport & equestrian horses', 'Stallion infertility', 'Prospective foal', 'Loss of use', 'Equestrian operations'],
     keyStats: [
       { label: 'Years specialist experience', value: '40+' },
       { label: 'Lloyd\'s market access', value: 'Yes' },
-      { label: 'Horse disciplines covered', value: 'All' },
-      { label: 'Bespoke policy capacity', value: 'Yes' },
+      { label: 'Global broker ranking', value: 'Top 3 worldwide' },
+      { label: 'NZ offices', value: '30+' },
     ],
     bestFor: ['Standardbred racing owners', 'Sport & dressage horses', 'Equestrian operations', 'Horses needing bespoke cover', 'Multi-horse portfolios'],
     coverageHighlights: [
@@ -135,5 +150,9 @@ export const providers: Provider[] = [
     pricingIndicator: 'Premium / high-value',
     accentColor: 'orange',
     badgeColor: 'bg-orange-600',
+    rating: 4.5,
+    reviewCount: 8105,
+    ratingSource: 'Trustpilot (Gallagher global group)',
+    lastVerified: 'August 2026',
   },
 ]
