@@ -129,7 +129,7 @@ export const providers: Provider[] = [
     name: 'Gallagher Insurance NZ',
     tagline: '40+ Years of Specialist Equine & Bloodstock Brokering',
     type: 'Specialist broker',
-    description: 'Gallagher is a top-three global insurance brokerage with a dedicated NZ equine and bloodstock team carrying over 40 years of specialist experience. Their Lloyd\'s of London relationships give access to bespoke policies for thoroughbreds, standardbreds, sport horses, and equestrian operations. ICNZ Fair Insurance Code compliant.',
+    description: 'Gallagher is a top-three global insurance brokerage with a dedicated NZ equine and bloodstock team carrying over 40 years of specialist experience. Their Lloyd\'s of London relationships give access to bespoke policies for thoroughbreds, standardbreds, sport horses, and equestrian operations.',
     highlight: 'Bespoke Lloyd\'s policies — covers every horse type including standardbreds & sport horses',
     specialties: ['Thoroughbred & standardbred', 'Sport & equestrian horses', 'Stallion infertility', 'Prospective foal', 'Loss of use', 'Equestrian operations'],
     keyStats: [
