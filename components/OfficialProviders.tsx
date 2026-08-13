@@ -4,28 +4,24 @@ export default function OfficialProviders() {
       name: 'FMG',
       description: 'Specialist equine insurer covering equestrian, farm, and recreational horses. Dedicated Specialist Equine team offering tailored cover for horse owners.',
       url: 'https://www.fmg.co.nz/what-we-cover/fmg-policy-wordings/animals/horses',
-      phone: '0800 366 466',
       directOnly: true,
     },
     {
       name: 'NZB Insurance',
       description: 'Specialist bloodstock insurer with 30+ years experience. Backed by AXA XL and Lloyd\'s London. Covers thoroughbreds, standardbreds, racehorses, stallions, broodmares, foals, and sport horses.',
       url: 'https://www.nzb.co.nz/insurance',
-      phone: '+64 9 298 0055',
       directOnly: false,
     },
     {
       name: 'Gallagher',
       description: '40+ years bloodstock experience covering all breeds and types. Mortality, surgical, transit, stallion infertility, and loss of use cover. Backed by Lloyd\'s of London.',
       url: 'https://www.ajg.co.nz/industries/bloodstock/',
-      phone: '0800 276 624',
       directOnly: false,
     },
     {
       name: 'Aon NZ',
       description: 'Global insurance broker with specialist rural and agribusiness expertise. Access to international markets for complex or high-value equine risks.',
       url: 'https://www.aon.co.nz',
-      phone: '0800 266 276',
       directOnly: false,
     },
   ];
@@ -58,10 +54,6 @@ export default function OfficialProviders() {
               )}
 
               <p className="text-sm text-gray-600 leading-relaxed flex-1 mb-4">{p.description}</p>
-
-              <p className="text-xs text-gray-400 mb-4">
-                <span className="font-medium text-gray-500">Phone:</span> {p.phone}
-              </p>
 
               <a
                 href={p.url}
