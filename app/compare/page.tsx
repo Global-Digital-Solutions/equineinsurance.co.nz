@@ -50,6 +50,9 @@ const pricingColor: Record<string, string> = {
   'Premium / high-value': 'text-purple-700',
 }
 
+// Minimum review count to display a rating — suppress thin listings (e.g. one office of 30+)
+const MIN_REVIEWS = 50
+
 // ── Live Google rating fetch (ISR 30-day cache) ───────────────────────────
 async function fetchGoogleRating(placeId: string | null): Promise<{ rating: number | null; reviewCount: number | null } | null> {
   if (!placeId) return null
@@ -172,7 +175,7 @@ export default async function ComparePage() {
                   { icon: '⚡', stat: '99.3%', label: 'Pet-n-Sur claims in 14 days' },
                   { icon: '🏦', stat: 'Lloyd\'s', label: 'NZB & Gallagher market access' },
                   { icon: '💊', stat: '$10k', label: 'Petcover vet fee limit' },
-                  { icon: '🏇', stat: '40+ yrs', label: 'Gallagher bloodstock experience' },
+                  { icon: '🏇', stat: '30+', label: 'Gallagher NZ offices nationwide' },
                 ].map((item) => (
                   <div key={item.stat} className="bg-black/50 border border-white/20 rounded-xl p-3.5 backdrop-blur-sm">
                     <div className="text-2xl mb-1">{item.icon}</div>
@@ -225,6 +228,7 @@ export default async function ComparePage() {
               const displayRating = live?.rating ?? p.rating
               const displayReviewCount = live?.reviewCount ?? p.reviewCount
               const ratingAsAtDisplay = p.ratingAsAt ?? 'Aug 2026'
+              const showRating = displayRating !== null && (displayReviewCount ?? 0) >= MIN_REVIEWS
               return (
                 <div
                   key={p.slug}
@@ -268,7 +272,7 @@ export default async function ComparePage() {
                   </div>
 
                   {/* Rating */}
-                  {displayRating !== null ? (
+                  {showRating ? (
                     <div className="px-5 py-3 border-b border-gray-100 flex items-center justify-between gap-2 flex-wrap">
                       <div className="flex items-center gap-1 flex-wrap">
                         {[...Array(5)].map((_, i) => (
@@ -325,7 +329,7 @@ export default async function ComparePage() {
           </div>
 
           <p className="mt-6 text-xs text-slate-400 text-center max-w-3xl mx-auto leading-relaxed">
-            ★ Google ratings sourced from Google Places API and refreshed monthly. Gallagher: National Support Office, 100 Beaumont St, Auckland (27 reviews). Where no NZ Google listing exists, no rating is shown. Cover4You is not affiliated with any provider listed.{' '}
+            ★ Google ratings sourced live from Google Places API and refreshed monthly. Ratings are shown only where a substantive NZ Google listing exists with 50 or more reviews. Where the threshold is not met, no rating is shown. Cover4You is not affiliated with any provider listed.{' '}
             <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" className="text-[#4285F4] hover:underline">Powered by Google</a>
           </p>
         </div>
