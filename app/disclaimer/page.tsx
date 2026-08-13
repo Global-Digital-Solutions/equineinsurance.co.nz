@@ -124,7 +124,7 @@ export default function DisclaimerPage() {
                   className="inline-block text-sm font-bold text-white px-4 py-2 rounded-xl transition-colors"
                   style={{ backgroundColor: '#2c4a2e' }}
                 >
-                  Get a Quote →
+                  Find a Specialist →
                 </Link>
               </div>
 

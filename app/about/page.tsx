@@ -15,19 +15,19 @@ const differences = [
  desc: 'We only deal with horse and equine insurance — not home, car, or pet insurance. That focus means we understand equine risks better than any generalist insurer.',
  },
  {
- icon: '🤝',
- title: 'Licensed Broker Network',
- desc: 'Every broker in our network is licensed under the FMCA and specialises in equine insurance. You get genuine expertise, not a call centre script.',
+ icon: '🔍',
+ title: 'Independent',
+ desc: 'We are not owned by or affiliated with any insurer or broker. The information on this site is a starting point for your research.',
  },
  {
- icon: '🤝',
- title: 'No Obligation',
- desc: 'There is no catch. We are paid a referral fee by brokers — you pay only the policy premium, and the broker\'s commission is included in that, just as it would be buying direct.',
+ icon: '🇳🇿',
+ title: 'NZ Owned',
+ desc: 'EquineInsurance.co.nz is operated by Cover4You, a New Zealand business.',
  },
  {
- icon: '⚡',
- title: 'Fast Turnaround',
- desc: 'We aim to connect you with a broker within 24 hours of your enquiry. Standard cover can often be arranged quickly for straightforward requirements.',
+ icon: '📋',
+ title: 'Claims Guidance',
+ desc: 'Information on how to make a claim is available on this site to help policyholders from any provider find the right process.',
  },
 ]
 
@@ -106,11 +106,11 @@ export default function AboutPage() {
  </section>
 
  <section className="bg-brand rounded-2xl p-8 text-center">
- <h2 className="text-2xl font-extrabold text-white mb-4">Ready to Get Started?</h2>
- <p className="text-green-200 mb-6">Connect with a specialist equine insurance broker — it takes 2 minutes and costs nothing.</p>
+ <h2 className="text-2xl font-extrabold text-white mb-4">Looking for a Horse Insurance Specialist?</h2>
+ <p className="text-green-200 mb-6">Find a licensed specialist broker, check the FSP register, or go direct to an insurer.</p>
  <div className="flex flex-wrap justify-center gap-4">
  <Link href="/contact/" className="inline-block bg-green-600 hover:bg-green-500 text-white font-bold px-8 py-3 rounded-xl transition-colors">
- Get Quote →
+ Find a Specialist →
  </Link>
  </div>
  </section>

@@ -22,8 +22,8 @@ export default function Footer() {
  href="/contact/"
  className="inline-block bg-green-600 hover:bg-green-500 text-white font-bold text-sm px-4 py-2 rounded-lg transition-colors mb-4"
  >
- Get Quote
- </Link>
+ Contact
+</Link>
  <div className="text-sm text-green-200 space-y-1"> <p>
  <a href={`mailto:${siteConfig.email}`} className="hover:text-white transition-colors">
  ✉️ {siteConfig.email}
@@ -135,10 +135,10 @@ export default function Footer() {
  <strong className="text-green-200">EquineInsurance.co.nz is an information and referral service only — not a licensed financial adviser, insurance broker, or insurer.</strong> We do not provide financial advice, assess your individual circumstances, or recommend specific insurance products. All information published on this website is general in nature and may not be applicable to your situation.
  </p>
  <p className="text-green-300 text-xs leading-relaxed mb-2">
- We connect users with licensed insurance brokers and advisers who are regulated under the Financial Markets Conduct Act 2013 (FMCA) and hold Financial Advice Provider (FAP) licences issued by the Financial Markets Authority. Any advice, quotations, or policy recommendations you receive will come from those licensed advisers, not from EquineInsurance.co.nz. Always seek advice from a licensed financial adviser before making insurance decisions.
+ If you choose to use a broker or adviser found through the IBANZ directory or FSP register, those advisers are regulated under the Financial Markets Conduct Act 2013 (FMCA) and hold Financial Advice Provider (FAP) licences. Any advice, quotations, or policy recommendations you receive will come from those licensed advisers, not from EquineInsurance.co.nz. Always seek advice from a licensed financial adviser before making insurance decisions.
  </p>
  <p className="text-green-300 text-xs leading-relaxed">
- EquineInsurance.co.nz may receive a referral fee from brokers when a user proceeds with a policy. This fee is paid by the broker — you pay no additional cost. Premium estimates on this website are indicative only; actual premiums will vary. See our full{' '}
+ Premium estimates on this website are indicative only; actual premiums will vary. See our full{' '}
  <Link href="/disclaimer/" className="text-green-400 hover:text-white underline">Disclaimer</Link>,{' '}
  <Link href="/privacy/" className="text-green-400 hover:text-white underline">Privacy Policy</Link> and{' '}
  <Link href="/terms/" className="text-green-400 hover:text-white underline">Terms of Use</Link>.

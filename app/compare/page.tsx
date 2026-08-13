@@ -271,7 +271,7 @@ export default function ComparePage() {
                       href="/contact/"
                       className={`block text-center text-white font-bold text-sm px-4 py-2.5 rounded-xl transition-colors ${ac.badge} hover:opacity-90`}
                     >
-                      Get a Quote via {p.name} →
+                      Find a Specialist →
                     </Link>
                   </div>
                 </div>

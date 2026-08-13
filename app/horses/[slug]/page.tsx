@@ -354,7 +354,7 @@ export default async function HorseTypePage({ params }: Props) {
                     href="/contact/"
                     className="mt-6 block text-center bg-white text-brand font-bold text-sm px-4 py-2.5 rounded-xl hover:bg-green-50 transition-colors"
                   >
-                    Get a Quote →
+                    Find a Specialist →
                   </Link>
                 </div>
 

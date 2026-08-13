@@ -94,7 +94,7 @@ export default function Header() {
  href="/contact/"
  className="bg-green-600 hover:bg-green-500 text-white text-sm font-bold px-4 py-2 rounded-lg transition-colors"
  >
- Get Quote
+ Contact
  </Link>
  <button
  className="lg:hidden text-green-100 hover:text-white p-2"

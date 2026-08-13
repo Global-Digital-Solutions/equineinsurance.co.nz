@@ -1,28 +1,21 @@
 export default function HoldingPanel() {
   return (
     <div className="bg-white rounded-2xl shadow-xl border border-slate-100 overflow-hidden max-w-lg w-full mx-auto">
-      {/* Header band */}
-      <div className="bg-gradient-to-r from-emerald-700 to-emerald-600 px-5 sm:px-8 py-6">
-        <div className="flex items-center gap-3 mb-3">
-          <svg className="w-6 h-6 text-emerald-200 flex-shrink-0" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-          </svg>
-          <span className="text-emerald-200 text-sm font-medium tracking-wide uppercase">Coming Soon</span>
-        </div>
-        <h2 className="text-white text-2xl font-semibold leading-snug">
-          Connecting you with specialist advisers
+      {/* Header */}
+      <div className="bg-gradient-to-r from-emerald-800 to-emerald-700 px-5 sm:px-8 py-6">
+        <h2 className="text-white text-xl font-semibold leading-snug">
+          Find a horse insurance specialist
         </h2>
         <p className="text-emerald-100 text-sm mt-2 leading-relaxed">
-          We&apos;re setting up access to brokers who genuinely specialise in this type of cover. Check back soon — or use the options below to arrange cover now.
+          Horse and equine cover is handled by a small number of specialist brokers and insurers. Use the options below to find the right adviser for your horse.
         </p>
       </div>
 
       {/* Action cards */}
       <div className="px-5 sm:px-8 py-6 space-y-3">
-        <p className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-4">Arrange cover now</p>
 
         <a
-          href="https://www.ibanz.co.nz/find-a-broker/"
+          href="https://www.ibanz.co.nz/"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-start gap-4 p-4 rounded-xl border border-slate-200 hover:border-emerald-300 hover:bg-emerald-50 transition-colors group"
@@ -33,8 +26,8 @@ export default function HoldingPanel() {
             </svg>
           </div>
           <div className="flex-1 min-w-0">
-            <p className="font-semibold text-slate-800 text-sm">Find a licensed broker</p>
-            <p className="text-slate-500 text-xs mt-0.5">Search IBANZ — the brokers association — to find an adviser who specialises in this cover.</p>
+            <p className="font-semibold text-slate-800 text-sm">Find a specialist equine broker</p>
+            <p className="text-slate-500 text-xs mt-0.5">Search IBANZ, the NZ brokers association, to find a licensed adviser with specialist equine insurance experience.</p>
           </div>
           <svg className="w-4 h-4 text-slate-300 group-hover:text-emerald-500 flex-shrink-0 mt-1 ml-auto transition-colors" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
@@ -53,8 +46,8 @@ export default function HoldingPanel() {
             </svg>
           </div>
           <div className="flex-1 min-w-0">
-            <p className="font-semibold text-slate-800 text-sm">Verify any adviser&apos;s licence</p>
-            <p className="text-slate-500 text-xs mt-0.5">Check the Financial Service Providers Register before engaging any adviser.</p>
+            <p className="font-semibold text-slate-800 text-sm">Check the FSP register</p>
+            <p className="text-slate-500 text-xs mt-0.5">Verify that any adviser you use holds a current Financial Service Provider registration before engaging them.</p>
           </div>
           <svg className="w-4 h-4 text-slate-300 group-hover:text-emerald-500 flex-shrink-0 mt-1 ml-auto transition-colors" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
@@ -68,16 +61,18 @@ export default function HoldingPanel() {
             </svg>
           </div>
           <div>
-            <p className="font-semibold text-slate-800 text-sm">Go direct to the insurer</p>
-            <p className="text-slate-500 text-xs mt-0.5">Some insurers only deal directly with customers and cannot be reached through a broker. Visit their website directly.</p>
+            <p className="font-semibold text-slate-800 text-sm">Go direct to an insurer</p>
+            <p className="text-slate-500 text-xs mt-0.5">Some equine insurers deal directly with horse owners. Visit their websites to enquire or get a quote from their own team.</p>
           </div>
         </div>
       </div>
 
-      {/* Footer */}
-      <div className="px-5 sm:px-8 py-4 bg-slate-50 border-t border-slate-100">
-        <p className="text-xs text-slate-400 leading-relaxed">
-          This site is operated by Cover4You. We are not an insurer and do not provide financial advice.
+      {/* Specialist recruitment */}
+      <div className="px-5 sm:px-8 py-5 bg-slate-50 border-t border-slate-100">
+        <p className="text-xs font-semibold text-slate-700 mb-1">Are you a horse insurance specialist?</p>
+        <p className="text-xs text-slate-500 leading-relaxed">
+          If you work in the specialist equine insurance market, we would like to hear from you.{' '}
+          <a href="mailto:hello@cover4you.co.nz" className="font-medium text-emerald-700 hover:underline">hello@cover4you.co.nz</a>
         </p>
       </div>
     </div>

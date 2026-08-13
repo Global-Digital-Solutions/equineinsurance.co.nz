@@ -10,15 +10,15 @@ import { blogPosts } from '@/data/blog-posts'
 import { siteConfig } from '@/data/site-config'
 
 export const metadata: Metadata = {
- title: { absolute: 'Horse Insurance NZ | Compare & Save | EquineInsurance.co.nz' },
- description: 'Compare horse insurance. Mortality cover, vet fees, transit, liability and loss of use. Get a quote from licensed equine insurance brokers.',
+ title: { absolute: 'Horse Insurance NZ | EquineInsurance.co.nz' },
+ description: 'Horse insurance information for NZ owners. Mortality cover, vet fees, transit, liability and loss of use. Find a specialist broker or go direct.',
  alternates: { canonical: siteConfig.url + '/' },
 }
 
 const steps = [
- { num: '1', title: 'Tell Us About Your Horse', desc: 'Share your horse type, what cover you need, and the approximate value of your horse using our simple online form.' },
- { num: '2', title: 'We Match You with a Broker', desc: 'We connect you with a specialist equine insurance broker who understands the unique risks of horse ownership.' },
- { num: '3', title: 'Compare & Choose', desc: 'Your broker presents options from multiple insurers. You choose the best fit for your needs and budget — no pressure.' },
+ { num: '1', title: 'Find a Specialist Broker', desc: 'Search IBANZ to find a licensed NZ broker who specialises in equine and rural insurance. They can access multiple insurers on your behalf.' },
+ { num: '2', title: 'Understand Your Cover Options', desc: 'Horse insurance can cover mortality, vet fees, transit, liability and loss of use. A specialist broker or insurer can explain which cover suits your situation.' },
+ { num: '3', title: 'Place Your Cover', desc: 'Once you have chosen the right policy, your broker or insurer arranges cover and handles the documentation.' },
 ]
 
 export default function HomePage() {
@@ -43,26 +43,20 @@ export default function HomePage() {
  <span className="inline-block bg-green-600/30 border border-green-500/40 text-green-300 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-6">
  NZ Specialist Equine Insurance
  </span>
- <h1 className="text-4xl lg:text-5xl font-extrabold text-white leading-tight mb-6">
- Horse Insurance — <span className="text-green-300">Compare & Save</span>
+ <h1 className="text-white leading-tight mb-6 font-extrabold" style={{ fontSize: 'clamp(1.9rem, 8vw, 3rem)' }}>
+ Horse Insurance NZ
  </h1>
  <p className="text-green-100 text-xl leading-relaxed mb-8">
- Mortality cover, vet fees, transit, liability and loss of use. Get a quote from licensed equine insurance brokers — no obligation.
+ Mortality cover, vet fees, transit, liability and loss of use. Find a specialist broker or contact an insurer directly.
  </p>
- <div className="flex flex-wrap gap-4 mb-8">
- <div className="flex items-center gap-2 text-green-100 text-sm">
- <span className="text-green-300">✓</span> Expert broker matching
- </div>
- <div className="flex items-center gap-2 text-green-100 text-sm">
- <span className="text-green-300">✓</span> All horse types covered
- </div>
- <div className="flex items-center gap-2 text-green-100 text-sm">
- <span className="text-green-300">✓</span> Licensed advisers only
- </div>
+ <div className="flex flex-wrap gap-2 mb-8">
+ {['NZ owned & operated', 'Independent, not owned by an insurer'].map((t) => (
+ <span key={t} className="bg-black/40 border border-white/40 text-white text-xs font-medium px-2.5 py-1 rounded-full">{t}</span>
+ ))}
  </div>
  <div className="flex flex-wrap gap-4">
  <Link href="/contact/" className="bg-green-600 hover:bg-green-500 text-white font-bold px-6 py-3 rounded-xl transition-colors text-sm">
- Get Quote →
+ Find a Specialist →
  </Link>
  <Link href="/coverage/" className="bg-brand-dark hover:bg-brand-light text-white font-bold px-6 py-3 rounded-xl transition-colors text-sm border border-brand-light">
  Explore Coverage
@@ -162,8 +156,8 @@ export default function HomePage() {
  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
  <div className="text-center mb-12">
  <span className="inline-block bg-green-600/30 border border-green-500/40 text-green-300 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-4">How It Works</span>
- <h2 className="text-3xl font-extrabold text-white mb-4">Get Your Horse Covered in 3 Simple Steps</h2>
- <p className="text-green-200 text-lg max-w-2xl mx-auto">Our service connects you with the right equine insurance broker quickly — so you can focus on your horses, not the paperwork.</p>
+ <h2 className="text-3xl font-extrabold text-white mb-4">How to Find Horse Insurance in NZ</h2>
+ <p className="text-green-200 text-lg max-w-2xl mx-auto">Horse and equine cover is handled by a small number of specialist brokers and insurers. Here is how to find the right fit for your situation.</p>
  </div>
  <div className="grid md:grid-cols-3 gap-8">
  {steps.map((s) => (
@@ -178,7 +172,7 @@ export default function HomePage() {
  </div>
  <div className="text-center mt-10">
  <Link href="/contact/" className="inline-block bg-green-600 hover:bg-green-500 text-white font-bold px-8 py-3 rounded-xl transition-colors">
- Get a Quote →
+ Find a Specialist →
  </Link>
  </div>
  </div>
@@ -248,13 +242,13 @@ export default function HomePage() {
  {/* CTA Strip */}
  <section className="py-16 bg-brand-dark">
  <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
- <h2 className="text-3xl font-extrabold text-white mb-4">Ready to Get Your Horse Covered?</h2>
+ <h2 className="text-3xl font-extrabold text-white mb-4">Looking for Horse Insurance?</h2>
  <p className="text-green-200 text-lg mb-8">
- Connect with a specialist equine insurance broker — fast, with no obligation.
+ Find a licensed specialist broker or go direct to an insurer. Use our contact page to get started.
  </p>
  <div className="flex flex-wrap justify-center gap-4">
  <Link href="/contact/" className="bg-green-600 hover:bg-green-500 text-white font-bold px-8 py-3 rounded-xl transition-colors">
- Get Quote →
+ Find a Specialist →
  </Link>
  </div>
  </div>

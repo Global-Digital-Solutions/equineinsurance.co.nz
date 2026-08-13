@@ -662,7 +662,7 @@ Petcover NZ is a strong alternative for leisure horse owners, particularly if fa
       { label: 'Colic Insurance Guide', href: '/blog/colic-insurance-nz-what-you-need-to-know/' },
       { label: 'Horse Insurance Costs', href: '/blog/how-much-does-horse-insurance-cost-nz/' },
       { label: 'Compare Providers', href: '/compare/' },
-      { label: 'Get a Quote', href: '/contact/' },
+      { label: 'Find a Specialist', href: '/contact/' },
     ],
   },
 ]

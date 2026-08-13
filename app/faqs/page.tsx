@@ -209,9 +209,8 @@ export default function FAQsPage() {
               href="/contact/"
               className="inline-block bg-white text-brand font-extrabold px-8 py-3 rounded-xl hover:bg-green-50 transition-colors"
             >
-              Get a Quote →
+              Find a Specialist →
             </Link>
-            <p className="text-green-400 text-xs mt-3">No obligation · Licensed NZ advisers</p>
           </div>
         </div>
       </div>

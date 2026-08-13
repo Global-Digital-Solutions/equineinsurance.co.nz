@@ -1,8 +1,8 @@
 const usps = [
-  { icon: '🏆', title: 'Licensed Brokers', desc: 'All brokers are NZ FMCA-regulated' },
-  { icon: '🤝', title: 'No Obligation', desc: 'Compare options at your own pace' },
+  { icon: '🐴', title: 'Specialist Info', desc: 'Horse insurance guides and resources' },
+  { icon: '🔍', title: 'Independent', desc: 'Not owned by any insurer or broker' },
   { icon: '🇳🇿', title: 'NZ Based', desc: 'Local equine expertise' },
-  { icon: '🛡️', title: 'NZ Owned', desc: 'Independent — not owned by an insurer' },
+  { icon: '🛡️', title: 'NZ Owned', desc: 'Cover4You, a NZ business' },
 ]
 
 export default function USPBar() {
