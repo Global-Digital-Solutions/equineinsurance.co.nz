@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import HoldingPanel from '@/components/HoldingPanel'
 import USPBar from '@/components/USPBar'
+import OfficialProviders from '@/components/OfficialProviders'
 import { coverageTypes } from '@/data/coverage-types'
 import { horseTypes } from '@/data/horse-types'
 import { faqs } from '@/data/faqs'
@@ -241,6 +242,8 @@ export default function HomePage() {
  </div>
  </div>
  </section>
+
+ <OfficialProviders />
 
  {/* CTA Strip */}
  <section className="py-16 bg-brand-dark">
