@@ -59,7 +59,7 @@ export default function OfficialProviders() {
                 href={p.url}
                 target="_blank"
                 rel="noopener noreferrer external"
-                className="mt-auto inline-block text-center text-sm font-semibold text-white px-4 py-2 rounded-xl transition-colors bg-[#2c4a2e] hover:bg-[#4a7c59]"
+                className="mt-auto block text-center text-sm font-semibold text-white px-4 py-2 rounded-xl transition-colors bg-[#2c4a2e] hover:bg-[#4a7c59]"
               >
                 Visit website ↗
               </a>
