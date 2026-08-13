@@ -177,7 +177,7 @@ export default function FAQsPage() {
             <h2 className="font-extrabold text-gray-900 mb-4">Explore Further</h2>
             <div className="grid sm:grid-cols-2 gap-3">
               {[
-                { label: 'Compare Providers', href: '/compare/', desc: 'Pet-n-Sur, Petcover NZ, NZB, Gallagher compared' },
+                { label: 'Compare Providers', href: '/compare/', desc: 'Side-by-side provider comparison' },
                 { label: 'Mortality Insurance', href: '/types/mortality/', desc: 'What it covers and how to value your horse' },
                 { label: 'Major Medical Cover', href: '/types/major-medical/', desc: 'Vet fees, colic surgery, hospitalisation' },
                 { label: 'Liability Insurance', href: '/types/liability/', desc: 'Third-party cover — essential for all owners' },

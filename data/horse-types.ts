@@ -233,7 +233,7 @@ Policies typically pay 50–60% of the mortality sum insured on proof of permane
       },
       {
         heading: 'Transition from racing to stud creates new risks',
-        body: 'A successful racehorse transitioning to stud as a breeding stallion faces a new set of risks — particularly infertility. Stallion infertility insurance covers the horse\'s stud value if it becomes unable to breed due to injury, illness, or unexplained reproductive failure. This is a specialist cover not available from all insurers and requires specialist brokers like NZB Insurance or Gallagher who have Lloyd\'s of London market access.',
+        body: 'A successful racehorse transitioning to stud as a breeding stallion faces a new set of risks — particularly infertility. Stallion infertility insurance covers the horse\'s stud value if it becomes unable to breed due to injury, illness, or unexplained reproductive failure. This is a specialist cover not available from all insurers and requires specialist bloodstock brokers with Lloyd\'s of London market access.',
       },
     ],
     coverageBreakdown: [
@@ -257,7 +257,7 @@ Insuring a racehorse is not simply a matter of applying a standard equine policy
 
 Standard equine insurance policies are designed for leisure and sport horses. They work well for a $15,000 showjumper or a family pony — but they often fall short for thoroughbreds because they may not accommodate agreed value policies that reflect racing value, may exclude coverage during racing, may not extend to stallion infertility or reproductive covers, and may have insufficient vet fee limits for the costs common in racing.
 
-Specialist thoroughbred insurers — particularly those with Lloyd's of London access such as NZB Insurance and Gallagher — can provide agreed value policies, flexible vet fee limits, and covers like stallion infertility and prospective foal insurance that standard policies simply don't offer.
+Specialist thoroughbred insurers — particularly those with Lloyd's of London access such as NZB Insurance and specialist bloodstock brokers — can provide agreed value policies, flexible vet fee limits, and covers like stallion infertility and prospective foal insurance that standard policies simply don't offer.
 
 ### Insuring at Racing Value vs Purchase Price
 
@@ -287,9 +287,9 @@ The insurance principles are the same: insure at current racing value, carry ade
 
 For thoroughbred and bloodstock insurance in New Zealand, NZB Insurance is the specialist first port of call. As a Lloyd's of London coverholder and long-standing New Zealand Bloodstock partner, NZB Insurance has the market capacity to insure horses of any value and the industry knowledge to structure policies that reflect how the racing industry actually works. Pearl Series race sponsorship reflects their commitment to New Zealand thoroughbred racing at every level.
 
-### Gallagher: Specialist Broker with 40+ Years in Bloodstock
+### Specialist Bloodstock Brokers
 
-Gallagher Insurance NZ brings four decades of specialist equine and bloodstock experience, with Lloyd's of London relationships that allow bespoke policy construction for complex racing operations. Their team understands the nuances of insuring stallions transitioning from racing to stud, insuring broodmares, and arranging cover for multi-horse racing stables.
+Specialist bloodstock brokers with Lloyd's of London relationships allow bespoke policy construction for complex racing operations. An experienced bloodstock broker understands the nuances of insuring stallions transitioning from racing to stud, insuring broodmares, and arranging cover for multi-horse racing stables.
 
 ### Checklist for Racing Syndicate Insurance
 
@@ -305,7 +305,7 @@ Before your next racing season, confirm: current market value of every horse has
     faqs: [
       {
         q: 'Is my thoroughbred insured while it\'s actually racing?',
-        a: 'Most specialist thoroughbred policies cover the horse during training and racing. However, standard equine policies may exclude racing activities as a high-risk activity. Always confirm with your broker that your policy explicitly covers your horse during race starts, barrier trials, jump-outs, and training gallops. Specialist providers like NZB Insurance and Gallagher structure their policies to cover horses in active racing.',
+        a: 'Most specialist thoroughbred policies cover the horse during training and racing. However, standard equine policies may exclude racing activities as a high-risk activity. Always confirm with your broker that your policy explicitly covers your horse during race starts, barrier trials, jump-outs, and training gallops. Specialist bloodstock insurers structure their policies specifically to cover horses in active racing.',
       },
       {
         q: 'What is bloodstock insurance and how does it differ from standard horse insurance?',
@@ -317,7 +317,7 @@ Before your next racing season, confirm: current market value of every horse has
       },
       {
         q: 'What is stallion infertility insurance?',
-        a: 'Stallion infertility insurance provides compensation if a breeding stallion becomes unable to breed due to injury, illness, or unexplained reproductive failure. Given that a top stallion\'s value is entirely tied to its reproductive capacity, this cover is essential for any stallion that has significant stud value. It is a specialist product available through brokers like NZB Insurance and Gallagher with Lloyd\'s market access.',
+        a: 'Stallion infertility insurance provides compensation if a breeding stallion becomes unable to breed due to injury, illness, or unexplained reproductive failure. Given that a top stallion\'s value is entirely tied to its reproductive capacity, this cover is essential for any stallion that has significant stud value. It is a specialist product available through bloodstock brokers with Lloyd\'s market access.',
       },
       {
         q: 'What does prospective foal insurance cover?',
@@ -450,9 +450,9 @@ Young foal illnesses including joint ill, neonatal maladjustment syndrome, and e
 
 **NZB Insurance** is New Zealand's leading bloodstock insurer and the primary specialist for thoroughbred breeding operations. As a Lloyd's coverholder, NZB can insure horses of any value and provide all the specialist covers — stallion infertility, prospective foal, in-foal mare coverage — that a stud farm requires.
 
-**Gallagher Insurance NZ** brings 40+ years of specialist bloodstock brokering experience and Lloyd's market access. Gallagher's team can arrange bespoke coverage for complex stud operations including warmblood and sport horse breeding programmes where NZB's thoroughbred focus may be less directly applicable.
+**Specialist bloodstock brokers** with Lloyd's market access can arrange bespoke coverage for complex stud operations including warmblood and sport horse breeding programmes where NZB's thoroughbred focus may be less directly applicable.
 
-For warmblood, sport horse, and non-thoroughbred breeding operations, both brokers can access specialist markets, though the policy terms may differ from thoroughbred bloodstock products.`,
+For warmblood, sport horse, and non-thoroughbred breeding operations, specialist brokers can access relevant international markets, though the policy terms may differ from thoroughbred bloodstock products.`,
     policyTips: [
       'Stallion infertility insurance should be arranged before the breeding season begins — not after',
       'Review breeding stock values annually — stallion and broodmare values change with progeny performance',

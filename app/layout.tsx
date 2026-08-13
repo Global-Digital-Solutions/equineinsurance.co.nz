@@ -69,7 +69,7 @@ const orgSchema = {
     '@type': 'Country',
     name: 'New Zealand',
   },
-  description: 'NZ specialist equine insurance referral service — connecting horse owners with FAP-licensed insurance advisers who provide quotes from Pet-n-Sur, Petcover NZ, NZB Insurance, Gallagher, and more.',
+  description: 'NZ specialist equine insurance referral service — connecting horse owners with FAP-licensed insurance advisers who access the specialist equine insurance market including Pet-n-Sur, Petcover NZ, NZB Insurance, and more.',
   sameAs: [
     'https://www.cover4you.co.nz',
   ],
