@@ -20,7 +20,7 @@ export const landingPages: LandingPage[] = [
  metaTitle: 'Equine Insurance Auckland | Horse Insurance Quotes | EquineInsurance.co.nz',
  metaDesc: 'Equine insurance in Auckland. Compare horse insurance quotes from specialist brokers — mortality, vet fees, liability and transit cover.',
  h1: 'Equine Insurance Auckland',
- intro: 'Auckland horse owners can access specialist equine insurance through our broker referral service. From Kumeu to Clevedon, Helensville to Pukekohe, we connect Auckland equestrians with licensed insurance brokers.',
+ intro: 'Auckland has a large and active equestrian community, with horse owners across the region\'s rural fringes from Kumeu to Clevedon, Helensville to Pukekohe. Specialist equine insurance is available from brokers and insurers with experience in this region.',
  sections: [
  {
  heading: 'Equine Insurance for Auckland Horse Owners',
@@ -31,8 +31,8 @@ export const landingPages: LandingPage[] = [
  body: 'The main types of horse insurance available to Auckland owners include mortality cover, veterinary fee insurance, transit insurance, and third-party liability. For sport horses competing at venues like Woodhill Sands or Hampton Downs, comprehensive cover including loss of use is worth considering.\n\nAgistment liability is also important in Auckland, where many horse owners keep their horses at commercial agistment properties. Check whether your agistment provider requires you to hold liability insurance — many do.',
  },
  {
- heading: 'Getting Auckland Equine Insurance Quotes',
- body: 'EquineInsurance.co.nz connects Auckland horse owners with specialist equine insurance brokers. Tell us about your horse and we will match you with a broker who can provide comparative quotes from multiple insurers. There is no obligation to proceed.',
+ heading: 'Getting Auckland Equine Insurance',
+ body: 'To arrange equine insurance in Auckland, contact a specialist equine insurance broker or approach an insurer directly. A broker can compare options across mortality, veterinary fee, transit, and liability cover and identify a policy suited to your horse\'s value, use, and risk profile. Verify any adviser on the Financial Service Providers Register before proceeding.',
  },
  ],
  },
@@ -42,7 +42,7 @@ export const landingPages: LandingPage[] = [
  metaTitle: 'Equine Insurance Wellington | Horse Insurance NZ | EquineInsurance.co.nz',
  metaDesc: 'Horse insurance in Wellington — specialist equine insurance for Wellington horse owners. Compare mortality, vet fees, and liability cover from specialist brokers.',
  h1: 'Equine Insurance Wellington',
- intro: 'Wellington horse owners can access specialist equine insurance through our broker referral service. We connect Wairarapa, Kapiti Coast, and greater Wellington equestrians with licensed NZ insurance professionals.',
+ intro: 'The Wellington region encompasses equestrian communities from the Kapiti Coast to the Wairarapa heartland. Specialist equine insurance is available for horse owners across greater Wellington, with brokers and insurers who understand conditions in this part of the country.',
  sections: [
  {
  heading: 'Horse Insurance for the Wellington Region',
@@ -53,8 +53,8 @@ export const landingPages: LandingPage[] = [
  body: 'Equestrians in the Wellington region typically need mortality cover for horses kept on lifestyle blocks and rural properties, veterinary fee cover for access to specialist equine clinics, and liability insurance — particularly important for horses kept near public walking tracks, roads, and neighbouring properties.\n\nTransit cover is also relevant for Wellington horse owners who travel to competitions at venues around the lower North Island and beyond.',
  },
  {
- heading: 'Get Wellington Horse Insurance Quotes',
- body: 'Submit your enquiry through EquineInsurance.co.nz and we will connect you with a specialist equine insurance broker who can provide quotes appropriate for your Wellington-based horses. The service is no-obligation.',
+ heading: 'Wellington Horse Insurance',
+ body: 'To arrange horse insurance in the Wellington region, contact a specialist equine insurance broker or approach a provider directly. A broker can compare options across mortality, veterinary fee, transit, and liability cover and identify a policy appropriate for your horses and situation. Verify any adviser on the Financial Service Providers Register before proceeding.',
  },
  ],
  },
@@ -64,7 +64,7 @@ export const landingPages: LandingPage[] = [
  metaTitle: 'Equine Insurance Christchurch | Horse Insurance South Island | EquineInsurance.co.nz',
  metaDesc: 'Equine insurance Christchurch — compare specialist horse insurance from our brokers. Mortality, vet fees, transit and liability for Canterbury horse owners.',
  h1: 'Equine Insurance Christchurch',
- intro: 'Christchurch and Canterbury horse owners have access to specialist equine insurance through our broker referral service. From the Canterbury Plains to the Port Hills and beyond, we connect South Island equestrians with licensed insurance brokers.',
+ intro: 'Canterbury is one of New Zealand\'s premier equestrian regions, with horse owners across the Canterbury Plains, the Port Hills, and beyond. Specialist equine insurance is available from brokers and insurers with experience in South Island conditions.',
  sections: [
  {
  heading: 'Canterbury Equestrian Country',
@@ -75,8 +75,8 @@ export const landingPages: LandingPage[] = [
  body: 'The Canterbury climate — dry summers and cold winters with frosts — creates specific equine risks. Pasture quality can drop significantly over summer, increasing the risk of colic in horses that are not well-managed. Canterbury\'s large rural properties and working farm environments also create unique liability risks.\n\nMortality insurance, veterinary fee cover, and third-party liability are the core products most Canterbury horse owners need. Sport horse and racehorse owners should also consider loss of use cover.',
  },
  {
- heading: 'Christchurch Horse Insurance Quotes',
- body: 'EquineInsurance.co.nz connects Canterbury horse owners with specialist equine insurance brokers. Submit an enquiry and receive comparative quotes tailored to your situation.',
+ heading: 'Christchurch Horse Insurance',
+ body: 'To arrange equine insurance in Canterbury, contact a specialist equine insurance broker or approach a provider directly. A broker can source comparative quotes from multiple insurers and identify cover appropriate for your horses and situation. Verify any adviser on the Financial Service Providers Register before proceeding.',
  },
  ],
  },
@@ -86,7 +86,7 @@ export const landingPages: LandingPage[] = [
  metaTitle: 'Horse Insurance North Island NZ | Equine Insurance Quotes | EquineInsurance.co.nz',
  metaDesc: 'Horse insurance for North Island horse owners. Compare specialist equine insurance quotes for Auckland, Waikato, Bay of Plenty, Manawatu, and Wellington.',
  h1: 'Horse Insurance North Island',
- intro: 'North Island horse owners from Northland to Wellington can access specialist equine insurance through our broker referral service. We connect horse owners across the North Island with licensed NZ insurance professionals.',
+ intro: 'The North Island has New Zealand\'s largest concentration of horses, from thoroughbred studs in the Waikato to sport horse facilities in the Manawatu and working farm horses in Northland. Specialist equine insurance is available across all North Island regions.',
  sections: [
  {
  heading: 'Equine Insurance Across the North Island',
@@ -97,8 +97,8 @@ export const landingPages: LandingPage[] = [
  body: 'North Island horse owners can access all the main types of equine insurance through specialist brokers: mortality cover, major medical and veterinary fees, transit cover for horses travelling to competitions at venues like Taupo and Palmerston North, and third-party liability.\n\nFor thoroughbred breeders and racing operations in the Waikato and beyond, specialist bloodstock and racehorse insurance is available through specialist underwriters.',
  },
  {
- heading: 'Get North Island Horse Insurance Quotes',
- body: 'Submit your enquiry through EquineInsurance.co.nz and we will connect you with a specialist equine insurance broker, wherever you are in the North Island. There is no obligation.',
+ heading: 'North Island Horse Insurance',
+ body: 'To arrange horse insurance anywhere in the North Island, contact a specialist equine insurance broker or approach an insurer directly. A broker can compare options from multiple providers and help you find cover suited to your horse\'s value, use, and location. Verify any adviser on the Financial Service Providers Register before proceeding.',
  },
  ],
  },
@@ -108,7 +108,7 @@ export const landingPages: LandingPage[] = [
  metaTitle: 'Horse Insurance South Island NZ | Equine Insurance | EquineInsurance.co.nz',
  metaDesc: 'Horse insurance for South Island — specialist equine insurance for Canterbury, Otago, Southland, Nelson, and Marlborough horse owners.',
  h1: 'Horse Insurance South Island',
- intro: 'South Island horse owners from Marlborough to Southland can access specialist equine insurance through our broker referral service. We work with licensed our brokers who cover all South Island regions.',
+ intro: 'South Island horse owners from Marlborough to Southland have access to specialist equine insurance through brokers and insurers familiar with South Island conditions. Cover is available for working station horses, sport horses, and pleasure horses across all regions.',
  sections: [
  {
  heading: 'Horse Ownership on the South Island',
@@ -119,8 +119,8 @@ export const landingPages: LandingPage[] = [
  body: 'South Island horse owners need cover suited to their environment. This includes mortality cover for horses on remote lifestyle blocks and high country stations where veterinary access may be limited, veterinary fee cover that reflects the cost of specialist equine clinics in Christchurch and Dunedin, and liability cover for horses kept near public land and walking tracks.\n\nTransit cover is particularly relevant for South Island horse owners who travel long distances to competitions, often crossing Cook Strait to compete at North Island events.',
  },
  {
- heading: 'Get South Island Horse Insurance Quotes',
- body: 'EquineInsurance.co.nz connects South Island horse owners with specialist equine insurance brokers. Submit an enquiry and receive no-obligation quotes from licensed NZ insurance professionals.',
+ heading: 'South Island Horse Insurance',
+ body: 'To arrange horse insurance on the South Island, contact a specialist equine insurance broker or approach a provider directly. A broker with South Island knowledge can compare options from multiple insurers and identify cover appropriate for your situation and region. Verify any adviser on the Financial Service Providers Register before proceeding.',
  },
  ],
  },
@@ -130,7 +130,7 @@ export const landingPages: LandingPage[] = [
  metaTitle: 'Cheap Horse Insurance NZ | Affordable Equine Cover | EquineInsurance.co.nz',
  metaDesc: 'Looking for cheap horse insurance? Compare affordable equine insurance options from specialist brokers. Find value without sacrificing essential cover.',
  h1: 'Cheap Horse Insurance — Get the Best Value Cover',
- intro: 'Finding affordable horse insurance does not mean sacrificing essential cover. Our specialist brokers help you find the right balance of price and protection for your horse and budget.',
+ intro: 'Finding affordable horse insurance does not mean sacrificing essential cover. A specialist equine broker or insurer can help you find the right balance of price and protection for your horse and budget.',
  sections: [
  {
  heading: 'How to Get Affordable Horse Insurance in',
@@ -141,8 +141,8 @@ export const landingPages: LandingPage[] = [
  body: 'Even when looking for budget horse insurance, there are some essentials you should not compromise on. Third-party liability is arguably the most important — it protects you if your horse injures someone or damages property, and claims can be very large. Liability-only cover is available for very modest premiums and provides this critical protection even if you cannot afford full mortality and medical cover.\n\nFor horses with significant value, some level of mortality cover is also important — the financial loss from an unexpected death can be devastating without insurance.',
  },
  {
- heading: 'Compare Affordable Equine Insurance Quotes',
- body: 'The best way to find cheap horse insurance is to compare multiple quotes from specialist equine insurers. EquineInsurance.co.nz connects you with licensed our brokers who can present options from multiple providers — giving you genuine choice and the ability to find the best value for your budget.',
+ heading: 'Compare Affordable Equine Insurance',
+ body: 'The best way to find affordable horse insurance is to compare multiple quotes from specialist equine insurers. A broker can present options from multiple providers, giving you genuine choice and the ability to find the best value for your budget. Check that any adviser is listed on the Financial Service Providers Register.',
  },
  ],
  },
@@ -152,7 +152,7 @@ export const landingPages: LandingPage[] = [
  metaTitle: 'Best Horse Insurance NZ 2026 | Top Equine Cover | EquineInsurance.co.nz',
  metaDesc: 'Find the best horse insurance. Compare top equine insurance policies for mortality, vet fees, liability and more from specialist brokers.',
  h1: 'Best Horse Insurance — How to Find the Right Policy',
- intro: 'Finding the best horse insurance means matching the right policy to your horse\'s specific risks, value, and use. Our specialist brokers help you navigate the options and find genuine best-fit cover.',
+ intro: 'Finding the best horse insurance means matching the right policy to your horse\'s specific risks, value, and use. A specialist equine broker or insurer can help you navigate the options and identify genuine best-fit cover.',
  sections: [
  {
  heading: 'What Makes the Best Horse Insurance Policy?',
@@ -163,8 +163,8 @@ export const landingPages: LandingPage[] = [
  body: 'The best horse insurance policies typically offer agreed value cover at the horse\'s insured amount, comprehensive veterinary fee coverage with limits of at least $10,000 (ideally $15,000+), clear colic surgery cover, worldwide transit cover for competition horses, and straightforward claims processes with direct access to equine specialists.\n\nSome policies also offer additional benefits such as emergency boarding costs if you are hospitalised and cannot care for your horse, or cover for euthanasia and disposal costs if your horse must be put down.',
  },
  {
- heading: 'Get the Best Horse Insurance Quotes',
- body: 'EquineInsurance.co.nz makes it easy to find the best horse insurance. Submit your enquiry and our specialist broker partners will provide comparative quotes from multiple insurers — helping you make an informed decision with confidence.',
+ heading: 'Finding the Best Horse Insurance',
+ body: 'To find the best horse insurance, contact a specialist equine broker or approach an insurer directly. A broker can provide comparative quotes from multiple insurers, helping you make an informed decision. Verify any adviser on the Financial Service Providers Register before proceeding.',
  },
  ],
  },
@@ -174,7 +174,7 @@ export const landingPages: LandingPage[] = [
  metaTitle: 'Compare Horse Insurance NZ | Equine Insurance Comparison | EquineInsurance.co.nz',
  metaDesc: 'Compare horse insurance policies. Find the right equine cover by comparing mortality, vet fees, liability and transit options from specialist brokers.',
  h1: 'Compare Horse Insurance — Find the Best Policy for Your Horse',
- intro: 'Comparing horse insurance can be complex — policies vary significantly in what they cover, how claims are paid, and what is excluded. Our broker network helps you compare genuine options side by side.',
+ intro: 'Comparing horse insurance can be complex — policies vary significantly in what they cover, how claims are paid, and what is excluded. A specialist equine broker can compare genuine options from multiple insurers and explain the key differences.',
  sections: [
  {
  heading: 'What to Compare When Shopping for Horse Insurance',
@@ -185,8 +185,8 @@ export const landingPages: LandingPage[] = [
  body: 'Horse insurance policies can differ significantly on the following points. Colic surgery cover — some policies include it as standard, others as an add-on, and some exclude it. Pre-existing condition terms — some insurers will cover known conditions after a waiting period; others exclude them permanently. Transit cover — standard in some policies, an optional extra in others. Loss of use — usually an optional benefit rather than standard cover. These differences mean the cheapest policy may not offer the best value if it excludes the scenarios most likely to result in a claim.',
  },
  {
- heading: 'How Our Comparison Service Works',
- body: 'EquineInsurance.co.nz connects horse owners with specialist equine insurance brokers who have access to multiple insurers. Rather than comparing products yourself through multiple insurer websites, a specialist broker presents genuine comparative options tailored to your horse\'s profile. Submit your enquiry today for a no-obligation comparison.',
+ heading: 'Getting a Horse Insurance Comparison',
+ body: 'Rather than comparing products yourself through multiple insurer websites, a specialist equine broker can present options from multiple insurers tailored to your horse\'s profile. Look for a broker listed on the IBANZ directory or verify them on the Financial Service Providers Register before providing your details.',
  },
  ],
  },
@@ -207,8 +207,8 @@ export const landingPages: LandingPage[] = [
  body: 'Several factors will push horse insurance premiums higher than the base rate. These include insuring at a high sum insured value, choosing a horse breed with historically higher claim rates, a horse over 15 years of age, a history of veterinary claims or known health conditions, high-risk use such as racing or cross-country eventing, and choosing low excess amounts.\n\nUnderstanding these factors helps you make informed decisions about where to spend your insurance budget and where to accept more risk.',
  },
  {
- heading: 'Get an Accurate Horse Insurance Quote',
- body: 'For an accurate quote on horse insurance costs, submit your enquiry through EquineInsurance.co.nz. Our specialist broker partners will assess your horse\'s profile and provide specific, no-obligation quotes from multiple equine insurers.',
+ heading: 'Getting an Accurate Horse Insurance Quote',
+ body: 'The only way to know your exact premium is to get a specific quote for your horse. Contact a specialist equine insurance broker or approach an insurer directly. A broker can assess your horse\'s profile and provide comparative quotes from multiple equine insurers. Verify any adviser on the Financial Service Providers Register.',
  },
  ],
  },
@@ -218,7 +218,7 @@ export const landingPages: LandingPage[] = [
  metaTitle: 'Racehorse Insurance NZ | Thoroughbred Insurance | EquineInsurance.co.nz',
  metaDesc: 'Specialist racehorse insurance. Mortality, vet fees, loss of use and bloodstock cover thoroughbred and standardbred racehorse owners.',
  h1: 'Racehorse Insurance — Specialist Cover for Thoroughbreds',
- intro: 'Racehorses have unique insurance needs that require specialist underwriting. EquineInsurance.co.nz connects racehorse owners with brokers who specialise in thoroughbred and standardbred insurance.',
+ intro: 'Racehorses have unique insurance needs that require specialist underwriting. Brokers who specialise in thoroughbred and standardbred insurance can arrange appropriate cover from underwriters with genuine experience in the racing industry.',
  sections: [
  {
  heading: 'Why Racehorses Need Specialist Insurance',
@@ -229,8 +229,8 @@ export const landingPages: LandingPage[] = [
  body: 'The main types of insurance available for racehorses include mortality cover at agreed racing value, veterinary fee insurance for training and racing injuries, loss of use cover if the horse cannot race after injury, transit cover for movements between track, stable, and spelling paddock, and third-party liability.\n\nFor syndicated racehorses, the policy structure needs to reflect the shared ownership arrangements and ensure all owners are appropriately covered.',
  },
  {
- heading: 'Get Racehorse Insurance Quotes',
- body: 'EquineInsurance.co.nz works with specialist racehorse insurance brokers. Submit your enquiry and we will connect you with a broker who understands the thoroughbred industry and can arrange appropriate cover.',
+ heading: 'Racehorse Insurance Quotes',
+ body: 'To arrange racehorse insurance, contact a specialist bloodstock or equine insurance broker. Look for a broker with experience in the NZ racing industry who can source appropriate cover from underwriters familiar with thoroughbred and standardbred risks. Verify any adviser on the Financial Service Providers Register.',
  },
  ],
  },
@@ -251,8 +251,8 @@ export const landingPages: LandingPage[] = [
  body: 'When evaluating horse insurance for colic cover, look for these key features. A clear statement that colic surgery is covered — ideally as a named benefit. Adequate coverage limits — at least $15,000, ideally $20,000 or more. No requirement for pre-authorisation in a genuine emergency. Clear terms around recurrent colic — whether a second surgery is covered. No exclusion for specific types of colic surgery.\n\nSome policies provide dedicated colic surgery benefits separate from the general veterinary fee limit — this is valuable because a colic surgery alone can use most or all of a standard veterinary fee limit.',
  },
  {
- heading: 'Get Horse Insurance with Colic Cover',
- body: 'EquineInsurance.co.nz connects horse owners with specialist equine insurance brokers who can explain exactly how different policies handle colic. Get no-obligation quotes and make an informed decision about the right level of cover for your horse.',
+ heading: 'Horse Insurance with Colic Cover',
+ body: 'To find horse insurance with comprehensive colic cover, contact a specialist equine insurance broker or approach an insurer directly. A broker can explain exactly how different policies handle colic and help you identify a policy with adequate limits for your horse. Verify any adviser on the Financial Service Providers Register.',
  },
  ],
  },
@@ -262,7 +262,7 @@ export const landingPages: LandingPage[] = [
  metaTitle: 'Horse Float Insurance NZ | Float & Transit Cover | EquineInsurance.co.nz',
  metaDesc: 'Horse float insurance — protect your float and your horse during transit. Compare float insurance and equine transit cover from specialist brokers.',
  h1: 'Horse Float Insurance — Cover Your Float and Your Horse',
- intro: 'Horse float insurance and equine transit insurance are two distinct but complementary products. Most horse owners who travel regularly need both — and our specialist brokers can arrange combined cover that protects both your float and your horse.',
+ intro: 'Horse float insurance and equine transit insurance are two distinct but complementary products. Most horse owners who travel regularly need both — a specialist equine broker can arrange combined cover that protects both your float and your horse.',
  sections: [
  {
  heading: 'Horse Float Insurance in',
@@ -274,7 +274,7 @@ export const landingPages: LandingPage[] = [
  },
  {
  heading: 'Getting Combined Float and Transit Cover',
- body: 'EquineInsurance.co.nz connects horse owners with specialist brokers who can arrange comprehensive travel protection — covering both your float and your horse. Submit your enquiry for a no-obligation quote.',
+ body: 'To arrange combined float and transit cover, contact a specialist equine insurance broker. A broker with experience in equine risks can identify a policy structure that covers both your float and your horse in transit, and explain how the two covers interact at claim time.',
  },
  ],
  },
@@ -284,7 +284,7 @@ export const landingPages: LandingPage[] = [
  metaTitle: 'Pony Club Insurance NZ | Cover for Young Riders & Horses | EquineInsurance.co.nz',
  metaDesc: 'Pony Club insurance — understand what Pony Club NZ covers, what it does not, and how to supplement with personal horse and rider insurance.',
  h1: 'Pony Club Insurance — Protect Your Child\'s Horse and Their Riding',
- intro: 'Pony Club NZ provides some insurance cover for club activities, but individual horse owners still need their own insurance. EquineInsurance.co.nz helps pony club families understand and fill insurance gaps.',
+ intro: 'Pony Club NZ provides some insurance cover for club activities, but individual horse owners still need their own insurance. Understanding what the club covers — and what it does not — helps families identify and fill any gaps.',
  sections: [
  {
  heading: 'What Pony Club NZ Insurance Covers',
@@ -295,8 +295,8 @@ export const landingPages: LandingPage[] = [
  body: 'Pony club families typically benefit from adding the following cover to the club\'s standard policy:\n\n- **Horse mortality insurance** — if your horse has significant value, cover it against unexpected death\n- **Veterinary fee cover** — horses are accident-prone, and vet bills add up quickly for active competition horses\n- **Liability insurance** — for situations outside of formal club activities\n- **Personal accident cover** — to supplement ACC entitlements for riders\n\nEven relatively affordable horses deserve some insurance consideration — the emotional cost of losing a cherished pony can be significant regardless of its market value.',
  },
  {
- heading: 'Get Pony Club Horse Insurance Quotes',
- body: 'EquineInsurance.co.nz can connect your family with a specialist equine insurance broker who understands pony club horse risks and can arrange appropriate supplementary cover at a reasonable cost. Submit an enquiry today.',
+ heading: 'Pony Club Horse Insurance',
+ body: 'To arrange supplementary horse insurance for a pony club horse, contact a specialist equine insurance broker or approach an insurer directly. A broker familiar with pony club risks can identify appropriate cover at a reasonable cost. Verify any adviser on the Financial Service Providers Register before proceeding.',
  },
  ],
  },
