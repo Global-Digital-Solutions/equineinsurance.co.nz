@@ -51,6 +51,7 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
     horseValue: '',
     name: '',
     email: '',
+    phone: '',
   })
 
   function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) {
@@ -77,6 +78,7 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
         body: JSON.stringify({
           name: form.name,
           email: form.email,
+          phone: form.phone,
           horse_type: form.horseType,
           cover_needed: form.coverNeeded,
           horse_value: form.horseValue,
@@ -183,6 +185,21 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
             onChange={handleChange}
             required
             placeholder="you@example.com"
+            className="w-full bg-brand border border-brand-light text-white rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:border-green-400 focus:ring-1 focus:ring-green-400 placeholder-green-700"
+          />
+        </div>
+        <div>
+          <label className="block text-sm font-medium text-green-200 mb-1">Phone Number</label>
+          <input
+            type="tel"
+            name="phone"
+            value={form.phone}
+            onChange={handleChange}
+            required
+            pattern="[+]?[0-9\s\-().]{6,}"
+            title="Please enter a valid phone number"
+            minLength={6}
+            placeholder="021 xxx xxxx"
             className="w-full bg-brand border border-brand-light text-white rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:border-green-400 focus:ring-1 focus:ring-green-400 placeholder-green-700"
           />
         </div>
