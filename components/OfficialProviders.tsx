@@ -2,7 +2,7 @@ export default function OfficialProviders() {
   const providers = [
     {
       name: 'NZB Insurance',
-      description: 'Specialist bloodstock insurer with 30+ years experience. Backed by AXA XL and Lloyd\'s London. Covers thoroughbreds, standardbreds, racehorses, stallions, broodmares, foals, and sport horses.',
+      description: 'Specialist bloodstock insurance from New Zealand Bloodstock, with 30+ years experience. A registered Lloyd\'s coverholder backed by London market underwriters including AXA XL. Covers thoroughbreds, standardbreds, racehorses, stallions, broodmares, foals, and sport horses.',
       url: 'https://www.nzb.co.nz/insurance',
     },
     {

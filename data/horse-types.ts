@@ -283,9 +283,9 @@ Standardbred harness racing horses — pacers and trotters — are covered by th
 
 The insurance principles are the same: insure at current racing value, carry adequate vet fee cover, and consider loss of use for horses with significant racing or stud value.
 
-### NZB Insurance: The Industry's First Choice
+### NZB Insurance: The Bloodstock Specialist
 
-For thoroughbred and bloodstock insurance in New Zealand, NZB Insurance is the specialist first port of call. As a Lloyd's of London coverholder and long-standing New Zealand Bloodstock partner, NZB Insurance has the market capacity to insure horses of any value and the industry knowledge to structure policies that reflect how the racing industry actually works. Pearl Series race sponsorship reflects their commitment to New Zealand thoroughbred racing at every level.
+For thoroughbred and bloodstock insurance in New Zealand, NZB Insurance is a natural first port of call. It is the insurance arm of New Zealand Bloodstock, a registered Lloyd's coverholder with over 30 years of industry experience, and it counts most major thoroughbred studs and racing stables among its clients. Its covers include mortality, prospective foal, stallion infertility and transit, and it sponsors racing throughout New Zealand, including the Pearl Series for fillies and mares.
 
 ### Specialist Bloodstock Brokers
 
@@ -448,9 +448,9 @@ Young foal illnesses including joint ill, neonatal maladjustment syndrome, and e
 
 ### Which Providers Cover Breeding Stock?
 
-**NZB Insurance** is New Zealand's leading bloodstock insurer and the primary specialist for thoroughbred breeding operations. As a Lloyd's coverholder, NZB can insure horses of any value and provide all the specialist covers — stallion infertility, prospective foal, in-foal mare coverage — that a stud farm requires.
+**NZB Insurance** describes itself as the leading bloodstock insurer in New Zealand and is a specialist for breeding operations. As a Lloyd's coverholder it offers the specialist covers a stud needs, including stallion infertility, stallion loss of income, prospective foal and foal cover, and it insures standardbreds and sport horses as well as thoroughbreds.
 
-**Specialist bloodstock brokers** with Lloyd's market access can arrange bespoke coverage for complex stud operations including warmblood and sport horse breeding programmes where NZB's thoroughbred focus may be less directly applicable.
+**Specialist bloodstock brokers** with Lloyd's market access can arrange bespoke coverage for complex stud operations, including warmblood and sport horse breeding programmes.
 
 For warmblood, sport horse, and non-thoroughbred breeding operations, specialist brokers can access relevant international markets, though the policy terms may differ from thoroughbred bloodstock products.`,
     policyTips: [
@@ -621,7 +621,7 @@ Pet-n-Sur is the best-known direct equine insurer for leisure horses in New Zeal
 
 ### What Petcover NZ Offers
 
-Petcover NZ is a strong alternative for leisure horse owners, particularly if fast claims processing and direct vet payment are priorities. Their 90%+ claims settlement within 5 days and vet-direct payment facility (where bills are settled directly with the clinic) removes the financial stress of large upfront vet costs during an emergency.`,
+Petcover NZ is a strong alternative for leisure horse owners, particularly if fast claims processing and direct vet payment are priorities. Over 90% of their claims are paid within 5 days, and they can pay your vet directly, which removes the stress of large upfront vet costs during an emergency.`,
     policyTips: [
       'Start with public liability — it is the most important cover for any horse owner and one of the cheapest',
       'Ask specifically whether colic surgery is covered in your major medical policy',

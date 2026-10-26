@@ -78,8 +78,7 @@ async function fetchGoogleRating(placeId: string | null): Promise<{ rating: numb
 // Coverage comparison matrix
 const coverMatrix = [
   { feature: 'Horse mortality', petnsur: true, petcover: true, nzb: true, gallagher: true },
-  { feature: 'Major vet / surgical fees', petnsur: true, petcover: true, nzb: false, gallagher: false },
-  { feature: 'Colic cover', petnsur: true, petcover: true, nzb: false, gallagher: false },
+  { feature: 'Major vet / surgical fees', petnsur: true, petcover: true, nzb: true, gallagher: false },
   { feature: 'Public liability', petnsur: true, petcover: true, nzb: false, gallagher: true },
   { feature: 'Personal accident (rider)', petnsur: true, petcover: true, nzb: false, gallagher: false },
   { feature: 'Loss of use', petnsur: false, petcover: true, nzb: true, gallagher: true },
@@ -88,7 +87,7 @@ const coverMatrix = [
   { feature: 'Bloodstock / mortality > $50k', petnsur: false, petcover: false, nzb: true, gallagher: true },
   { feature: 'Stallion infertility', petnsur: false, petcover: false, nzb: true, gallagher: true },
   { feature: 'Prospective foal cover', petnsur: false, petcover: false, nzb: true, gallagher: true },
-  { feature: 'Worldwide cover', petnsur: false, petcover: false, nzb: true, gallagher: true },
+  { feature: 'Cover outside NZ (e.g. Hong Kong, Malaysia)', petnsur: false, petcover: false, nzb: true, gallagher: true },
 ]
 
 function Tick({ yes }: { yes: boolean }) {
@@ -398,7 +397,7 @@ export default async function ComparePage() {
                   {
                     icon: '🔍',
                     heading: 'They know the gaps',
-                    body: 'A broker knows that Pet-n-Sur excels for everyday horses, but NZB is the only real option for a $200k thoroughbred. You won\'t find that on a comparison widget.',
+                    body: 'A broker knows that Pet-n-Sur excels for everyday horses, but NZB is built for a $200k thoroughbred. You won\'t find that on a comparison widget.',
                   },
                   {
                     icon: '📋',

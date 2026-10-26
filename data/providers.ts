@@ -7,7 +7,7 @@ export interface Provider {
   slug: string
   name: string
   tagline: string
-  type: 'Direct insurer' | 'Specialist broker' | 'Lloyd\'s coverholder'
+  type: 'Direct insurer' | 'Specialist broker' | 'Lloyd\'s coverholder' | 'Specialist provider (underwritten by Provident Insurance)'
   description: string
   highlight: string
   specialties: string[]
@@ -71,24 +71,24 @@ export const providers: Provider[] = [
     slug: 'petcover-nz',
     name: 'Petcover NZ',
     tagline: 'Fast Claims — Direct Vet Payment, No Out-of-Pocket Stress',
-    type: 'Direct insurer',
-    description: 'Petcover NZ specialises in horse and pet insurance with a strong focus on claims speed and vet-direct payment — meaning your vet bills are settled directly with the clinic in most cases. Winner of Canstar\'s Most Satisfied Customers Award 2025 — the only provider to earn a 5-Star rating for Overall Satisfaction in Canstar\'s NZ survey of 547 pet owners. Over 90% of claims are paid within 5 days. Source: petcovergroup.com/nz/horse-insurance/ and canstar.co.nz/pet-insurance/, 13 August 2026.',
+    type: 'Specialist provider (underwritten by Provident Insurance)',
+    description: 'Petcover NZ specialises in horse and pet insurance, covering everything from Shetlands to Shires, for horses aged 30 days to 29 years. Over 90% of claims are paid within 5 days, and Petcover can pay your vet directly. Winner of Canstar\'s Most Satisfied Customers Pet Insurance Award 2025, and the only brand to earn a 5-Star rating for Overall Satisfaction. Petcover administers the policies on behalf of the insurer, Provident Insurance Corporation Limited. Source: petcovergroup.com/nz/horse-insurance/ and canstar.co.nz/pet-insurance/petcover-pet-insurance/, 26 October 2026.',
     highlight: 'Canstar Most Satisfied Customers Award 2025 — 5-Star Overall Satisfaction',
-    specialties: ['Vet fees / major medical', 'Colic cover', 'Public liability', 'Personal accident', 'Theft', 'Loss of use'],
+    specialties: ['Vet fees', 'Horse liability', 'Personal accident', 'Theft or straying', 'Permanent loss of use', 'Saddlery, tack & floats'],
     keyStats: [
       { label: 'Claims paid within 5 days', value: '>90%' },
       { label: 'Canstar award', value: '2025 ★★★★★' },
       { label: 'Vet direct-pay available', value: 'Yes' },
-      { label: 'Independently owned', value: '15+ years' },
+      { label: 'Vet fee cover', value: 'Up to $10,000' },
     ],
     bestFor: ['Performance horses', 'Show & competition horses', 'Owners who want fast vet reimbursement', 'Horses with regular vet visits'],
     coverageHighlights: [
-      'Up to $10,000 vet fees per illness or injury',
-      'Direct payment to vet clinic available',
-      'Colic cover including emergency surgery',
-      'Public liability up to $5 million',
-      'Personal accident for rider',
-      'Loss of use cover for competition horses',
+      'Vet fees: $7,000 or $10,000 cover (optional extra), up to 100% of eligible costs',
+      'Petcover can pay your vet directly',
+      'Horse liability up to $5 million',
+      'Optional personal accident cover ($20,000 or $40,000)',
+      'Optional permanent loss of use (horses aged 2 and over)',
+      'Saddlery and tack up to $20,000; floats and trailers up to $65,000',
     ],
     claimsSpeed: '>90% within 5 days',
     pricingIndicator: 'Mid-range',
@@ -105,25 +105,25 @@ export const providers: Provider[] = [
   {
     slug: 'nzb-insurance',
     name: 'NZB Insurance',
-    tagline: 'NZ\'s Leading Bloodstock & Thoroughbred Specialist',
+    tagline: 'Specialist Bloodstock & Equine Insurance from New Zealand Bloodstock',
     type: 'Lloyd\'s coverholder',
-    description: 'NZB Insurance is New Zealand\'s leading specialist bloodstock insurer with over 30 years of experience. A New Zealand-owned company backed by AXA XL and Lloyd\'s of London underwriters, giving capacity to insure horses of almost any value. Long-time partner of New Zealand Bloodstock and sponsor of the Pearl Series.',
-    highlight: 'Lloyd\'s of London coverholder — unlimited capacity for high-value horses',
-    specialties: ['Thoroughbred mortality', 'Bloodstock & breeding stock', 'Stallion infertility', 'Prospective foal cover', 'Transit worldwide', 'Racing stables'],
+    description: 'NZB Insurance is the insurance arm of New Zealand Bloodstock, with over 30 years of industry experience. It describes itself as the leading bloodstock insurer in New Zealand, and its clients include most major thoroughbred studs and racing stables. NZB is a registered Lloyd\'s coverholder, New Zealand owned and operated, backed by London market underwriters including AXA XL. It insures all types of horses: thoroughbreds, standardbreds, sport and recreational horses, ponies and miniatures. NZB Insurance sponsors racing throughout New Zealand, including the Pearl Series for fillies and mares. Source: nzb.co.nz/insurance, /policy-types and /nzb-insurance-faqs, 26 October 2026.',
+    highlight: 'Registered Lloyd\'s coverholder, insuring all types of horses',
+    specialties: ['Mortality', 'Prospective foal & foal cover', 'Stallion infertility', 'Stallion loss of income', 'Transit', 'Life saving surgery'],
     keyStats: [
       { label: 'NZ company', value: 'NZ owned' },
-      { label: 'Underwriting backing', value: 'AXA XL + Lloyd\'s' },
-      { label: 'Industry presence', value: 'Pearl Series sponsor' },
+      { label: 'Underwriting', value: 'Lloyd\'s / AXA XL' },
+      { label: 'Racing sponsor', value: 'Pearl Series' },
       { label: 'Years experience', value: '30+' },
     ],
-    bestFor: ['Thoroughbred owners', 'Racing stables', 'Thoroughbred studs', 'High-value breeding mares', 'Bloodstock investors'],
+    bestFor: ['Thoroughbred and standardbred owners', 'Racing stables', 'Studs and breeders', 'High-value breeding mares and stallions', 'Sport and competition horses'],
     coverageHighlights: [
-      'Mortality cover for horses of any value',
-      'Stallion infertility and loss of use',
-      'Prospective foal insurance (in utero)',
-      'Worldwide transit including air freight',
-      'Bloodstock portfolio policies',
-      'Tailored stud farm packages',
+      'Mortality cover',
+      'Prospective foal and foal insurance',
+      'Stallion infertility and stallion loss of income',
+      'Transit cover',
+      'Unsoundness of wind',
+      'Life saving surgery',
     ],
     pricingIndicator: 'Premium / high-value',
     accentColor: 'purple',
